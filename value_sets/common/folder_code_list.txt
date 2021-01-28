@@ -1,0 +1,4 @@
+folderCodeList	urn:uuid:1ba97051-7806-41a8-a48b-8fce7af683c5	http://connectathon.ihe/ValueSet/folderCodeList					
+code	display	codingScheme	system	submitter	date	ref	comment
+Referrals	Referrals	1.3.6.1.4.1.21367.2017.3	http://connectathon.ihe	bmajurski@gmail.com	2018.03.11		
+Allergy_Treatments	Allergy Treatments	1.3.6.1.4.1.21367.2017.3	http://connectathon.ihe	bmajurski@gmail.com	2018.03.11		

@@ -1,0 +1,4 @@
+associationDocumentation	urn:uuid:abd807a3-4432-4053-87b4-fd82c643d1f3	http://connectathon.ihe/ValueSet/associationDocumentation						
+code	display	codingScheme	system	valueSet	submitter	date	ref	comment
+Additional_Information	Additional Information	1.3.6.1.4.1.21367.2017.3	http://connectathon.ihe		bmajurski@gmail.com	2018.03.11		
+Corrected_Information	Corrected Information	1.3.6.1.4.1.21367.2017.3	http://connectathon.ihe		bmajurski@gmail.com	2018.03.11		

@@ -1,0 +1,6 @@
+Encounter.type	na	LYNN:  Not in CODES.XML.							
+code	display	codingScheme	system	valueSet	valueSetIdentifier	submitter	date	ref	comment
+urgent	Urgent Care	1.3.6.1.4.1.21367.2017.3	http://connectathon.ihe			moore.stephen.m@wustl.edu	2019.03.23		
+outpatient	Outpatient	1.3.6.1.4.1.21367.2017.3	http://connectathon.ihe			moore.stephen.m@wustl.edu	2019.03.23		
+inpatient	Inpatient	1.3.6.1.4.1.21367.2017.3	http://connectathon.ihe			moore.stephen.m@wustl.edu	2019.03.23		
+gp	General Practitioner Office Visit	1.3.6.1.4.1.21367.2017.3	http://connectathon.ihe			moore.stephen.m@wustl.edu	2019.03.23		

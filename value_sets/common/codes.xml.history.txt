@@ -1,0 +1,25 @@
+<!--
+    Update 1/28/2021 by Lynn Felhofer 
+        formatCode - fix the system value for IHE codes.  See https://profiles.ihe.net/fhir/ihe.formatcode.fhir/ValueSet-formatcode.html
+        formatCode - align “display” value for changes made by IHE; see https://profiles.ihe.net/fhir/ihe.formatcode.fhir/CodeSystem-formatcode.html vs https://profiles.ihe.net/fhir/ihe.formatcode.fhir/ValueSet-formatcode.html
+        eventCodeList - update with new values for Modality in DICOM CID 29
+        eventCodeList -  for Anatomic Region (CID 4), picked a subset from the long list of snomed codes in the previous version
+        contentTypeCode - the system value for all but one Snomed codes contained the Loinc system. Updated to snomed system value (the codingSystem value was correct).
+        classCode - resync with updates made on https://wiki.ihe.net/index.php/XDS_classCode_Metadata_Coding_System
+    Update 1/6/2020 by Lynn Felhofer - (generated from spreadsheet)
+          Added 57017-6 Privacy policy Organization Document to typeCode and classCode
+          Fixed typos in system values for a small numbers of TypeCodes: codsystem changed to codesystem
+    Update 6/19/2019 by Bill Majurski - confidentialityCode system value changed from
+    http://hl7.org/fhir/v3/Confidentiality to http://terminology.hl7.org/CodeSystem/v3-Confidentiality
+    Update 6/25/2019 - formatCode system value changed
+       to http://terminology.hl7.org/CodeSystem/v3-Confidentiality
+       
+    Update  1/19/2019 by Steve Moore (generated from spreadsheet)
+    Update 12/7/2018 by Bill Majurski
+       added PracticeSetting Code Practice-E back in (from last year)
+       removed some null entries from PracticeSetting Code
+    Update 11/20/2018 by Steve Moore and Lynn Felhofer (generated from spreadsheet)
+    Update  4/11/2018 by Steve Moore (generated from spreadsheet)
+    Update  4/06/2018 by Steve Moore and Lynn Felhofer (generated from spreadsheet)
+    Update  3/21/2018 by Steve Moore and Lynn Felhofer (generated from spreadsheet)
+-->

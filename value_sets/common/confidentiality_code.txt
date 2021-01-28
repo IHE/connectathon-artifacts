@@ -1,0 +1,8 @@
+confidentialityCode	urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f	http://terminology.hl7.org/CodeSystem/v3-Confidentiality					
+code	display	codingScheme	system	submitter	date	ref	comment
+L	low	2.16.840.1.113883.5.25	http://terminology.hl7.org/CodeSystem/v3-Confidentiality	Felhofer	2019.06.24	http://hl7.org/fhir/R4/valueset-security-labels.html	
+M	moderate	2.16.840.1.113883.5.25	http://terminology.hl7.org/CodeSystem/v3-Confidentiality	Felhofer	2019.06.24	http://hl7.org/fhir/R4/valueset-security-labels.html	
+N	normal	2.16.840.1.113883.5.25	http://terminology.hl7.org/CodeSystem/v3-Confidentiality	Felhofer	2019.06.24	http://hl7.org/fhir/R4/valueset-security-labels.html	
+R	restricted	2.16.840.1.113883.5.25	http://terminology.hl7.org/CodeSystem/v3-Confidentiality	Felhofer	2019.06.24	http://hl7.org/fhir/R4/valueset-security-labels.html	
+U	unrestricted	2.16.840.1.113883.5.25	http://terminology.hl7.org/CodeSystem/v3-Confidentiality	Felhofer	2019.06.24	http://hl7.org/fhir/R4/valueset-security-labels.html	
+V	very restricted	2.16.840.1.113883.5.25	http://terminology.hl7.org/CodeSystem/v3-Confidentiality	Felhofer	2019.06.24	http://hl7.org/fhir/R4/valueset-security-labels.html	

@@ -1,0 +1,12 @@
+contentTypeCode	urn:uuid:aa543740-bdda-424e-8c96-df4873be8500	http://connectathon.ihe/ValueSet/contentTypeCode					
+code	display	codingScheme	system	Submitter	Date	Ref	Comment
+225728007	Accident and Emergency department	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.23	DAF IG Sec B.2.1, same as healthcareFacilityTypeCode	
+394747008	Health Authority	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.23	DAF IG Sec B.2.1, same as healthcareFacilityTypeCode	
+66280005	Private home-based care	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.23	DAF IG Sec B.2.1, same as healthcareFacilityTypeCode	
+22232009	Hospital	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.23	DAF IG Sec B.2.1, same as healthcareFacilityTypeCode	
+42665001	Nursing home	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.23	DAF IG Sec B.2.1, same as healthcareFacilityTypeCode	
+264372000	Pharmacy	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.23	DAF IG Sec B.2.1, same as healthcareFacilityTypeCode	
+35971002	Ambulatory care site	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.23	DAF IG Sec B.2.1, same as healthcareFacilityTypeCode	
+44860005	Free-standing rehabilitation clinic	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.23	DAF IG Sec B.2.1, same as healthcareFacilityTypeCode	
+419955002	Residential institution	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.23	DAF IG Sec B.2.1, same as healthcareFacilityTypeCode	
+UNSPECIFIED-CONTENT-TYPE	Unspecified Clinical Activity	1.3.6.1.4.1.21367.2017.3	http://connectathon.ihe	felhofer.lynn@gmail.com	2018.02.23	Connectathon-specific 'other'	

@@ -1,0 +1,45 @@
+typeCode	urn:uuid:f0306f51-975f-434e-a61c-c59651d33983	http://connectathon.ihe/ValueSet/typeCode					
+code	display	codingScheme	system	submitter	date	ref	comment
+57055-6	Antepartum summary	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	Antepartum Summary
+72134-0	Cancer Event Report	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	Physician Report to Public Health Cancer Registry
+11488-4	Consultation Note	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	C-CDA Consultation Note
+34755-9	Critical care medicine Transfer summary note	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	EMS Transport Summary
+42274-1	CT Abd+Pelvis WO+W contr IV	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.12		For XDS-I 0008 1032 Procedure Code Seq
+72554-6	CT Chest+Abd+Pelvis W contr IV	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.12		For XDS-I 0008 1032 Procedure Code Seq
+18748-4	Diagnostic imaging study	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	C-CDA Diagnostic Imaging Report
+18842-5	Discharge summary	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	XDS-MS Discharge; C-CDA Discharge Summary
+34895-3	Education Note	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	Antepartum Education
+54094-8	Emergency department Triage note	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	Triage Note
+34117-2	History and physical note	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	C-CDA History and Physical; Antepartum History and Physical
+11369-6	Immunization	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05		Immunization Content
+57056-4	Labor and Delivery admission history and physical	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	Labor and Delivery History and Physical
+57057-2	Labor and delivery summary note	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	BFDR-E Labor and Delivery Summary - Vital Records; Labor and Delivery Summary
+11502-2	Laboratory report.total	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	XD-LAB
+26436-6	Laboratory Studies	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	Antepartum Laboratory
+57058-0	Maternal Discharge Summary	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	Maternal Discharge Summary
+60593-1	Medication dispensed.extended Document	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	Community Dispense Specification
+61356-2	Medication pharmaceutical advice.extended Document	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	Community Pharmaceutical Advice
+57053-1	Nurse Emergency department Note	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	Nursing Note
+57054-9	Nurse Emergency department Triage+care note	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	Composite Triage and Nursing Note
+28651-8	Nurse Transfer note	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	eNursing Summary
+52521-2	Overall Plan of Care/Advance Care Directives	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	C-CDA Care Plan
+60568-3	Pathology Synoptic Report	2.16.840.1.113883.6.1	http://loinc.org	felhofer.lynn@gmail.com	2018.10.10	None	From ASPR TI Supplement in PaLM domain
+28568-4	Physician Emergency department Note	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	ED Physician Note
+56447-6	Plan of Care Note	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	Patient Plan of Care
+57059-8	Pregnancy visit summary note Narrative	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	Postpartum Visit Summary
+57833-6	Prescription for medication Document	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	Community Prescription Specification
+57016-8	Privacy Policy Acknowledgement Document	2.16.840.1.113883.6.1	http://loinc.org	felhofer.lynn@gmail.com	2018.03.05		APPC; BPPC
+57017-6	Privacy policy Organization Document	2.16.840.1.113883.6.1	http://loinc.org	felhofer.lynn@gmail.com	2019.11.12		Lynn per NPFS
+11506-3	Progress note	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	C-CDA Progress Note
+28570-0	Provider-unspecified Procedure note	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	C-CDA Procedure Note
+18761-7	Provider-unspecified Transfer summary	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	C-CDA Unstructured Document
+11528-7	Radiology Report	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05		XDS-I.b Text Report; XDS-I.b PDF Report
+57133-1	Referral note	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	C-CDA Referral Note
+34133-9	Summary of episode note	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	XDS-MS Referral; XPHR Extract; XPHR Update; Emergency Department Referral; C-CDA Continuity of Care Document
+11504-8	Surgical Operation Note	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	C-CDA Operative Note
+68998-4	U.S. standard certificate of live birth - 2003 revision	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	BFDR-E Birth Reporting Document
+69045-3	U.S. standard report of fetal death - 2003 revision	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.05	https://www.hl7.org/fhir/valueset-c80-doc-typecodes.html	BFDR-E Fetal Death Reporting Document
+36643-5	XR Chest 2V	2.16.840.1.113883.6.1	http://loinc.org	moore.stephen.m@wustl.edu	2018.03.12		For XDS-I 0008 1032 Procedure Code Seq
+E1762	Full Document	1.2.840.10065	urn:oid:1.2.840.10065	Lynn Felhofer	2018.03.05	ITI TF-3: 5.5.6.1.3	2018.03.02 -  See RAD TF-3: 5.5.6.1.3.   we expect a future CP to remove the specification of typeCode for DSG.  We keep this here until the TF is updated.  codingScheme value from http://www.alvestrand.no/objectid/1.2.840.10065.html
+XX-Document	Unspecified Document Type. Use If Nothing Else Fits	1.3.6.1.4.1.21367.2017.3	http://connectathon.ihe	moore.stephen.m@wustl.edu	2018.03.05		Clearly not a real code value. Use this if none of the clinical values applies to your document. Also, contact the owners of this documentation to help determine a better code for your document type
+XBeR-WD	XBeR-WD Type Code	1.3.6.1.4.1.21367.2017.3	http://connectathon.ihe	moore.stephen.m@wustl.edu	2018.03.05		A fake value because the PCC committee has not defined a typeCode for XBeR-WD documents

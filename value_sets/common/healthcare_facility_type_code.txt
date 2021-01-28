@@ -1,0 +1,13 @@
+healthcareFacilityTypeCode	urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1	http://connectathon.ihe/ValueSet/healthcareFacilityTypeCode					
+code	display	codingScheme	system	submitter	date	ref	comment
+225728007	Accident and Emergency department	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.03	From Feb draft version of ITI Metadata Handbook	
+394747008	Health Authority	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.03	From Feb draft version of ITI Metadata Handbook	
+66280005	Private home-based care	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.03	From Feb draft version of ITI Metadata Handbook	
+22232009	Hospital	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.03	From Feb draft version of ITI Metadata Handbook	
+42665001	Nursing home	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.03	From Feb draft version of ITI Metadata Handbook	
+264372000	Pharmacy	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.03	From Feb draft version of ITI Metadata Handbook	
+35971002	Ambulatory care site	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.03	From Feb draft version of ITI Metadata Handbook	
+44860005	Free-standing rehabilitation clinic	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.03	From Feb draft version of ITI Metadata Handbook	
+419955002	Residential institution	2.16.840.1.113883.6.96	http://snomed.info/sct	felhofer.lynn@gmail.com	2018.02.03	From Feb draft version of ITI Metadata Handbook	
+MPQ-hcftcode-1	MPQ Healthcare Facility Code 1	1.3.6.1.4.1.21367.2017.3	http://connectathon.ihe	bmajur@gmail.com	2018.04.06	To align with MPQ Connectathon test	
+MPQ-hcftcode-2	MPQ Healthcare Facility Code 2	1.3.6.1.4.1.21367.2017.3	http://connectathon.ihe	felhofer.lynn@gmail.com	2018.04.06	To align with MPQ Connectathon test	

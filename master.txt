@@ -1,0 +1,11 @@
+# This file is the list of all modules that will be transformed.
+# The lines are tab delimited columns with these items:
+#  1) Name of the module to be executed.
+#     This module name is simply the name of a perl file in the scripts folder.
+#  2) Output folder for this item, relative to the base.
+#     The base folder is set as an input to the master script.
+#  3) Optional comments. Anything in item 3 and after is ignored
+#
+# Lines that are empty or start with '#' are ignored
+
+common-codes.xml	generated/common	Process the common files and generate codes.xml

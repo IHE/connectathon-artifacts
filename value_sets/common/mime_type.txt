@@ -1,0 +1,13 @@
+mimeType		http://connectathon.ihe/ValueSet/mimeType					
+code	ext	codingScheme	system	submitter	date	ref	comment
+application/pdf	pdf			bmajurski@gmail.com	2018.03.12	https://www.hl7.org/fhir/valueset-mimetypes.html	
+text/xml	xml			bmajurski@gmail.com	2018.03.12	https://www.hl7.org/fhir/valueset-mimetypes.html	
+application/x-hl7	hl7			bmajurski@gmail.com	2018.03.12	https://www.hl7.org/fhir/valueset-mimetypes.html	
+application/dicom	dicom			bmajurski@gmail.com	2018.03.12	https://www.hl7.org/fhir/valueset-mimetypes.html	
+application/dicom-kos	dicom-kos			bmajurski@gmail.com	2018.03.12	https://www.hl7.org/fhir/valueset-mimetypes.html	
+text/plain	txt			bmajurski@gmail.com	2018.03.12	https://www.hl7.org/fhir/valueset-mimetypes.html	
+multipart/related	mpr			bmajurski@gmail.com	2018.03.12	https://www.hl7.org/fhir/valueset-mimetypes.html	
+image/tiff	tiff			bmajurski@gmail.com	2018.03.12	https://www.hl7.org/fhir/valueset-mimetypes.html	
+image/jpeg	jpeg			bmajurski@gmail.com	2018.03.12	https://www.hl7.org/fhir/valueset-mimetypes.html	
+image/gif	gif			bmajurski@gmail.com	2018.03.12	https://www.hl7.org/fhir/valueset-mimetypes.html	
+text/goofy	gfy			bmajurski@gmail.com	2018.03.12		
