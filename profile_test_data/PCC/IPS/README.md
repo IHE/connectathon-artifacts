@@ -22,14 +22,16 @@ We have defined value sets for some of the coded values to be used during Connec
 Code value requirements for test cases are described in the **Sections** area below. The following table is a list of the value sets that are referenced for IPS testing.
 | Concept | Value Set ID | FHIR Server URL | File in GitHub Repository |
 |--|--|--|--|
-|Medication Summary|medication-example-uv-ips|http://cat-nist-tools.ihe-europe.net:6080/hapi-fhir-rw/baseR4/ValueSet/medication-example-uv-ips/_history/1| TBD|
+|Medication Summary|medication-example-uv-ips|http://cat-nist-tools.ihe-europe.net:6080/hapi-fhir-rw/baseR4/ValueSet/medication-example-uv-ips/_history/1| TBD |
+|Allergies and Intolerances | allergy-intolerance-substance-condition-gps-uv-ips | TBD | TBD |
+|Condition | condition-code | TBD | TBD |
 
 
 
 ## Sections
 
 ### Medication Summary
-The Medication Summary section is expressed using the [Medication Statement](http://hl7.org/fhir/uv/ips/StructureDefinition-MedicationStatement-uv-ips.html) resource or the [Medication](http://hl7.org/fhir/uv/ips/StructureDefinition-Medication-uv-ips.html) resource. You may choose to test with either resource. Use patients P1 and P2 with the Medication Statement and patients P3 and P4 with the Medication resource. See the table below for details.
+The Medication Summary section is expressed using the [Medication Statement](http://hl7.org/fhir/uv/ips/StructureDefinition-MedicationStatement-uv-ips.html) resource or the [Medication](http://hl7.org/fhir/uv/ips/StructureDefinition-Medication-uv-ips.html) resource as constrained by the IPS IG. You may choose to test with either resource. Use patients P1 and P2 with the Medication Statement and patients P3 and P4 with the Medication resource. See the table below for details.
 |Patient| Resource |Medication List|
 |--|--|--|
 | P1 | Medication Statement | Use these specific coded medications: 777067000, 774587000, 776556004 |
@@ -39,6 +41,23 @@ The Medication Summary section is expressed using the [Medication Statement](htt
 
 
 ### Allergies and Intolerances
+Allergies and Intolerances are expressed using the [AllergyIntolerance](http://hl7.org/fhir/uv/ips/StructureDefinition-AllergyIntolerance-uv-ips.html) resource as constrained by the IPS IG.
+
+Use patients P1, P2 and P3 with the coded values for Allergies and Intolerances as listed in the table below.
+|Patient|Allergies and Intolerances|
+|--|--|
+|P1|58281002|
+|P2|412071004, 762952008, 264295007|
+|P3|Choose any three from the value set, excluding those specified for P1 and P2|
+
 
 ### Problem List
+The Problem List section contains items expressed using the [Condition](http://hl7.org/fhir/uv/ips/StructureDefinition-Condition-uv-ips.html) resource  as constrained by the IPS IG.
+
+Use patients P1, P2 and P3 with the coded values for Condition as listed in the table below.
+|Patient|Condition|
+|--|--|
+|P1|165002|
+|P2|330007, 368009, 615005, 3544004|
+|P3|Choose any three from the value set, excluding those specified for P1 and P2|
 
