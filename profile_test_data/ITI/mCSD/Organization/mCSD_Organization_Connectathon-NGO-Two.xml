@@ -1,0 +1,61 @@
+<Organization xmlns="http://hl7.org/fhir">
+  <!-- mCSD: Organization details for "Connectathon CSD NGO Two".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="Connectathon-NGO-Two"/>  
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_Organization"/>
+  </meta>
+  <identifier> 
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:uuid:8cd347e8-8a2c-4900-98d2-a79dcd953995"/> 
+  </identifier> 
+  <active value="false"/> 
+  <type> 
+    <coding> 
+      <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+      <code value="101-003"/> 
+      <display value="Non-government Organization"/> 
+    </coding> 
+   </type> 
+  <name value="Connectathon CSD NGO Two"/> 
+  <telecom> 
+    <system value="phone"/> 
+    <value value="800-555-2002"/> 
+    <use value="work"/> 
+  </telecom> 
+  <telecom> 
+    <system value="fax"/> 
+    <value value="800-555-2022"/> 
+    <use value="work"/> 
+  </telecom>
+  <address> 
+    <use value="work"/> 
+    <line value="11 Oak Lane"/> 
+	  <city value="Harrisburg"/> 
+	  <state value="OR"/>
+	  <postalCode value="97446"/> 
+    <country value="USA"/> 
+  </address> 
+  <contact> 
+        <purpose> 
+      <coding> 
+        <system value="http://terminology.hl7.org/CodeSystem/contactentity-type"/> 
+        <code value="ADMIN"/> 
+      </coding> 
+    </purpose>
+    <name> 
+	    <use value="official"/> 
+	    <text value="Manuel Ortiz" />
+      <family value="Ortiz"/> 
+      <given value="Manuel"/> 
+    </name> 
+    <address> 
+      <use value="work"/> 
+      <line value="11 Oak Lane"/> 
+	    <city value="Harrisburg"/> 
+	    <state value="OR"/>
+	    <postalCode value="97446"/> 
+      <country value="USA"/> 
+    </address>
+  </contact> 
+</Organization> 

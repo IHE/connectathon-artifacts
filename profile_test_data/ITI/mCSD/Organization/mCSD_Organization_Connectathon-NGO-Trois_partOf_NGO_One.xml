@@ -1,0 +1,61 @@
+<Organization xmlns="http://hl7.org/fhir">
+  <!-- mCSD: Organization details for "Connectathon CSD NGO Trois".  Values re-used from CSD Profile Connectathon test data -->
+   <id value="Connectathon-NGO-Trois"/> 
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_Organization"/>
+  </meta>
+  <identifier> 
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:uuid:c3bab4bd-d830-4d5d-9d72-265b45894451"/> 
+  </identifier> 
+  <active value="true"/> 
+  <type> 
+    <coding> 
+      <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+      <code value="101-003"/> 
+      <display value="Non-government Organization"/> 
+    </coding> 
+   </type> 
+  <name value="Connectathon CSD NGO Trois"/> 
+  <telecom> 
+    <system value="phone"/> 
+    <value value="01.22.45.67.89"/> 
+    <use value="work"/> 
+  </telecom> 
+  <telecom> 
+    <system value="fax"/> 
+    <value value="01.22.45.67.99"/> 
+    <use value="work"/> 
+  </telecom>
+  <address> 
+    <use value="work"/> 
+    <line value="45 Avenue des Ternes"/> 
+	  <city value="Paris"/> 
+	  <postalCode value="75008"/> 
+    <country value="FR"/> 
+  </address> 
+  <partOf>
+		<identifier>
+      <use value="official"/> 
+      <system value="http://connectathon.ihe"/>
+      <value value="urn:uuid:cfbf2236-62d3-409f-95ab-372fbc93afd0"/> 
+      <!-- Connectathon CSD NGO One -->
+    </identifier> 
+  </partOf>  
+  <contact> 
+    <name> 
+	    <use value="official"/> 
+	    <text value="Jean-Marc Du Puits" />
+      <family value="Du Puits"/> 
+      <given value="Jean-Marc"/> 
+    </name> 
+    <address> 
+      <use value="work"/> 
+      <line value="45 Avenue des Ternes"/> 
+	    <city value="Paris"/> 
+	    <postalCode value="75008"/> 
+      <country value="FR"/> 
+    </address>
+  </contact> 
+</Organization> 

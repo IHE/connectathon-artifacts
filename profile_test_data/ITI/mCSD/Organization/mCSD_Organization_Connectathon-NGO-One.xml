@@ -1,0 +1,61 @@
+<Organization xmlns="http://hl7.org/fhir">
+  <!-- mCSD: Organization details for "Connectathon CSD NGO One".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="Connectathon-NGO-One"/>  
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_Organization"/>
+  </meta>
+  <identifier> 
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:uuid:cfbf2236-62d3-409f-95ab-372fbc93afd0"/> 
+  </identifier> 
+  <active value="true"/> 
+  <type> 
+    <coding> 
+      <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+      <code value="101-003"/> 
+      <display value="Non-government Organization"/> 
+    </coding> 
+   </type> 
+  <name value="Connectathon CSD NGO One"/> 
+  <telecom> 
+    <system value="phone"/> 
+    <value value="800-555-5005"/> 
+    <use value="work"/> 
+  </telecom> 
+  <telecom> 
+    <system value="fax"/> 
+    <value value="800-555-5055"/> 
+    <use value="work"/> 
+  </telecom>
+  <address> 
+    <use value="work"/> 
+    <line value="4212 Maguire Way"/> 
+	  <city value="Augusta"/> 
+	  <state value="NJ"/>
+	  <postalCode value="07822"/> 
+    <country value="USA"/> 
+  </address> 
+  <contact> 
+        <purpose> 
+      <coding> 
+        <system value="http://terminology.hl7.org/CodeSystem/contactentity-type"/> 
+        <code value="ADMIN"/> 
+      </coding> 
+    </purpose>
+    <name> 
+	    <use value="official"/> 
+	    <text value="Merideth MacDonald" />
+      <family value="MacDonald"/> 
+      <given value="Merideth"/> 
+    </name> 
+    <address> 
+      <use value="work"/> 
+      <line value="4212 Maguire Way"/> 
+	    <city value="Augusta"/> 
+	    <state value="NJ"/>
+	    <postalCode value="07822"/> 
+      <country value="USA"/> 
+    </address> 
+  </contact> 
+</Organization> 

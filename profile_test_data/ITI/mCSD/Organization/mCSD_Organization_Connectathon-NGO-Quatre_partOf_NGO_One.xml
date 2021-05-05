@@ -1,0 +1,61 @@
+<Organization xmlns="http://hl7.org/fhir">
+  <!-- mCSD: Organization details for "Connectathon CSD NGO Quatre".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="Connectathon-NGO-Quatre"/> 
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_Organization"/>
+  </meta>
+  <identifier> 
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:uuid:d7dd6a08-203e-4333-a086-ed2fcde572d4"/> 
+  </identifier> 
+  <active value="true"/> 
+  <type> 
+    <coding> 
+      <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+      <code value="101-003"/> 
+      <display value="Non-government Organization"/> 
+    </coding> 
+   </type> 
+  <name value="Connectathon CSD NGO Quatre"/> 
+  <telecom> 
+    <system value="phone"/> 
+    <value value="03.33.45.67.12"/> 
+    <use value="work"/> 
+  </telecom> 
+  <telecom> 
+    <system value="fax"/> 
+    <value value="03.33.45.67.22"/> 
+    <use value="work"/> 
+  </telecom>
+  <address> 
+    <use value="work"/> 
+    <line value="22 rue du général de Gaulle"/> 
+	  <city value="Nancy"/> 
+	  <postalCode value="54000"/> 
+    <country value="FR"/> 
+  </address> 
+  <partOf>
+	 <identifier>
+      <use value="official"/> 
+      <system value="http://connectathon.ihe"/>
+      <value value="urn:uuid:cfbf2236-62d3-409f-95ab-372fbc93afd0"/> 
+      <!-- Connectathon CSD NGO One -->
+    </identifier> 
+  </partOf>
+  <contact> 
+    <name> 
+	    <use value="official"/> 
+	    <text value="Marie-Christine Galon" />
+      <family value="Galon"/> 
+      <given value="Marie-Christine"/> 
+    </name> 
+    <address> 
+      <use value="work"/> 
+      <line value="22 rue du général de Gaulle"/> 
+	    <city value="Nancy"/> 
+	    <postalCode value="54000"/> 
+      <country value="FR"/> 
+    </address> 
+  </contact> 
+</Organization> 
