@@ -1,0 +1,35 @@
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <!-- mCSD: PractitionerRole details for "SocialWorker".   -->
+	 <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_PractitionerRole"/>
+  </meta>
+  <identifier>
+        <use value="official"/> 
+        <system value="http://connectathon.ihe"/>
+        <value value="urn:uuid:b6553152-7a90-4940-9a6a-b10173169b3a"/> 
+   </identifier> 
+   <active value="true"/> 
+   <practitioner> 
+       <identifier>
+		      <use value="official"/> 
+          <system value="http://connectathon.ihe"/>
+          <value value="urn:uuid:b6553152-7a90-4940-9a6a-b10173169b3"/> 	
+		   </identifier> 
+       <display value="Authorize SocialWorker"/> 
+    </practitioner>   
+    <organization> 
+       <identifier>
+          <use value="official"/> 
+          <system value="http://connectathon.ihe"/>
+          <value value="urn:uuid:cfbf2236-62d3-409f-95ab-372fbc93afd0"/> 	        
+		   </identifier> 
+       <display value="Connectathon CSD NGO One"/>  
+    </organization> 
+    <code> 
+       <coding> 
+         <system value="http://snomed.info/sct"/> 
+         <code value="106328005"/> 
+         <display value="Social worker"/> 
+       </coding> 
+     </code>   
+</PractitionerRole> 
