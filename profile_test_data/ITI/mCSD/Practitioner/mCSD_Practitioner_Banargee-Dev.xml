@@ -1,0 +1,73 @@
+<Practitioner xmlns="http://hl7.org/fhir">
+  <!-- mCSD: Practitioner details for "Banargee, Dev".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="Banargee-Dev"/>  
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_Practitioner"/>
+  </meta>
+  <identifier>
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:uuid:a97b9397-ce4e-4a57-b12a-0d46ce6f36b7"/> 
+   </identifier> 
+   <name> 
+        <use value="official"/> 
+        <text value="Dr. Dev Banargee"/>
+        <family value="Banargee"/> 
+        <given value="Dev"/> 
+        <suffix value="MD"/> 
+   </name> 
+   <telecom> 
+        <system value="phone"/> 
+        <value value="555-777-1111"/> 
+        <use value="work"/> 
+   </telecom> 
+   <telecom> 
+        <system value="fax"/> 
+        <value value="555-888-1111"/> 
+        <use value="work"/> 
+   </telecom> 
+   <telecom> 
+        <system value="email"/> 
+        <value value="devbanargee@example.com"/> 
+        <use value="work"/> 
+   </telecom> 
+   <address> 
+        <use value="work"/> 
+        <line value="8909 Sunset Way"/> 
+        <city value="Santa Fe"/> 
+        <state value="NM"/>
+        <postalCode value="87505"/> 
+        <country value="USA"/>  
+   </address> 
+   <gender value="male"/> 
+   <birthDate value="1971-11-07"/> 
+   <qualification> 
+      <identifier> 
+        <use value="official"/>      
+        <system value="http://example.org/UniversityIdentifier"/> 
+        <value value="A_Degree@Connectathon_domain_name"/> 
+      </identifier> 
+      <code> 
+         <coding> 
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0360|2.7"/> 
+          <code value="PHS"/> 
+          <display value="Doctor of Science"/>
+        </coding> 
+      </code> 
+      <period> 
+        <start value="2014-12-01"/> 
+      </period> 
+  </qualification> 
+  <communication>
+      <coding> 
+          <system value="urn:ietf:bcp:47"/> 
+          <code value="en"/> 
+          <display value="English"/> 
+      </coding> 
+       <coding> 
+          <system value="urn:ietf:bcp:47"/> 
+          <code value="bn"/> 
+          <display value="Bengali"/> 
+      </coding>  
+  </communication>
+</Practitioner> 
