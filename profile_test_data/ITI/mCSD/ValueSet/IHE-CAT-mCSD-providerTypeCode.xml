@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="IHE-CAT-mCSD-providerTypeCode"/> 
+  <meta> 
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/> 
+  </meta> 
+  <identifier> 
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:oid:1.3.6.1.4.1.21367.200.105"/> 
+  </identifier>
+  <url value="http://connectathon.ihe/ValueSet/mCSD-providerTypeCode"/> 
+  <version value="IHE-CAT-2021.1"/> 
+  <name value="mCSD Provider Type Code"/> 
+  <title value="Provider Type Code"/> 
+  <status value="active"/> 
+  <experimental value="true"/> 
+  <date value="2021-01-01"/> 
+  <publisher value="IHE International Connectathon Technical Management"/>  
+  <description value="This value set contains codes for Provider Type Code used in IHE Connectathon testing of profile mCSD"/> 
+  <purpose value="This value set is published by IHE for Connectathon testing purposes only.  This value set is not intended for use for document sharing in a clincial setting."/> 	
+  <compose>	
+    <include>
+      <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+      <concept> 
+        <code value="105-001"/> 
+        <display value="Certified Nurse Midwife"/> 
+      </concept>		
+      <concept> 
+        <code value="105-002"/> 
+        <display value="Podiatry"/> 
+      </concept>
+      <concept> 
+        <code value="105-003"/> 
+        <display value="Nurse Practitioner"/> 
+      </concept>
+      <concept> 
+        <code value="105-004"/> 
+        <display value="Audiologist"/> 
+      </concept>
+      <concept> 
+        <code value="105-005"/> 
+        <display value="Licensed Clinical Social Worker"/> 
+      </concept>
+      <concept> 
+        <code value="105-006"/> 
+        <display value="Physician/Emergency Medicine"/> 
+      </concept>
+      <concept> 
+        <code value="105-007"/> 
+        <display value="Physician/Medical Oncology"/> 
+      </concept>
+      <concept> 
+        <code value="105-008"/> 
+        <display value="Physician/Gynecological Oncology"/> 
+      </concept>
+      <concept> 
+        <code value="105-009"/> 
+        <display value="Physician/Pediatric Medicine"/> 
+      </concept>
+      <concept> 
+        <code value="105-110"/> 
+        <display value="Physician/Thoracic Surgery"/> 
+      </concept>
+      <concept> 
+        <code value="105-111"/> 
+        <display value="Physician/General Practice"/> 
+      </concept>
+      <concept> 
+        <code value="105-112"/> 
+        <display value="Anesthesiology Assistant"/> 
+      </concept>
+      <concept> 
+        <code value="105-013"/> 
+        <display value="Physician/Mammographer"/> 
+      </concept>
+      <concept> 
+        <code value="105-014"/> 
+        <display value="Radiology Technician"/> 
+      </concept>
+    </include>		
+   </compose>
+</ValueSet> 
+

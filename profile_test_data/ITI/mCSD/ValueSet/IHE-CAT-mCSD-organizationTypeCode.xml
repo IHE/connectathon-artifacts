@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="IHE-CAT-mCSD-organizationTypeCode"/> 
+  <meta> 
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/> 
+  </meta> 
+  <identifier> 
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:oid:1.3.6.1.4.1.21367.200.101"/> 
+  </identifier>
+  <url value="http://connectathon.ihe/ValueSet/mCSD-organizationTypeCode"/> 
+  <version value="IHE-CAT-2021.1"/> 
+  <name value="mCSD Organization Type Code"/> 
+  <title value="Organization Type Code"/> 
+  <status value="active"/> 
+  <experimental value="true"/> 
+  <date value="2021-01-01"/> 
+  <publisher value="IHE International Connectathon Technical Management"/>  
+  <description value="This value set contains codes for Organization Type Code used in IHE Connectathon testing of profile mCSD"/> 
+  <purpose value="This value set is published by IHE for Connectathon testing purposes only.  This value set is not intended for use for document sharing in a clincial setting."/> 	
+  <compose>	
+    <include>
+      <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+      <concept> 
+        <code value="101-001"/> 
+        <display value="Healthcare Information Exchange"/> 
+      </concept>		
+      <concept> 
+        <code value="101-002"/> 
+        <display value="Integrated Delivery Network"/> 
+      </concept>
+      <concept> 
+        <code value="101-003"/> 
+        <display value="Non-government Organization"/> 
+      </concept>      
+      <concept> 
+        <code value="101-004"/> 
+        <display value="Faith-based Organization"/> 
+      </concept>  
+      <concept> 
+        <code value="101-005"/> 
+        <display value="Family Practice"/> 
+      </concept>    
+    </include>		
+   </compose>
+</ValueSet> 
+

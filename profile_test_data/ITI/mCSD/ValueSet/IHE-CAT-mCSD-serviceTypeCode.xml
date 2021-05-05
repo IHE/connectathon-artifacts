@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="IHE-CAT-mCSD-serviceTypeCode"/> 
+  <meta> 
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/> 
+  </meta> 
+  <identifier> 
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:oid:1.3.6.1.4.1.21367.200.102"/> 
+  </identifier>
+  <url value="http://connectathon.ihe/ValueSet/mCSD-serviceTypeCode"/> 
+  <version value="IHE-CAT-2021.1"/> 
+  <name value="mCSD Service Type Code"/> 
+  <title value="Service Type Code"/> 
+  <status value="active"/> 
+  <experimental value="true"/> 
+  <date value="2021-01-01"/> 
+  <publisher value="IHE International Connectathon Technical Management"/>  
+  <description value="This value set contains codes for Service Type Code used in IHE Connectathon testing of profile mCSD"/> 
+  <purpose value="This value set is published by IHE for Connectathon testing purposes only.  This value set is not intended for use for document sharing in a clincial setting."/> 	
+  <compose>	
+    <include>
+      <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+      <concept> 
+        <code value="102-001"/> 
+        <display value="Hospital - Outpatient"/> 
+      </concept>		
+      <concept> 
+        <code value="102-002"/> 
+        <display value="Radiation Therapy"/> 
+      </concept>
+      <concept> 
+        <code value="102-003"/> 
+        <display value="Dialysis"/> 
+      </concept>
+      <concept> 
+        <code value="102-004"/> 
+        <display value="Routine Exam"/> 
+      </concept>
+      <concept> 
+        <code value="102-005"/> 
+        <display value="Well Baby Care"/> 
+      </concept>
+      <concept> 
+        <code value="102-006"/> 
+        <display value="Laboratory"/> 
+      </concept>
+      <concept> 
+        <code value="102-007"/> 
+        <display value="Occupational Therapy"/> 
+      </concept>
+      <concept> 
+        <code value="102-008"/> 
+        <display value="Generic Prescription Drug - Formulary"/> 
+      </concept>
+      <concept> 
+        <code value="102-009"/> 
+        <display value="Massage Therapy"/> 
+      </concept>
+      <concept> 
+        <code value="102-010"/> 
+        <display value="Screening X-Ray"/> 
+      </concept>
+      <concept> 
+        <code value="102-011"/> 
+        <display value="Vision - Frames"/> 
+      </concept>
+      <concept> 
+        <code value="102-012"/> 
+        <display value="Gynecological"/> 
+      </concept>
+      <concept> 
+        <code value="102-013"/> 
+        <display value="Screening Mammography"/> 
+      </concept>
+    </include>		
+   </compose>
+</ValueSet> 

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="IHE-CAT-mCSD-facilityTypeCode"/> 
+  <meta> 
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/> 
+  </meta> 
+  <identifier> 
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:oid:1.3.6.1.4.1.21367.200.103"/> 
+  </identifier>
+  <url value="http://connectathon.ihe/ValueSet/mCSD-facilityStatusCode"/> 
+  <version value="IHE-CAT-2021.1"/> 
+  <name value="mCSD Facility Type Code"/> 
+  <title value="Facility Type Code"/> 
+  <status value="active"/> 
+  <experimental value="true"/> 
+  <date value="2021-01-01"/> 
+  <publisher value="IHE International Connectathon Technical Management"/>  
+  <description value="This value set contains codes for Facility Type Code used in IHE Connectathon testing of profile mCSD"/> 
+  <purpose value="This value set is published by IHE for Connectathon testing purposes only.  This value set is not intended for use for document sharing in a clincial setting."/> 	
+  <compose>	
+    <include>
+      <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+      <concept> 
+        <code value="103-001"/> 
+        <display value="Ambulatory Surgery Center"/> 
+      </concept>		
+      <concept> 
+        <code value="103-002"/> 
+        <display value="Cancer Center"/> 
+      </concept>
+      <concept> 
+        <code value="103-003"/> 
+        <display value="Dialysis Center"/> 
+      </concept>
+      <concept> 
+        <code value="103-004"/> 
+        <display value="Hearing Services"/> 
+      </concept>
+      <concept> 
+        <code value="103-005"/> 
+        <display value="Hospital"/> 
+      </concept>
+      <concept> 
+        <code value="103-006"/> 
+        <display value="Laboratory"/> 
+      </concept>
+      <concept> 
+        <code value="103-007"/> 
+        <display value="Occupational Therapy"/> 
+      </concept>
+      <concept> 
+        <code value="103-008"/> 
+        <display value="Pharmacy"/> 
+      </concept>
+      <concept> 
+        <code value="103-009"/> 
+        <display value="Physical Therapy"/> 
+      </concept>
+      <concept> 
+        <code value="103-010"/> 
+        <display value="Radiology - Imaging Services"/> 
+      </concept>
+      <concept> 
+        <code value="103-011"/> 
+        <display value="Vision Center"/> 
+      </concept>
+      <concept> 
+        <code value="103-012"/> 
+        <display value="Womens Health"/> 
+      </concept>
+    </include>		
+   </compose>
+</ValueSet> 

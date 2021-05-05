@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="IHE-CAT-mCSD-specializationCode"/> 
+  <meta> 
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/> 
+  </meta> 
+  <identifier> 
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:oid:1.3.6.1.4.1.21367.200.109"/> 
+  </identifier>
+  <url value="http://connectathon.ihe/ValueSet/mCSD-specializationTypeCode"/> 
+  <version value="IHE-CAT-2021.1"/> 
+  <name value="mCSD Specialization Code"/> 
+  <title value="Specialization Type Code"/> 
+  <status value="active"/> 
+  <experimental value="true"/> 
+  <date value="2021-01-01"/> 
+  <publisher value="IHE International Connectathon Technical Management"/>  
+  <description value="This value set contains codes for Specialization Type Code used in IHE Connectathon testing of profile mCSD"/> 
+  <purpose value="This value set is published by IHE for Connectathon testing purposes only.  This value set is not intended for use for document sharing in a clincial setting."/> 	
+  <compose>	
+    <include>
+      <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+      <concept> 
+        <code value="109-001"/> 
+        <display value="Alzheimer Disease Assessment"/> 
+      </concept>		
+      <concept> 
+        <code value="109-002"/> 
+        <display value="Lung Cancer Screening"/> 
+      </concept>
+      <concept> 
+        <code value="109-003"/> 
+        <display value="Cancer Imaging Services"/> 
+      </concept>		
+      <concept> 
+        <code value="109-004"/> 
+        <display value="Cardiac Imaging Services"/> 
+      </concept>
+      <concept> 
+        <code value="109-005"/> 
+        <display value="Women's Imaging Servicess"/> 
+      </concept>
+    </include>		
+   </compose>
+</ValueSet> 
