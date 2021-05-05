@@ -1,0 +1,43 @@
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <!-- mCSD: PractitionerRole details for "Robertson, Robert".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="Robertson-Robert-NGO-One"/>  
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_PractitionerRole"/>
+  </meta>
+  <identifier>
+        <use value="official"/> 
+        <system value="http://connectathon.ihe"/>
+        <value value="urn:uuid:b6553152-7a90-4940-8d6a-b1017310a159a"/> 
+   </identifier> 
+   <active value="true"/> 
+   <practitioner> 
+       <identifier>
+		      <use value="official"/> 
+          <system value="http://connectathon.ihe"/>
+          <value value="urn:uuid:b6553152-7a90-4940-8d6a-b1017310a159"/> 	
+		   </identifier> 
+       <display value="Robert Robertson"/> 
+    </practitioner>   
+    <organization> 
+       <identifier>
+          <use value="official"/> 
+          <system value="http://connectathon.ihe"/>
+          <value value="urn:uuid:cfbf2236-62d3-409f-95ab-372fbc93afd0"/> 	        
+		   </identifier> 
+       <display value="Connectathon CSD NGO One"/>  
+    </organization> 
+    <code> 
+       <coding> 
+         <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+         <code value="105-007"/> 
+         <display value="Physician/Medical Oncology"/> 
+       </coding> 
+     </code> 
+     <specialty> 
+       <coding> 
+         <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+         <code value="109-004"/> 
+         <display value="Cardiac Imaging Services"/> 
+       </coding> 
+     </specialty>   
+</PractitionerRole> 

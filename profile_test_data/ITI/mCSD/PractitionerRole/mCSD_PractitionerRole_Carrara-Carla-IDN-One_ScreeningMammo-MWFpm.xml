@@ -1,0 +1,66 @@
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <!-- mCSD: PractitionerRole details for "Cararra, Carla".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="Carrara-Carla-IDN-One"/>  
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_PractitionerRole"/>
+  </meta>
+  <identifier>
+        <use value="official"/> 
+        <system value="http://connectathon.ihe"/>
+        <value value="urn:uuid:d973d698-5b43-4340-acc9-de48d0acb376a"/> 
+   </identifier> 
+   <active value="true"/> 
+   <practitioner> 
+       <identifier>
+		      <use value="official"/> 
+          <system value="http://connectathon.ihe"/>
+          <value value="urn:uuid:d973d698-5b43-4340-acc9-de48d0acb376"/> 	
+		   </identifier> 
+       <display value="Carla Carrara"/> 
+    </practitioner>   
+    <organization> 
+       <identifier>
+          <use value="official"/> 
+          <system value="http://connectathon.ihe"/>
+          <value value="urn:uuid:08c3286e-2163-462c-b77f-1f431d7351ab"/> 	
+		   </identifier> 
+       <display value="Connectathon CSD IDN One"/>  
+    </organization> 
+    <code> 
+       <coding> 
+         <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+         <code value="105-114"/> 
+         <display value="Radiology Technician"/> 
+       </coding> 
+     </code> 
+     <specialty> 
+       <coding> 
+         <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+         <code value="109-005"/> 
+         <display value="Women's Imaging Services"/> 
+       </coding> 
+     </specialty>   
+     <location>
+       <identifier>
+          <use value="official"/> 
+          <system value="http://connectathon.ihe"/>
+          <value value="urn:uuid:e9964293-e169-4298-b4d0-ab07bf0cd78f"/> 	         
+		   </identifier> 
+       <display value="Connectathon Radiology Facility for IDN One"/>
+     </location>
+     <healthcareService>
+       <identifier>
+          <use value="official"/> 
+          <system value="http://connectathon.ihe"/>
+          <value value="urn:uuid:def4c912-46ae-4e23-a78c-80ea597a82ee"/> 	
+       </identifier>
+       <display value="Screening Mammography"/>  
+     </healthcareService>  
+     <availableTime> 
+       <daysOfWeek value="mon"/> 
+       <daysOfWeek value="wed"/> 
+       <daysOfWeek value="fri"/> 
+       <availableStartTime value="13:00:00"/> 
+       <availableEndTime value="17:00:00"/> 
+     </availableTime> 
+</PractitionerRole> 
