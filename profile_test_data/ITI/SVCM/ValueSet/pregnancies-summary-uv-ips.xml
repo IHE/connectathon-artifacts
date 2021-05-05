@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="pregnancies-summary-uv-ips"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://details.loinc.org/LOINC/11636-8.html">11636-8</a></td><td>[#] Births.live</td></tr><tr><td><a href="http://details.loinc.org/LOINC/11637-6.html">11637-6</a></td><td>[#] Births.preterm</td></tr><tr><td><a href="http://details.loinc.org/LOINC/11638-4.html">11638-4</a></td><td>[#] Births.still living</td></tr><tr><td><a href="http://details.loinc.org/LOINC/11639-2.html">11639-2</a></td><td>[#] Births.term</td></tr><tr><td><a href="http://details.loinc.org/LOINC/11640-0.html">11640-0</a></td><td>[#] Births total</td></tr><tr><td><a href="http://details.loinc.org/LOINC/11612-9.html">11612-9</a></td><td>[#] Abortions</td></tr><tr><td><a href="http://details.loinc.org/LOINC/11613-7.html">11613-7</a></td><td>[#] Abortions.induced</td></tr><tr><td><a href="http://details.loinc.org/LOINC/11614-5.html">11614-5</a></td><td>[#] Abortions.spontaneous</td></tr><tr><td><a href="http://details.loinc.org/LOINC/33065-4.html">33065-4</a></td><td>[#] Ectopic pregnancy</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/uv/ips/ValueSet/pregnancies-summary-uv-ips"/>
+  <identifier>
+    <use value="official"/>
+    <system value="http://art-decor.org/ns/oids/vs"/>
+    <value value="2.16.840.1.113883.11.22.21"/>
+  </identifier>
+  <version value="1.0.0"/>
+  <name value="PregnanciesSummaryUvIps"/>
+  <title value="Pregnancies Summary - IPS"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-06T16:00:18+00:00"/>
+  <publisher value="Health Level Seven International - Patient Care Work Group"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="IPS Pregnancies Summary"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <copyright
+             value="This artifact includes content from LOINC®. LOINC codes are copyright Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee. Terms &amp; Conditions in https://loinc.org/license/"/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="11636-8"/>
+        <display value="[#] Births.live"/>
+      </concept>
+      <concept>
+        <code value="11637-6"/>
+        <display value="[#] Births.preterm"/>
+      </concept>
+      <concept>
+        <code value="11638-4"/>
+        <display value="[#] Births.still living"/>
+      </concept>
+      <concept>
+        <code value="11639-2"/>
+        <display value="[#] Births.term"/>
+      </concept>
+      <concept>
+        <code value="11640-0"/>
+        <display value="[#] Births total"/>
+      </concept>
+      <concept>
+        <code value="11612-9"/>
+        <display value="[#] Abortions"/>
+      </concept>
+      <concept>
+        <code value="11613-7"/>
+        <display value="[#] Abortions.induced"/>
+      </concept>
+      <concept>
+        <code value="11614-5"/>
+        <display value="[#] Abortions.spontaneous"/>
+      </concept>
+      <concept>
+        <code value="33065-4"/>
+        <display value="[#] Ectopic pregnancy"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>
