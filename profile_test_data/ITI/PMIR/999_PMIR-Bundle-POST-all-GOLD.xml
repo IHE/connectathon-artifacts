@@ -1,0 +1,625 @@
+<Bundle xmlns="http://hl7.org/fhir">
+   <id value="bundle-message-999"/>
+   <type value="message"/>
+      <entry>
+         <fullUrl value="http://example.com/fhir/MessageHeader/9362d6c2-c7d1-4db0-aab2-c4d2ea6999"/>
+         <resource>
+            <MessageHeader xmlns="http://hl7.org/fhir">
+               <id value="9362d6c2-c7d1-4db0-aab2-c4d2ea6999"/>            
+               <eventUri value="urn:ihe:iti:pmir:2019:patient-feed"/>
+               <destination>
+               <endpoint value="http://example.dest.com/destinationEndpoint"/>
+               </destination>
+               <source>
+                  <endpoint value="http://example.com/sourceEndpoint"/>
+               </source>
+               <focus> 
+                  <reference value="http://example.com/fhir/Bundle/PMIR-GOLD"/> 
+               </focus> 
+            </MessageHeader>
+         </resource>
+      </entry>
+      <entry>
+        <fullUrl value="http://example.com/fhir/Bundle/PMIR-GOLD"/>
+        <resource>
+          <Bundle xmlns="http://hl7.org/fhir">
+            <id value="PMIR-GOLD"/>
+            <type value="history"/>
+             <entry>
+               <fullUrl value="http://example.com/fhir/Patient/104"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="104"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-4"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Delta"/>
+                        <given value="Four"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-04"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/104"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry>     
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/105"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="105"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-5"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Echo"/>
+                        <given value="Five"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-05"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/105"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry> 
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/106"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="106"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-6"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Golf"/>
+                        <given value="Six"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-06"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/106"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry>  
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/107"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="107"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-7"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Hotel"/>
+                        <given value="Seven"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-07"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/107"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry>             
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/108"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="108"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-8"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="India"/>
+                        <given value="Eight"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-08"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/108"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry>             
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/109"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="109"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-9"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Juliett"/>
+                        <given value="Four"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-09"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/109"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry>             
+             <entry>
+               <fullUrl value="http://example.com/fhir/Patient/110"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="110"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-10"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Kilo"/>
+                        <given value="Ten"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-10"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/110"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry>            
+             <entry>
+               <fullUrl value="http://example.com/fhir/Patient/111"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="111"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-11"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Lima"/>
+                        <given value="Eleven"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-11"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/111"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry>            
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/112"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="112"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-12"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Mike"/>
+                        <given value="Twelve"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-12"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/112"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry>             
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/113"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="113"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-13"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="November"/>
+                        <given value="Thirteen"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-13"/>
+                  </Patient> 
+               </resource>   
+                <request>
+                  <method value="POST"/>
+                  <url value="Patient/113"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry>             
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/114"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="114"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-14"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Oscar"/>
+                        <given value="Fourteen"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-14"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/114"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry> 
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/115"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="115"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-15"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Papa"/>
+                        <given value="Fifteen"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-15"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/115"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry>             
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/116"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="116"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-16"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Quebec"/>
+                        <given value="Sixteen"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-16"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/116"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry> 
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/117"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="117"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-17"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Romeo"/>
+                        <given value="Seventeen"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-17"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/117"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry> 
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/118"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="118"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-18"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Sierra"/>
+                        <given value="Eighteen"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-18"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/118"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry> 
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/119"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="119"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-19"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Tango"/>
+                        <given value="Nineteen"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-19"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/119"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry> 
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/120"/>
+               <resource>
+                  <Patient>
+                     <id value="120"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-20"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Uniform"/>
+                        <given value="Twenty"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-20"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/120"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry> 
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/121"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="121"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-21"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Victor"/>
+                        <given value="Twenty-one"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-21"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/121"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry> 
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/122"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="122"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-22"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Whiskey"/>
+                        <given value="Twenty-two"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-22"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/122"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry> 
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/123"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="123"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-23"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Xray"/>
+                        <given value="Twenty-three"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-23"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/123"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry> 
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/124"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="124"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-24"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Yankee"/>
+                        <given value="Twenty-four"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-24"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/124"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry> 
+            <entry>
+               <fullUrl value="http://example.com/fhir/Patient/125"/>
+               <resource>
+                  <Patient xmlns="http://hl7.org/fhir">
+                     <id value="125"/>
+                     <identifier>
+                        <system value="urn:oid:1.3.6.1.4.1.21367.13.20.4000"/>
+                        <value value="IHE-GOLD-25"/>
+                     </identifier>
+                    <active value="true"/>
+                     <name>
+                        <use value="official"/>
+                        <family value="Zulu"/>
+                        <given value="Twenty-five"/>
+                     </name>
+                     <gender value="male"/>
+                     <birthDate value="1999-01-25"/>
+                  </Patient> 
+               </resource>   
+               <request>
+                  <method value="POST"/>
+                  <url value="Patient/125"/>
+               </request>
+               <response>
+                  <status value="200"/>
+               </response>
+            </entry> 
+         </Bundle>  
+      </resource>
+   </entry>   
+</Bundle>
