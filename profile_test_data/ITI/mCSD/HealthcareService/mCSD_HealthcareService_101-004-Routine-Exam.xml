@@ -1,0 +1,37 @@
+<HealthcareService xmlns="http://hl7.org/fhir">
+  <!-- mCSD: HealthCareService details for "Routine Exam".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="101-004-Routine-Exam"/>  
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_HealthcareService"/>
+  </meta>
+  <identifier>
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:uuid:9f45a9bd-f360-4f5a-9f39-a04f19720424"/> 
+  </identifier> 
+	<active value="true"/>
+    <type> 
+        <coding> 
+          <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+          <code value="101-004"/> 
+          <display value="Routine Exam"/> 
+        </coding> 
+	</type> 
+  <location>
+		<identifier>
+      <use value="official"/> 
+      <system value="http://connectathon.ihe"/>
+      <value value="urn:uuid:e9964293-e169-4298-b4d0-ab07bf0cd78f"/> 
+      <display value="Connectathon Radiology Facility for IDN One"/> 
+    </identifier> 
+  </location>    
+  <location>
+		<identifier>
+      <use value="official"/> 
+      <system value="http://connectathon.ihe"/>
+      <value value="urn:uuid:a3eb03db-0094-4059-9156-8de081cb5885"/> 
+      <display value="Connectathon Dialysis Facility One"/> 
+    </identifier> 
+  </location>     
+  <name value="Routine Exam"/>	
+</HealthcareService>

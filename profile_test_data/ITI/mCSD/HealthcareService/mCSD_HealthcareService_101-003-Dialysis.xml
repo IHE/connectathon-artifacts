@@ -1,0 +1,37 @@
+<HealthcareService xmlns="http://hl7.org/fhir">
+  <!-- mCSD: HealthCareService details for "Dialysis".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="101-003-Dialysis"/>
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_HealthcareService"/>
+  </meta>
+  <identifier>
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:uuid:f412889b-0364-4ebe-91b8-f26481a9a8f1"/> 
+  </identifier> 
+	<active value="true"/>
+    <type> 
+        <coding> 
+          <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+          <code value="101-003"/> 
+          <display value="Dialysis"/> 
+        </coding> 
+  </type> 
+  <location>
+    <identifier>
+      <use value="official"/> 
+      <system value="http://connectathon.ihe"/>
+      <value value="urn:uuid:a3eb03db-0094-4059-9156-8de081cb5885"/> 
+      <display value="Connectathon Dialysis Facility One"/> 
+    </identifier> 
+  </location>   
+    <location>
+    <identifier>
+      <use value="official"/> 
+      <system value="http://connectathon.ihe"/>
+      <value value="urn:uuid:be4d27c3-21b8-481f-9fed-6524a8eb9bac"/> 
+      <display value="Connectathon Dialysis Facility Two"/> 
+    </identifier> 
+  </location> 
+  <name value="Dialysis"/>	
+</HealthcareService>

@@ -1,0 +1,21 @@
+<HealthcareService xmlns="http://hl7.org/fhir">
+  <!-- mCSD: HealthCareService details for "Massage Therapy".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="101-009-Massage-Therapy"/>  
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_HealthcareService"/>
+  </meta>
+  <identifier>
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:uuid:e8050261-bf0d-4d0d-8b4e-83f5c05561b2"/> 
+  </identifier> 
+	<active value="true"/>
+  <type> 
+        <coding> 
+          <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+          <code value="101-009"/> 
+          <display value="Massage Therapy"/> 
+        </coding> 
+	</type> 
+  <name value="Massage Therapy"/>	
+</HealthcareService>

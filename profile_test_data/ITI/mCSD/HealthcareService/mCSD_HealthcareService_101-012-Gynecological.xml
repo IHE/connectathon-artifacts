@@ -1,0 +1,21 @@
+<HealthcareService xmlns="http://hl7.org/fhir">
+  <!-- mCSD: HealthCareService details for "Gynecological".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="101-012-Gynecological"/>  
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_HealthcareService"/>
+  </meta>
+	<identifier>
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:uuid:73896e32-08a8-48c5-9ede-fc991eebb122"/> 
+  </identifier> 
+	<active value="true"/>
+  <type> 
+        <coding> 
+          <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+          <code value="101-012"/> 
+          <display value="Gynecological"/> 
+        </coding> 
+	</type> 
+  <name value="Gynecological"/>	
+</HealthcareService>

@@ -1,0 +1,21 @@
+<HealthcareService xmlns="http://hl7.org/fhir">
+  <!-- mCSD: HealthCareService details for "Vision - Frames".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="101-011-Vision-Frames"/> 
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_HealthcareService"/>
+  </meta>
+	<identifier>
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:uuid:0d8bd79c-2465-43f3-b34c-233c26fc2d8e"/> 
+  </identifier> 
+	<active value="true"/>
+  <type> 
+        <coding> 
+          <system value="https://gazelle.ihe.net/SVSSimulator/rest/RetrieveValueSetForSimulator?id=1.3.6.1.4.1.21367.200.102"/> 
+          <code value="101-011"/> 
+          <display value="Vision - Frames"/> 
+        </coding> 
+	</type> 
+  <name value="Vision - Frames"/>	
+</HealthcareService>

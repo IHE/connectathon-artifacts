@@ -1,0 +1,29 @@
+<HealthcareService xmlns="http://hl7.org/fhir">
+  <!-- mCSD: HealthCareService details for "Screening X-Ray".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="101-010-Screening-X-Ray"/>  
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_HealthcareService"/>
+  </meta>
+  <identifier>
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:uuid:97f25cbb-d1dd-4849-b369-f8d7c35f7775"/> 
+  </identifier> 
+	<active value="true"/>
+  <type> 
+        <coding> 
+          <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+          <code value="101-010"/> 
+          <display value="Screening X-Ray"/> 
+        </coding> 
+  </type> 
+  <location>
+		<identifier>
+      <use value="official"/> 
+      <system value="http://connectathon.ihe"/>
+      <value value="urn:uuid:e9964293-e169-4298-b4d0-ab07bf0cd78f"/> 
+      <display value="Connectathon Radiology Facility for IDN One"/> 
+    </identifier> 
+  </location>    
+  <name value="Screening X-Ray"/>	
+</HealthcareService>

@@ -1,0 +1,21 @@
+<HealthcareService xmlns="http://hl7.org/fhir">
+  <!-- mCSD: HealthCareService details for "Well Baby Care".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="101-005-Well-Baby-Care"/>
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_HealthcareService"/>
+  </meta>
+  <identifier>
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:uuid:e1c7931b-e733-440b-9ae0-7fe5fc7342a5"/> 
+  </identifier> 
+	<active value="false"/>
+  <type> 
+        <coding> 
+          <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+          <code value="101-005"/> 
+          <display value="Well Baby Care"/> 
+        </coding> 
+	</type> 
+  <name value="Well Baby Care"/>	
+</HealthcareService>
