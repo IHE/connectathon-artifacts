@@ -1,0 +1,43 @@
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <!-- mCSD: PractitionerRole details for "Williamson, William".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="Williamson-William-NGO-One"/>  
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_PractitionerRole"/>
+  </meta>
+  <identifier>
+         <use value="official"/> 
+         <system value="http://connectathon.ihe"/>
+          <value value="urn:uuid:51f3fdbe-ed30-4d55-b7f8-50955c86b2cfa"/> 
+   </identifier> 
+   <active value="true"/> 
+   <practitioner> 
+       <identifier>
+		      <use value="official"/> 
+          <system value="http://connectathon.ihe"/>
+          <value value="urn:uuid:51f3fdbe-ed30-4d55-b7f8-50955c86b2cf"/> 	
+		   </identifier> 
+       <display value="William Williamson"/> 
+    </practitioner>   
+    <organization> 
+       <identifier>
+          <use value="official"/> 
+          <system value="http://connectathon.ihe"/>
+          <value value="urn:uuid:cfbf2236-62d3-409f-95ab-372fbc93afd0"/> 	         
+		   </identifier> 
+       <display value="Connectathon CSD NGO One"/>  
+    </organization> 
+    <code> 
+       <coding> 
+         <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+         <code value="105-003"/> 
+         <display value="Nurse Practitioner"/> 
+       </coding> 
+     </code> 
+     <specialty> 
+       <coding> 
+         <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+         <code value="109-003"/> 
+         <display value="Cancer Imaging Services"/> 
+       </coding> 
+     </specialty>   
+</PractitionerRole> 
