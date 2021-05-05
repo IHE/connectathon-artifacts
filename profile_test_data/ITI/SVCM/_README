@@ -1,3 +1,5 @@
 These directories contain FHIR Resources used in SVCM Profile testing at IHE Connectathons.
 
 The pre-Connectathon test with instructions for loading these resources is here: https://gazelle.ihe.net/content/svcm-load-fhir-resources-connectathon-testing
+
+Refer to this google sheet details about these resources: https://docs.google.com/spreadsheets/d/12YFWKGT6KEpuLOflGNozWuTd61Hy0PQ2cGPrcjx8FwE/edit?usp=sharing
