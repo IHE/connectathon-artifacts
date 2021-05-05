@@ -1,0 +1,21 @@
+<HealthcareService xmlns="http://hl7.org/fhir">
+  <!-- mCSD: HealthCareService details for "Hospital - Outpatient".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="101-001-Hospital-Outpatient"/>  
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_HealthcareService"/>
+  </meta>
+  <identifier>
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:uuid:8f246dd6-b301-4fbb-b43b-f2f40b3e61d0"/> 
+  </identifier> 
+	<active value="true"/>
+  <type> 
+      <coding> 
+          <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+          <code value="101-001"/> 
+          <display value="Hospital - Outpatient"/> 
+      </coding> 
+	</type> 
+  <name value="Hospital - Outpatient"/>	
+</HealthcareService>
