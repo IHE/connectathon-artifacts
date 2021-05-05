@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="absent-unknown-uv-ips"/>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips defines the following codes:</p><table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>1</td><td style="white-space:nowrap">no-allergy-info<a name="absent-unknown-uv-ips-no-allergy-info"> </a></td><td>No information about allergies</td><td>There is no information available regarding the subject's allergy conditions.</td></tr><tr><td>1</td><td style="white-space:nowrap">no-known-allergies<a name="absent-unknown-uv-ips-no-known-allergies"> </a></td><td>No known allergies</td><td>The subject has no known allergy conditions.</td></tr><tr><td>2</td><td style="white-space:nowrap">  no-known-medication-allergies<a name="absent-unknown-uv-ips-no-known-medication-allergies"> </a></td><td>No known medication allergies</td><td>The subject has no known medication allergy conditions.</td></tr><tr><td>2</td><td style="white-space:nowrap">  no-known-environmental-allergies<a name="absent-unknown-uv-ips-no-known-environmental-allergies"> </a></td><td>No known environmental allergies</td><td>The subject has no known environmental allergy conditions.</td></tr><tr><td>2</td><td style="white-space:nowrap">  no-known-food-allergies<a name="absent-unknown-uv-ips-no-known-food-allergies"> </a></td><td>No known food allergies</td><td>The subject has no known food allergy conditions.</td></tr><tr><td>1</td><td style="white-space:nowrap">no-device-info<a name="absent-unknown-uv-ips-no-device-info"> </a></td><td>No information about devices</td><td>There is no information available regarding implanted or external devices for the subject.</td></tr><tr><td>1</td><td style="white-space:nowrap">no-known-devices<a name="absent-unknown-uv-ips-no-known-devices"> </a></td><td>No known devices in use</td><td>There are no devices known to be implanted in or used by the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record.</td></tr><tr><td>1</td><td style="white-space:nowrap">no-immunization-info<a name="absent-unknown-uv-ips-no-immunization-info"> </a></td><td>No information about immunizations</td><td>The subject's history of previous immunizations is not known.</td></tr><tr><td>1</td><td style="white-space:nowrap">no-known-immunizations<a name="absent-unknown-uv-ips-no-known-immunizations"> </a></td><td>No known immunizations</td><td>There is no history of previous immunizations for the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record.</td></tr><tr><td>1</td><td style="white-space:nowrap">no-medication-info<a name="absent-unknown-uv-ips-no-medication-info"> </a></td><td>No information about medications</td><td>There is no information available about the subject's medication use or administration.</td></tr><tr><td>1</td><td style="white-space:nowrap">no-known-medications<a name="absent-unknown-uv-ips-no-known-medications"> </a></td><td>No known medications</td><td>There are no medications for the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record.</td></tr><tr><td>1</td><td style="white-space:nowrap">no-problem-info<a name="absent-unknown-uv-ips-no-problem-info"> </a></td><td>No information about problems</td><td>There is no information available about the subject's health problems or disabilities.</td></tr><tr><td>1</td><td style="white-space:nowrap">no-known-problems<a name="absent-unknown-uv-ips-no-known-problems"> </a></td><td>No known problems</td><td>The subject is not known to have any health problems or disabilities that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record.</td></tr><tr><td>1</td><td style="white-space:nowrap">no-procedure-info<a name="absent-unknown-uv-ips-no-procedure-info"> </a></td><td>No information about past history of procedures</td><td>There is no information available about the subject's past history of procedures.</td></tr><tr><td>1</td><td style="white-space:nowrap">no-known-procedures<a name="absent-unknown-uv-ips-no-known-procedures"> </a></td><td>No known procedures</td><td>The subject has no history of procedures that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record.</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Italian (Italy) (it)</b></td></tr><tr><td>no-allergy-info</td><td>Nessuna informazione sulle allergie</td></tr><tr><td>no-known-allergies</td><td>Nessuna allergia nota</td></tr><tr><td>no-device-info</td><td>Nessuna informazione sui dispositivi medici</td></tr><tr><td>no-known-devices</td><td>Non sono noti dispositivi medici in uso</td></tr><tr><td>no-immunization-info</td><td>Nessuna informazione sulle vaccinazioni</td></tr><tr><td>no-known-immunizations</td><td>Nessuna vaccinazione nota</td></tr><tr><td>no-medication-info</td><td>Nessuna informazione disponibile su terapie farmacologiche</td></tr><tr><td>no-known-medications</td><td>Nessuna terapia farmacologica nota</td></tr><tr><td>no-problem-info</td><td>Nessuna informazione disponibile su problemi o disabilità</td></tr><tr><td>no-known-problems</td><td>Nessun problema o disabilità rilevante nota</td></tr><tr><td>no-procedure-info</td><td>Nessuna informazione disponibile su procedure pregresse</td></tr><tr><td>no-known-procedures</td><td>Nessuna procedure pregressa rilevante nota</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+  <version value="1.0.0"/>
+  <name value="IPSCodeSystemAbsentUnknown"/>
+  <title value="Absent and Unknown Data - IPS"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-06T16:00:18+00:00"/>
+  <publisher value="Health Level Seven International - Patient Care Work Group"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description
+               value="International Patient Summary (IPS) codes for &quot;known absent&quot; and &quot;not known&quot; data."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <copyright
+             value="Produced by HL7 under the terms of HL7® Governance and Operations Manual relating to Intellectual Property (Section 16), specifically its copyright, trademark and patent provisions. This document is licensed under Creative Commons &quot;No Rights Reserved&quot; (CC0)."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="no-allergy-info"/>
+    <display value="No information about allergies"/>
+    <definition
+                value="There is no information available regarding the subject&#39;s allergy conditions."/>
+    <designation>
+      <language value="it-IT"/>
+      <value value="Nessuna informazione sulle allergie"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="no-known-allergies"/>
+    <display value="No known allergies"/>
+    <definition value="The subject has no known allergy conditions."/>
+    <designation>
+      <language value="it-IT"/>
+      <value value="Nessuna allergia nota"/>
+    </designation>
+    <concept>
+      <code value="no-known-medication-allergies"/>
+      <display value="No known medication allergies"/>
+      <definition
+                  value="The subject has no known medication allergy conditions."/>
+      <designation>
+        <language value="it-IT"/>
+        <value value="Nessuna allergia ai farmaci nota"/>
+      </designation>
+    </concept>
+    <concept>
+      <code value="no-known-environmental-allergies"/>
+      <display value="No known environmental allergies"/>
+      <definition
+                  value="The subject has no known environmental allergy conditions."/>
+      <designation>
+        <language value="it-IT"/>
+        <value value="Nessuna allergia nota ad allergeni ambientali"/>
+      </designation>
+    </concept>
+    <concept>
+      <code value="no-known-food-allergies"/>
+      <display value="No known food allergies"/>
+      <definition value="The subject has no known food allergy conditions."/>
+      <designation>
+        <language value="it-IT"/>
+        <value value="Nessuna allergia alimentare nota"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept>
+    <code value="no-device-info"/>
+    <display value="No information about devices"/>
+    <definition
+                value="There is no information available regarding implanted or external devices for the subject."/>
+    <designation>
+      <language value="it-IT"/>
+      <value value="Nessuna informazione sui dispositivi medici"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="no-known-devices"/>
+    <display value="No known devices in use"/>
+    <definition
+                value="There are no devices known to be implanted in or used by the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record."/>
+    <designation>
+      <language value="it-IT"/>
+      <value value="Non sono noti dispositivi medici in uso"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="no-immunization-info"/>
+    <display value="No information about immunizations"/>
+    <definition
+                value="The subject&#39;s history of previous immunizations is not known."/>
+    <designation>
+      <language value="it-IT"/>
+      <value value="Nessuna informazione sulle vaccinazioni"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="no-known-immunizations"/>
+    <display value="No known immunizations"/>
+    <definition
+                value="There is no history of previous immunizations for the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record."/>
+    <designation>
+      <language value="it-IT"/>
+      <value value="Nessuna vaccinazione nota"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="no-medication-info"/>
+    <display value="No information about medications"/>
+    <definition
+                value="There is no information available about the subject&#39;s medication use or administration."/>
+    <designation>
+      <language value="it-IT"/>
+      <value value="Nessuna informazione disponibile su terapie farmacologiche"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="no-known-medications"/>
+    <display value="No known medications"/>
+    <definition
+                value="There are no medications for the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record."/>
+    <designation>
+      <language value="it-IT"/>
+      <value value="Nessuna terapia farmacologica nota"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="no-problem-info"/>
+    <display value="No information about problems"/>
+    <definition
+                value="There is no information available about the subject&#39;s health problems or disabilities."/>
+    <designation>
+      <language value="it-IT"/>
+      <value value="Nessuna informazione disponibile su problemi o disabilità"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="no-known-problems"/>
+    <display value="No known problems"/>
+    <definition
+                value="The subject is not known to have any health problems or disabilities that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record."/>
+    <designation>
+      <language value="it-IT"/>
+      <value value="Nessun problema o disabilità rilevante nota"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="no-procedure-info"/>
+    <display value="No information about past history of procedures"/>
+    <definition
+                value="There is no information available about the subject&#39;s past history of procedures."/>
+    <designation>
+      <language value="it-IT"/>
+      <value value="Nessuna informazione disponibile su procedure pregresse"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="no-known-procedures"/>
+    <display value="No known procedures"/>
+    <definition
+                value="The subject has no history of procedures that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record."/>
+    <designation>
+      <language value="it-IT"/>
+      <value value="Nessuna procedure pregressa rilevante nota"/>
+    </designation>
+  </concept>
+</CodeSystem>
