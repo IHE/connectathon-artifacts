@@ -1,0 +1,67 @@
+<Practitioner xmlns="http://hl7.org/fhir">
+  <!-- mCSD: Practitioner details for "Fredricks, Theodora".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="Fredricks-Theodora"/>  
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_Practitioner"/>
+  </meta>
+	<identifier>
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:uuid:c54d631b-d1be-4754-89e4-732ed73c4b50"/> 
+   </identifier> 
+   <name> 
+        <use value="official"/> 
+        <text value="Theodora Fredricks"/>
+        <family value="Fredricks"/> 
+        <given value="Theodora"/> 
+   </name> 
+   <telecom> 
+        <system value="phone"/> 
+        <value value="555-777-4945"/> 
+        <use value="work"/> 
+   </telecom> 
+   <telecom> 
+        <system value="fax"/> 
+        <value value="555-888-4945"/> 
+        <use value="work"/> 
+   </telecom> 
+   <telecom> 
+        <system value="email"/> 
+        <value value="theodorafredricks@example.com"/> 
+        <use value="work"/> 
+   </telecom> 
+   <address> 
+        <use value="work"/> 
+        <line value="2887 Commerce Blvd"/> 
+        <city value="Orlando"/> 
+        <state value="FL"/>
+        <postalCode value="32789"/> 
+        <country value="USA"/>  
+   </address> 
+   <gender value="female"/> 
+   <birthDate value="1973-10-10"/> 
+   <qualification> 
+      <identifier> 
+        <use value="official"/> 
+        <system value="http://example.org/UniversityIdentifier"/> 
+        <value value="A_Degree@Connectathon_domain_name"/> 
+      </identifier> 
+      <code> 
+         <coding> 
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0360|2.7"/> 
+          <code value="NP"/> 
+          <display value="Nurse Practitioner"/>
+        </coding> 
+      </code> 
+      <period> 
+        <start value="1999-12-03"/> 
+      </period>  
+  </qualification> 
+  <communication>
+      <coding> 
+          <system value="urn:ietf:bcp:47"/> 
+          <code value="en"/> 
+          <display value="English"/> 
+      </coding>  
+  </communication>
+</Practitioner> 
