@@ -1,0 +1,39 @@
+<Organization xmlns="http://hl7.org/fhir">
+  <!-- Organization for HPD testing, in mCSD format -->
+  <id value="Connecthon-Mercy-Hospital"/>  
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_Organization"/>
+  </meta>
+  <identifier> 
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="11"/> 
+  </identifier> 
+  <active value="true"/> 
+  <name value="Mercy Philadelphia Hospital"/>
+  <alias value="Mercy Health Center"/> 
+  <telecom> 
+    <system value="phone"/> 
+    <value value="215-748-9000"/> 
+  </telecom> 
+  <telecom> 
+    <system value="fax"/> 
+    <value value="215-555-2222"/> 
+  </telecom>
+  <address> 
+    <use value="billing"/> 
+    <line value="501 S. 54th Street"/> 
+	  <city value="Philadelphia"/> 
+	  <state value="PA"/>
+	  <postalCode value="19143"/> 
+    <country value="USA"/> 
+  </address> 
+  <address> 
+    <use value="work"/> 
+    <line value="202 22nd Avenue"/> 
+	  <city value="Philadelphia"/> 
+	  <state value="PA"/>
+	  <postalCode value="19102"/> 
+    <country value="USA"/> 
+  </address> 
+</Organization> 
