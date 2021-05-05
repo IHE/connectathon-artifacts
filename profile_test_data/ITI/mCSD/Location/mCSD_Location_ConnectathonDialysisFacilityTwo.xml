@@ -1,0 +1,52 @@
+<Location xmlns="http://hl7.org/fhir">
+  <!-- mCSD: Location (ie facility) details for "Connectathon Dialysis Facility Two".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="ConnectathonDialysisFacilityTwo"/>   
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_Location"/>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_FacilityLocation"/>
+  </meta>
+  <identifier> 
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:uuid:be4d27c3-21b8-481f-9fed-6524a8eb9bac"/> 
+  </identifier>
+  <status value="inactive"/> 
+  <name value="Connectathon Dialysis Facility Two"/> 
+  <type> 
+    <coding> 
+      <system value="urn:ietf:rfc:3986"/> 
+      <code value="urn:ihe:iti:mcsd:2019:facility"/>
+    </coding> 
+    <coding> 
+      <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+      <code value="103-003"/> 
+      <display value="Dialysis Center"/> 
+    </coding> 
+  </type>   
+  <address> 
+	<use value="work"/> 
+	<line value="434 W. Gurley Street"/> 
+    <city value="Prescott"/> 
+    <state value="AZ"/> 
+    <postalCode value="86301"/> 
+    <country value="USA"/> 
+  </address>			
+  <physicalType> 
+    <coding> 
+      <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/> 
+      <code value="bu"/> 
+    <display value="Building"/> 
+    </coding> 
+  </physicalType> 
+  <position> 
+    <longitude value="-122.4717"/> 
+    <latitude value="34.5441"/> 
+  </position> 
+  <managingOrganization> 
+    <identifier>
+		  <use value="official"/> 
+      <system value="http://connectathon.ihe"/>
+      <value value="urn:uuid:08c3286e-2163-462c-b77f-1f431d7351ab"/> 	
+		</identifier>
+  </managingOrganization> 	
+</Location> 

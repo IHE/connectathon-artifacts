@@ -1,0 +1,52 @@
+<Location xmlns="http://hl7.org/fhir">
+  <!-- mCSD: Location (ie facility) details for "Connectathon Radiology Facility for NGO Two".  Values re-used from CSD Profile Connectathon test data -->
+  <id value="ConnectathonRadiologyFacilityTwo"/>  
+  <meta>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_Location"/>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_FacilityLocation"/>
+  </meta>
+  <identifier> 
+    <use value="official"/> 
+    <system value="http://connectathon.ihe"/>
+    <value value="urn:uuid:e9964293-e169-4298-b4d0-ab07bf0cd12c"/> 
+  </identifier>
+  <status value="inactive"/> 
+  <name value="Connectathon Radiology Facility for NGO Two"/> 
+  <type> 
+    <coding> 
+      <system value="urn:ietf:rfc:3986"/> 
+      <code value="urn:ihe:iti:mcsd:2019:facility"/>
+    </coding> 
+    <coding> 
+      <system value="urn:oid:1.3.6.1.4.1.21367.100.1"/> 
+      <code value="103-110"/> 
+      <display value="Radiology - Imaging Services"/> 
+    </coding> 
+  </type>   
+  <address> 
+	<use value="work"/> 
+	<line value="9301 Central Ave SE"/> 
+    <city value="Albuquerque"/> 
+    <state value="NM"/> 
+    <postalCode value="87123"/> 
+    <country value="USA"/> 
+  </address>			
+  <physicalType> 
+    <coding> 
+      <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/> 
+      <code value="bu"/> 
+    <display value="Building"/> 
+    </coding> 
+  </physicalType> 
+  <position> 
+    <longitude value="-106.54"/> 
+    <latitude value="35.07"/> 
+  </position> 
+  <managingOrganization>    
+    <identifier>
+		  <use value="official"/> 
+      <system value="http://connectathon.ihe"/>
+      <value value="urn:uuid:8cd347e8-8a2c-4900-98d2-a79dcd953995"/> 	
+		</identifier>
+  </managingOrganization> 	
+</Location> 
