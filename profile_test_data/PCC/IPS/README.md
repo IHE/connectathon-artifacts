@@ -25,10 +25,22 @@ Code value requirements for test cases are described in the **Sections** area be
 |Medication Summary|medication-example-uv-ips|http://hl7.org/fhir/uv/ips/ValueSet-medication-example-uv-ips.html|http://cat-nist-tools.ihe-europe.net:6080/hapi-fhir-rw/baseR4/ValueSet/medication-example-uv-ips/_history/1| TBD |
 |Allergies and Intolerances | allergy-intolerance-substance-condition-gps-uv-ips | http://hl7.org/fhir/uv/ips/ValueSet-allergy-intolerance-substance-condition-gps-uv-ips.html| TBD | TBD |
 |Condition | condition-code |http://hl7.org/fhir/R4/valueset-condition-code.html| TBD | TBD |
+| Immunizations | vaccines-gps-uv-ips | http://hl7.org/fhir/uv/ips/ValueSet-vaccines-gps-uv-ips.html | | |
+| History of Procedures | procedures-uv-ips | http://hl7.org/fhir/uv/ips/ValueSet-procedures-uv-ips.html | | |
+| Medical Devices | medical-devices-uv-ips | http://hl7.org/fhir/uv/ips/ValueSet-medical-devices-uv-ips.html | | |
+| Diagnostic Results | | | | |
+| Vital Signs | observation-vitalsignresult | http://hl7.org/fhir/R4/valueset-observation-vitalsignresult.html | | |
+| Past History of Illness | condition-code |http://hl7.org/fhir/R4/valueset-condition-code.html | | |
+| Pregnancy | pregnancy-status-uv-ips | http://hl7.org/fhir/uv/ips/ValueSet-pregnancy-status-uv-ips.html | | |
+| Social History (Smoking Status) | current-smoking-status-uv-ips | http://hl7.org/fhir/uv/ips/ValueSet-current-smoking-status-uv-ips.html | | |
+| Functional Status | | | | |
+| Plan of Care | | | | |
+| Advance Directives | | | | |
 
 
 
-## Sections
+
+## Sections / Required
 
 ### Medication Summary
 The Medication Summary section is expressed using the [Medication Statement](http://hl7.org/fhir/uv/ips/StructureDefinition-MedicationStatement-uv-ips.html) resource or the [Medication](http://hl7.org/fhir/uv/ips/StructureDefinition-Medication-uv-ips.html) resource as constrained by the IPS IG. You may choose to test with either resource. Use patients P1 and P2 with the Medication Statement and patients P3 and P4 with the Medication resource. See the table below for details.
@@ -60,4 +72,31 @@ Use patients P1, P2 and P3 with the coded values for Condition as listed in the 
 |P1|165002|
 |P2|330007, 368009, 615005, 3544004|
 |P3|Choose any three from the value set, excluding those specified for P1 and P2|
+
+## Sections / Recommended
+
+### Immunizations
+
+### History of Procedures
+
+### Medical Devices
+
+### Diagnostics Results
+
+
+## Sections / Optional
+
+### Vital Signs
+
+### Past History of Illness
+
+### Pregnancy
+
+### Social History
+
+### Functional Status
+
+### Plan of Care
+
+### Advance Directives
 
