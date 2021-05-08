@@ -20,11 +20,11 @@ We have defined value sets for some of the coded values to be used during Connec
  - Publish value sets in central locations to simplify discovery
 
 Code value requirements for test cases are described in the **Sections** area below. The following table is a list of the value sets that are referenced for IPS testing.
-| Concept | Value Set ID | FHIR Server URL | File in GitHub Repository |
-|--|--|--|--|
-|Medication Summary|medication-example-uv-ips|http://cat-nist-tools.ihe-europe.net:6080/hapi-fhir-rw/baseR4/ValueSet/medication-example-uv-ips/_history/1| TBD |
-|Allergies and Intolerances | allergy-intolerance-substance-condition-gps-uv-ips | TBD | TBD |
-|Condition | condition-code | TBD | TBD |
+| Concept | Value Set ID |HL7 Documentation| FHIR Server URL | File in GitHub Repository |
+|--|--|--|--|--|
+|Medication Summary|medication-example-uv-ips|http://hl7.org/fhir/uv/ips/ValueSet-medication-example-uv-ips.html|http://cat-nist-tools.ihe-europe.net:6080/hapi-fhir-rw/baseR4/ValueSet/medication-example-uv-ips/_history/1| TBD |
+|Allergies and Intolerances | allergy-intolerance-substance-condition-gps-uv-ips | http://hl7.org/fhir/uv/ips/ValueSet-allergy-intolerance-substance-condition-gps-uv-ips.html| TBD | TBD |
+|Condition | condition-code |http://hl7.org/fhir/R4/valueset-condition-code.html| TBD | TBD |
 
 
 
