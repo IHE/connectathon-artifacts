@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bundle xmlns='http://hl7.org/fhir' xmlns:xhtml='http://www.w3.org/1999/xhtml'>
+	<id value='eumfh-43-155'/>
+	<identifier>
+		<system value='http://trilliumbridge.eu/fhir/demos/eumfh/ips_id'/>
+		<value value='EUR01P0008'/>
+	</identifier>
+	<type value='document'/>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Composition/eumfh-43-155'/>
+		<resource>
+			<Composition>
+				<id value="eumfh-43-155"/>
+				<status value="final"/>
+				<type>
+					<coding>
+						<system value="http://loinc.org"/>
+						<code value="60591-5"/>
+						<display value="Patient summary Document"/>
+					</coding>
+				</type>
+				<subject>
+					<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-43-155"/>
+					<display value="Charles Merlot (inject 43-155)"/>
+				</subject>
+				<date value="2018-10-10T15:20:29+02:00"/>
+				<author>
+					<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-43-155-1"/>
+					<display value="Marie Pinot (inject 43-155)"/>
+				</author>
+				<title value="Patient Summary of Charles Merlot (inject 43-155)"/>
+				<confidentiality value="N"/>
+				<section>
+					<title value="Allergies and Intolerances"/>
+					<code>
+						<coding>
+							<system value="http://loinc.org"/>
+							<code value="48765-2"/>
+							<display value="Allergies and adverse reactions Document"/>
+						</coding>
+					</code>
+					<text>
+						<status value="generated"/>
+						<xhtml:div>
+							<xhtml:ul>
+								<xhtml:li>No known allergies</xhtml:li>
+							</xhtml:ul>
+						</xhtml:div>
+					</text>
+					<entry>
+						<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/AllergyIntolerance/eumfh-43-155-1"/>
+						<display value="No known allergies"/>
+					</entry>
+				</section>
+				<section>
+					<title value="Active Problems"/>
+					<code>
+						<coding>
+							<system value="http://loinc.org"/>
+							<code value="11450-4"/>
+							<display value="Problem list Reported"/>
+						</coding>
+					</code>
+					<text>
+						<status value="generated"/>
+						<xhtml:div>
+							<xhtml:ul>
+								<xhtml:li>[2013-03-05] - Valve disease</xhtml:li>
+								<xhtml:li>[2008-03-01] - Previous DVT (Venous Femoral Thrombosis)</xhtml:li>
+							</xhtml:ul>
+						</xhtml:div>
+					</text>
+					<entry>
+						<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-43-155-1"/>
+						<display value="[2013-03-05] - Valve disease"/>
+					</entry>
+					<entry>
+						<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-43-155-2"/>
+						<display value="[2008-03-01] - Previous DVT (Venous Femoral Thrombosis)"/>
+					</entry>
+				</section>
+				<section>
+					<title value="Medication"/>
+					<code>
+						<coding>
+							<system value="http://loinc.org"/>
+							<code value="10160-0"/>
+							<display value="Hx of Medication use"/>
+						</coding>
+					</code>
+					<text>
+						<status value="generated"/>
+						<xhtml:div>
+							<xhtml:ul>
+								<xhtml:li>[2018] - Rivaroxaban 20 mg oral tablet</xhtml:li>
+								<xhtml:li>[2018] - furosemide 20 mg oral tablet</xhtml:li>
+							</xhtml:ul>
+						</xhtml:div>
+					</text>
+					<entry>
+						<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/MedicationStatement/eumfh-43-155-1"/>
+						<display value="[2018] - Rivaroxaban 20 mg oral tablet"/>
+					</entry>
+					<entry>
+						<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/MedicationStatement/eumfh-43-155-2"/>
+						<display value="[2018] - furosemide 20 mg oral tablet"/>
+					</entry>
+				</section>
+			</Composition>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/AllergyIntolerance/eumfh-43-155-1'/>
+		<resource>
+			<AllergyIntolerance>
+				<id value="eumfh-43-155-1"/>
+				<clinicalStatus value="active"/>
+				<verificationStatus value="confirmed"/>
+				<code>
+					<coding>
+						<system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+						<code value="no-known-allergies"/>
+						<display value="No known allergies"/>
+					</coding>
+				</code>
+				<patient>
+					<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-43-155"/>
+					<display value="Charles Merlot (inject 43-155)"/>
+				</patient>
+			</AllergyIntolerance>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-43-155-1'/>
+		<resource>
+			<Condition>
+				<id value="eumfh-43-155-1"/>
+				<clinicalStatus value="active"/>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="368009"/>
+						<display value="Heart valve disorder"/>
+					</coding>
+					<text value="Valve disease"/>
+				</code>
+				<subject>
+					<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-43-155"/>
+					<display value="Charles Merlot (inject 43-155)"/>
+				</subject>
+				<onsetDateTime value="2013-03-05"/>
+				<asserter>
+					<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-43-155"/>
+					<display value="Dr. Frank Byrne"/>
+				</asserter>
+			</Condition>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-43-155-2'/>
+		<resource>
+			<Condition>
+				<id value="eumfh-43-155-2"/>
+				<clinicalStatus value="active"/>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="161508001"/>
+						<display value="History of deep vein thrombosis"/>
+					</coding>
+					<text value="Previous DVT (Venous Femoral Thrombosis)"/>
+				</code>
+				<subject>
+					<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-43-155"/>
+					<display value="Charles Merlot (inject 43-155)"/>
+				</subject>
+				<onsetDateTime value="2008-03-01"/>
+				<asserter>
+					<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-43-155"/>
+					<display value="Dr. Frank Byrne"/>
+				</asserter>
+			</Condition>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Medication/eumfh-43-155-1'/>
+		<resource>
+			<Medication>
+				<id value="eumfh-43-155-1"/>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="704474000"/>
+						<display value="rivaroxaban 20 mg oral tablet"/>
+					</coding>
+				</code>
+			</Medication>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Medication/eumfh-43-155-2'/>
+		<resource>
+			<Medication>
+				<id value="eumfh-43-155-2"/>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="317971007"/>
+						<display value="furosemide 20 mg oral tablet"/>
+					</coding>
+				</code>
+			</Medication>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/MedicationStatement/eumfh-43-155-1'/>
+		<resource>
+			<MedicationStatement>
+				<id value="eumfh-43-155-1"/>
+				<status value="active"/>
+				<medicationReference>
+					<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Medication/eumfh-43-155-1"/>
+					<display value="rivaroxaban 20 mg oral tablet"/>
+				</medicationReference>
+				<effectivePeriod>
+					<start value="2018"/>
+				</effectivePeriod>
+				<dateAsserted value="2018-10-01"/>
+				<informationSource>
+					<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-43-155"/>
+					<display value="Charles Merlot (inject 43-155)"/>
+				</informationSource>
+				<subject>
+					<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-43-155"/>
+					<display value="Charles Merlot (inject 43-155)"/>
+				</subject>
+				<taken value="y"/>
+			</MedicationStatement>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/MedicationStatement/eumfh-43-155-2'/>
+		<resource>
+			<MedicationStatement>
+				<id value="eumfh-43-155-2"/>
+				<status value="active"/>
+				<medicationReference>
+					<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Medication/eumfh-43-155-2"/>
+					<display value="furosemide 20 mg oral tablet"/>
+				</medicationReference>
+				<effectivePeriod>
+					<start value="2018"/>
+				</effectivePeriod>
+				<dateAsserted value="2018-10-01"/>
+				<informationSource>
+					<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-43-155"/>
+					<display value="Charles Merlot (inject 43-155)"/>
+				</informationSource>
+				<subject>
+					<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-43-155"/>
+					<display value="Charles Merlot (inject 43-155)"/>
+				</subject>
+				<taken value="y"/>
+			</MedicationStatement>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-43-155'/>
+		<resource>
+			<Patient>
+				<!--Sample XML file generated by XMLSpy v2013 sp1 (http://www.altova.com)-->
+				<id value="eumfh-43-155"/>
+				<meta>
+					<lastUpdated value="2018-10-10T13:51:24+02:00"/>
+				</meta>
+				<extension url="http://hl7.org/fhir/StructureDefinition/patient-citizenship">
+					<extension url="code">
+						<valueCodeableConcept>
+							<coding>
+								<system value="urn:iso:std:iso:3166"/>
+								<code value="FR"/>
+								<display value="France"/>
+							</coding>
+						</valueCodeableConcept>
+					</extension>
+				</extension>
+				<identifier>
+					<system value="http://trilliumbridge.eu/fhir/demos/eumfh/inject"/>
+					<value value="43-155"/>
+				</identifier>
+				<identifier>
+					<system value="http://trilliumbridge.eu/fhir/demos/eumfh/patient_id"/>
+					<value value="EUR01P0008"/>
+				</identifier>
+				<active value="true"/>
+				<name>
+					<family value="Merlot"/>
+					<given value="Charles"/>
+				</name>
+				<gender value="male"/>
+				<birthDate value="1966-04-04"/>
+			</Patient>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-43-155-1'/>
+		<resource>
+			<Practitioner>
+				<id value="eumfh-43-155-1"/>
+				<meta>
+					<lastUpdated value="2018-10-10T13:52:19+02:00"/>
+				</meta>
+				<name>
+					<family value="Pinot"/>
+					<given value="Marie"/>
+					<prefix value="Dr."/>
+				</name>
+			</Practitioner>
+		</resource>
+	</entry>
+</Bundle>
