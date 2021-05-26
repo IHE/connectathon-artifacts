@@ -13,7 +13,7 @@ The table below describes subfolders and origin of the files in the folders. Not
 
 | Subfolder | File Type | Data Origin |
 | --- | ---  | --- |
-| c-cda |  Consolidate CDA | Hand constructed but relies on https://github.com/HL7/C-CDA-Examples |
+| c-cda |  Consolidated CDA | Hand constructed but relies on https://github.com/HL7/C-CDA-Examples |
 | ips-cda | IPS CDA | Hand constructed but relies on Trillium Bridge samples |
 | ips-dstu3 | IPS (DSTU3) | From the Trillium Bridge project |
 | ips-r4 | IPS (R4) | From the Trillium Bridge project |
@@ -36,7 +36,7 @@ The table below lists folders and files for test patients.
 | Chadwick Ross  | ihered-3162-ccd-1          | X |   |   |   |
 | Chadwick Ross  | ihered-3162-procedure-1    | X |   |   |   |
 | Chadwick Ross  | ihered-3162-diag_imaging-1 | X |   |   |   |
-| Annelise Black | bundle-eumfh-70-275-ips    |   |   |   |   |
+| Annelise Black | bundle-eumfh-70-275-ips    |   |   | X |   |
 | Marco Peroni   | bundle-eumfh-70-288-ips    |   | X | X | X |
 | Allen Perot    | bundle-eumfh-70-295-ips    |   |   | X |   |
 
