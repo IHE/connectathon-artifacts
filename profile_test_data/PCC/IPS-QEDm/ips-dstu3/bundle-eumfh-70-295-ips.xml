@@ -1,0 +1,572 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Bundle xmlns='http://hl7.org/fhir' xmlns:xhtml='http://www.w3.org/1999/xhtml' >
+<id value='eumfh-70-295'/>
+<identifier><system value='http://trilliumbridge.eu/fhir/demos/eumfh/ips_id'/><value value='EUR01P0013'></value></identifier>
+<type value='document'/>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Composition/eumfh-70-295"/>'/>
+<resource>
+<Composition>
+  <id value="eumfh-70-295"/>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="60591-5"/>
+      <display value="Patient summary Document"/>
+    </coding>
+  </type>
+  <subject>
+    <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-295"/>
+    <display value="Allen Perot (inject 70-295)"/>
+  </subject>
+  <date value="2018-10-10T16:41:04+02:00"/>
+  <author>
+    <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-70-295-1"/>
+    <display value="Mustafa Sabbagh (inject 70-295)"/>
+  </author>
+  <title value="Patient Summary of Allen Perot (inject 70-295)"/>
+  <confidentiality value="N"/>
+  <section>
+    <title value="Allergies and Intolerances"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="48765-2"/>
+        <display value="Allergies and adverse reactions Document"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <xhtml:div>
+        <xhtml:ul>
+          <xhtml:li>Allergic Rhinitis</xhtml:li>
+        </xhtml:ul>
+      </xhtml:div>
+    </text>
+    <entry>
+      <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/AllergyIntolerance/eumfh-70-295-1"/>
+      <display value="Allergic Rhinitis"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Active Problems"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="11450-4"/>
+        <display value="Problem list Reported"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <xhtml:div>
+        <xhtml:ul>
+          <xhtml:li>[2011-09-27] - Depression</xhtml:li>
+          <xhtml:li>[2014-09-21] - Cardiovascular disease</xhtml:li>
+          <xhtml:li>[2000-08-21] - Eye damage (retinopathy)</xhtml:li>
+          <xhtml:li>[2011-01-02] - Hearing impairment</xhtml:li>
+          <xhtml:li>[2010-08-28] - Diabetes Type 2</xhtml:li>
+        </xhtml:ul>
+      </xhtml:div>
+    </text>
+    <entry>
+      <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-70-295-1"/>
+      <display value="[2011-09-27] - Depression"/>
+    </entry>
+    <entry>
+      <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-70-295-2"/>
+      <display value="[2014-09-21] - Cardiovascular disease"/>
+    </entry>
+    <entry>
+      <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-70-295-3"/>
+      <display value="[2000-08-21] - Eye damage (retinopathy)"/>
+    </entry>
+    <entry>
+      <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-70-295-4"/>
+      <display value="[2011-01-02] - Hearing impairment"/>
+    </entry>
+    <entry>
+      <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-70-295-5"/>
+      <display value="[2010-08-28] - Diabetes Type 2"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Medication"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="10160-0"/>
+        <display value="Hx of Medication use"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <xhtml:div>
+        <xhtml:ul>
+          <xhtml:li>[2018] - Metformin hydrochloride 500 mg oral tablet - 2 tablets per
+          day</xhtml:li>
+          <xhtml:li>[2018] - Canagliflozin 100 mg oral tablet - 1 per day</xhtml:li>
+          <xhtml:li>[2018] - Insulin degludec in parenteral dosage form - 1 injection per
+          day</xhtml:li>
+        </xhtml:ul>
+      </xhtml:div>
+    </text>
+    <entry>
+      <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/MedicationStatement/eumfh-70-295-1"/>
+      <display value="[2018] - Metformin hydrochloride 500 mg oral tablet - 2 tablets per day"/>
+    </entry>
+    <entry>
+      <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/MedicationStatement/eumfh-70-295-2"/>
+      <display value="[2018] - Canagliflozin 100 mg oral tablet - 1 per day"/>
+    </entry>
+    <entry>
+      <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/MedicationStatement/eumfh-70-295-3"/>
+      <display value="[2018] - Insulin degludec in parenteral dosage form - 1 injection per day"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Immunizations"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="11369-6"/>
+        <display value="History of Immunization Narrative"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <xhtml:div>
+        <xhtml:ul>
+          <xhtml:li>[1997-07-07] - Diphtheria + tetanus</xhtml:li>
+          <xhtml:li>[2015-11-08] - Hepatitis B virus vaccine</xhtml:li>
+        </xhtml:ul>
+      </xhtml:div>
+    </text>
+    <entry>
+      <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Immunization/eumfh-70-295-1"/>
+      <display value="Diphtheria + tetanus"/>
+    </entry>
+    <entry>
+      <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Immunization/eumfh-70-295-2"/>
+      <display value="Hepatitis B virus vaccine"/>
+    </entry>
+  </section>
+</Composition>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/AllergyIntolerance/eumfh-70-295-1'/>
+<resource>
+<AllergyIntolerance>
+    <id value="eumfh-70-295-1"/>
+    <clinicalStatus value="active"/>
+    <verificationStatus value="confirmed"/>
+    <type value="allergy"/>
+    <code>
+       <coding><system value="http://snomed.info/sct"/>  <code value="64970000"/>  <display value="Substance type unknown"/></coding> 
+    </code>
+    <patient>
+        <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-295"/>
+        <display value="Allen Perot (inject 70-295)"/>
+    </patient>
+</AllergyIntolerance>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-70-295-1'/>
+<resource>
+<Condition>
+    <id value="eumfh-70-295-1"/>
+    <clinicalStatus value="active"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="35489007"/>
+            <display value="Depression"/>
+        </coding>
+        <text value="Depression"/>
+    </code>
+    <subject>
+        <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-295"/>
+        <display value="Allen Perot (inject 70-295)"/>
+    </subject>
+	<onsetDateTime value="2011-09-27"/>
+	<asserter>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-70-295"/>
+		<display value="Dr. Abigail Williams"/>
+	</asserter>  
+</Condition>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-70-295-2'/>
+<resource>
+<Condition>
+    <id value="eumfh-70-295-2"/>
+    <clinicalStatus value="active"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="49601007"/>
+            <display value="Cardiovascular disorder"/>
+        </coding>
+        <text value="Cardiovascular disease"/>
+    </code>
+    <subject>
+        <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-295"/>
+        <display value="Allen Perot (inject 70-295)"/>
+    </subject>
+	<onsetDateTime value="2014-09-21"/>
+	<asserter>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-70-295"/>
+		<display value="Dr. Abigail Williams"/>
+	</asserter>  
+</Condition>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-70-295-3'/>
+<resource>
+<Condition>
+    <id value="eumfh-70-295-3"/>
+    <clinicalStatus value="active"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="29555009"/>
+            <display value="Retinal disorder"/>
+        </coding>
+        <text value="Eye damage (retinopathy)"/>
+    </code>
+    <subject>
+        <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-295"/>
+        <display value="Allen Perot (inject 70-295)"/>
+    </subject>
+	<onsetDateTime value="2000-08-21"/>
+	<asserter>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-70-295"/>
+		<display value="Dr. Abigail Williams"/>
+	</asserter>  
+</Condition>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-70-295-4'/>
+<resource>
+<Condition>
+    <id value="eumfh-70-295-4"/>
+    <clinicalStatus value="active"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="15188001"/>
+            <display value=" Hearing impairment"/>
+        </coding>
+        <text value="Hearing impairment"/>
+    </code>
+    <subject>
+        <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-295"/>
+        <display value="Allen Perot (inject 70-295)"/>
+    </subject>
+	<onsetDateTime value="2011-01-02"/>
+	<asserter>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-70-295"/>
+		<display value="Dr. Abigail Williams"/>
+	</asserter>  
+</Condition>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-70-295-5'/>
+<resource>
+<Condition>
+    <id value="eumfh-70-295-5"/>
+    <clinicalStatus value="active"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="44054006"/>
+            <display value="Diabetes mellitus type II"/>
+        </coding>
+        <text value="Diabetes Type 2"/>
+    </code>
+    <subject>
+        <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-295"/>
+        <display value="Allen Perot (inject 70-295)"/>
+    </subject>
+	<onsetDateTime value="2010-08-28"/>
+	<asserter>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-70-295"/>
+		<display value="Dr. Abigail Williams"/>
+	</asserter>  
+</Condition>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Immunization/eumfh-70-295-1'/>
+<resource>
+<Immunization>
+	<id value="eumfh-70-295-1"/>
+	<status value="completed"/>
+	<notGiven value="false"/>
+	<vaccineCode>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="350327004"/>
+			<display value="Diphtheria + tetanus vaccine"/>
+		</coding>
+		<text value="Diphtheria + tetanus vaccine"/>
+	</vaccineCode>
+	<patient>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-295"/>
+		<display value="Allen Perot (inject 70-295)"/>
+	</patient>
+	<date value="1997-07-07"/>
+	<primarySource value="true"/>
+</Immunization>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Immunization/eumfh-70-295-2'/>
+<resource>
+<Immunization>
+	<id value="eumfh-70-295-2"/>
+	<status value="completed"/>
+	<notGiven value="false"/>
+	<vaccineCode>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="34689006"/>
+			<display value="Hepatitis B virus vaccine"/>
+		</coding>
+		<text value="Hepatitis B virus vaccine"/>
+	</vaccineCode>
+  <patient>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-295"/>
+		<display value="Allen Perot (inject 70-295)"/>
+	</patient>
+	<date value="2015-11-08"/>
+	<primarySource value="true"/>
+</Immunization>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Medication/eumfh-70-295-1'/>
+<resource>
+<Medication>
+	<id value="eumfh-70-295-1"/>
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="325278007"/>
+			<display value="Metformin hydrochloride 500 mg oral tablet"/>
+		</coding>
+	</code>
+</Medication>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Medication/eumfh-70-295-2'/>
+<resource>
+<Medication>
+	<id value="eumfh-70-295-2"/>
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="703682001"/>
+			<display value="Canagliflozin 100 mg oral tablet"/>
+		</coding>
+		<text value="Invokana 100mg"/>
+	</code>
+</Medication>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Medication/eumfh-70-295-3'/>
+<resource>
+<Medication>
+	<id value="eumfh-70-295-3"/>
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="715775004"/>
+			<display value="Insulin degludec in parenteral dosage form"/>
+		</coding>
+	</code>
+</Medication>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/MedicationStatement/eumfh-70-295-1'/>
+<resource>
+<MedicationStatement>
+	<id value="eumfh-70-295-1"/>
+	<status value="active"/>
+	<medicationReference>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Medication/eumfh-70-295-1"/>
+		<display value="Metformin hydrochloride 500 mg oral tablet"/>
+	</medicationReference>
+	<effectivePeriod>
+		<start value="2018"/>
+	</effectivePeriod>
+	<dateAsserted value="2018-10-01"/>
+	<informationSource>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-295"/>
+		<display value="Allen Perot (inject 70-295)"/>
+	</informationSource>	
+	<subject>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-295"/>
+		<display value="Allen Perot (inject 70-295)"/>
+	</subject>
+	<taken value="y"/>
+	<dosage>
+		<timing>
+			<repeat>
+				<frequency value="2"/>
+				<period value="1"/>
+				<periodUnit value="d"/>
+			</repeat>
+		</timing>
+		<doseQuantity>
+			<value value="1"/>
+			<unit value="tablet"/>
+			<system value="http://unitsofmeasure.org"/>
+			<code value="1{tablet}"/>
+		</doseQuantity>
+	</dosage>
+</MedicationStatement>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/MedicationStatement/eumfh-70-295-2'/>
+<resource>
+<MedicationStatement>
+	<id value="eumfh-70-295-2"/>
+	<status value="active"/>
+	<medicationReference>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Medication/eumfh-70-295-2"/>
+		<display value="Canagliflozin 100 mg oral tablet"/>
+	</medicationReference>
+	<effectivePeriod>
+		<start value="2018"/>
+	</effectivePeriod>
+	<dateAsserted value="2018-10-01"/>
+	<informationSource>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-295"/>
+		<display value="Allen Perot (inject 70-295)"/>
+	</informationSource>	
+	<subject>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-295"/>
+		<display value="Allen Perot (inject 70-295)"/>
+	</subject>
+	<taken value="y"/>
+	<dosage>
+		<timing>
+			<repeat>
+				<frequency value="1"/>
+				<period value="1"/>
+				<periodUnit value="d"/>
+			</repeat>
+		</timing>
+		<doseQuantity>
+			<value value="1"/>
+			<unit value="tablet"/>
+			<system value="http://unitsofmeasure.org"/>
+			<code value="1{tablet}"/>
+		</doseQuantity>
+	</dosage>
+</MedicationStatement>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/MedicationStatement/eumfh-70-295-3'/>
+<resource>
+<MedicationStatement>
+	<id value="eumfh-70-295-3"/>
+	<status value="active"/>
+	<medicationReference>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Medication/eumfh-70-295-3"/>
+		<display value="Insulin degludec in parenteral dosage form"/>
+	</medicationReference>
+	<effectivePeriod>
+		<start value="2018"/>
+	</effectivePeriod>
+	<dateAsserted value="2018-10-01"/>
+	<informationSource>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-295"/>
+		<display value="Allen Perot (inject 70-295)"/>
+	</informationSource>	
+	<subject>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-295"/>
+		<display value="Allen Perot (inject 70-295)"/>
+	</subject>
+	<taken value="y"/>
+	<dosage>
+		<timing>
+			<repeat>
+				<frequency value="1"/>
+				<period value="1"/>
+				<periodUnit value="d"/>
+			</repeat>
+		</timing>
+		<doseQuantity>
+			<value value="1"/>
+			<unit value="injection"/>
+			<system value="http://unitsofmeasure.org"/>
+			<code value="1{injection}"/>
+		</doseQuantity>
+	</dosage>
+</MedicationStatement>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-295'/>
+<resource>
+<Patient>
+<!--Sample XML file generated by XMLSpy v2013 sp1 (http://www.altova.com)-->
+	<id value="eumfh-70-295"/>
+  <meta><lastUpdated value="2018-10-10T13:51:24+02:00"/></meta>
+	<extension url="http://hl7.org/fhir/StructureDefinition/patient-citizenship">
+		<extension url="code">
+		<valueCodeableConcept>
+			<coding>
+				<system value="urn:iso:std:iso:3166"/>
+				<code value="FR"/>
+				<display value="France"/>
+			</coding></valueCodeableConcept>
+		</extension>
+	</extension>
+      	<identifier>
+  		<system value="http://trilliumbridge.eu/fhir/demos/eumfh/inject"/>
+		<value value="70-295"/>
+	</identifier>
+	<identifier>
+		<system value="http://trilliumbridge.eu/fhir/demos/eumfh/patient_id"/>
+		<value value="EUR01P0013"/>
+	</identifier>
+	<active value="true"/>
+	<name>
+		<family value="Perot"/>
+		<given value="Allen"/>
+	</name>
+	<gender value="male"/>
+	<birthDate value="1963-02-18"/>
+</Patient>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-70-295-1'/>
+<resource>
+<Practitioner>
+    <id value="eumfh-70-295-1"/>
+    <meta><lastUpdated value="2018-10-10T13:52:19+02:00"/></meta>
+    <name>
+        <family value="Sabbagh"/>
+        <given value="Mustafa"/>
+        <prefix value="Dr."/>
+    </name>
+</Practitioner>
+</resource>
+</entry>
+</Bundle>

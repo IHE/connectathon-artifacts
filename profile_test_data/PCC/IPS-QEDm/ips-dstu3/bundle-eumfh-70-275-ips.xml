@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bundle xmlns='http://hl7.org/fhir' xmlns:xhtml='http://www.w3.org/1999/xhtml'>
+	<id value='eumfh-70-275'/>
+	<identifier>
+		<system value="http://trilliumbridge.eu/fhir/demos/eumfh/ips_id"/>
+		<value value="EUR01P0002"/>
+	</identifier>
+	<type value='document'/>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Composition/eumfh-70-275'/>
+		<resource>
+			<Composition>
+				<id value="eumfh-70-275"/>
+				<status value="final"/>
+				<type>
+					<coding>
+						<system value="http://loinc.org"/>
+						<code value="60591-5"/>
+						<display value="Patient summary Document"/>
+					</coding>
+				</type>
+				<subject>
+					<reference value="Patient/eumfh-70-275"/>
+					<display value="Annelise Black (inject 70-275)"/>
+				</subject>
+				<date value="2018-07-10T15:22:00+02:00"/>
+				<author>
+					<reference value="Practitioner/eumfh-70-275"/>
+					<display value="Dr. Ted Pepper"/>
+				</author>
+				<title value="Patient Summary - Inject 70-275"/>
+				<confidentiality value="N"/>
+				<section>
+					<title value="Allergies and Intolerances"/>
+					<code>
+						<coding>
+							<system value="http://loinc.org"/>
+							<code value="48765-2"/>
+							<display value="Allergies and adverse reactions Document"/>
+						</coding>
+					</code>
+					<text>
+						<status value="generated"/>
+						<xhtml:div>No Known Allergies</xhtml:div>
+					</text>
+					<entry>
+						<reference value="AllergyIntolerance/eumfh-70-275-1"/>
+					</entry>
+				</section>
+				<section>
+					<title value="Active Problems"/>
+					<code>
+						<coding>
+							<system value="http://loinc.org"/>
+							<code value="11450-4"/>
+							<display value="Problem list Reported"/>
+						</coding>
+					</code>
+					<text>
+						<status value="generated"/>
+						<xhtml:div>
+							<xhtml:ul>
+								<xhtml:li>Previous diagnosis (at age of 12 years) of Personality disorders NOS</xhtml:li>
+								<xhtml:li>Suicide attempt (twice)</xhtml:li>
+								<xhtml:li>Repeated Violent Behaviour</xhtml:li>
+							</xhtml:ul>
+						</xhtml:div>
+					</text>
+					<entry>
+						<reference value="Condition/eumfh-70-275-1"/>
+						<display value="History of attempted suicide"/>
+					</entry>
+					<entry>
+						<reference value="Condition/eumfh-70-275-2"/>
+						<display value="Personality disorder"/>
+					</entry>
+					<entry>
+						<reference value="Condition/eumfh-70-275-3"/>
+						<display value="History of violent behavior toward others"/>
+					</entry>
+				</section>
+				<section>
+					<title value="Medication"/>
+					<code>
+						<coding>
+							<system value="http://loinc.org"/>
+							<code value="10160-0"/>
+							<display value="Hx of Medication use"/>
+						</coding>
+					</code>
+					<text>
+						<status value="generated"/>
+						<xhtml:div>
+							<xhtml:p>Psychotherapy</xhtml:p>
+							<xhtml:table>
+								<xhtml:thead>
+									<xhtml:tr>
+										<xhtml:th>Medication</xhtml:th>
+										<xhtml:th>Dosage</xhtml:th>
+									</xhtml:tr>
+								</xhtml:thead>
+								<xhtml:tbody>
+									<xhtml:tr>
+										<xhtml:td>Chlorpromazine</xhtml:td>
+										<xhtml:td>500 mg/day</xhtml:td>
+									</xhtml:tr>
+									<xhtml:tr>
+										<xhtml:td>Diazepam</xhtml:td>
+										<xhtml:td>10 mg/day</xhtml:td>
+									</xhtml:tr>
+								</xhtml:tbody>
+							</xhtml:table>
+						</xhtml:div>
+					</text>
+					<entry>
+						<reference value="MedicationStatement/eumfh-70-275-2"/>
+						<display value="Chlorpromazine 500 mg/day"/>
+					</entry>
+					<entry>
+						<reference value="MedicationStatement/eumfh-70-275-3"/>
+						<display value="Diazepam 10 mg/day"/>
+					</entry>
+				</section>
+				<section>
+					<title value="Immunizations"/>
+					<code>
+						<coding>
+							<system value="http://loinc.org"/>
+							<code value="11369-6"/>
+							<display value="History of Immunization Narrative"/>
+						</coding>
+					</code>
+					<text>
+						<status value="generated"/>
+						<xhtml:div>
+				[2014 March 12] Diphtheria, tetanus, acellular pertussis, inactivated poliomyelitis, hepatitis B (recombinant) and Haemophilus influenzae type b conjugate vaccine 
+				
+				</xhtml:div>
+					</text>
+					<entry>
+						<reference value="Immunization/eumfh-70-275-1"/>
+						<display value="Diphtheria, tetanus, acellular pertussis, inactivated poliomyelitis, hepatitis B (recombinant) and Haemophilus influenzae type b conjugate vaccine"/>
+					</entry>
+				</section>
+				<section>
+					<title value="Medical Devices"/>
+					<code>
+						<coding>
+							<system value="http://loinc.org"/>
+							<code value="46264-8"/>
+							<display value="History of medical device use"/>
+						</coding>
+					</code>
+					<text>
+						<status value="generated"/>
+						<xhtml:div>No known devices in use	
+				</xhtml:div>
+					</text>
+					<entry>
+						<reference value="DeviceUseStatement/eumfh-70-275-1"/>
+						<display value="No known devices in use"/>
+					</entry>
+				</section>
+				<section>
+					<title value="Pregnancies"/>
+					<code>
+						<coding>
+							<system value="http://loinc.org"/>
+							<code value="10162-6"/>
+							<display value="History of pregnancies Narrative"/>
+						</coding>
+					</code>
+					<text>
+						<status value="generated"/>
+						<xhtml:div>
+				Pregnancy Status: Not Pregnant			
+				</xhtml:div>
+					</text>
+					<entry>
+						<reference value="Observation/eumfh-70-275-1"/>
+						<display value="Pregnancy Status: Not Pregnant"/>
+					</entry>
+				</section>
+			</Composition>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-275'/>
+		<resource>
+			<Patient>
+				<id value="eumfh-70-275"/>
+				<extension url="http://hl7.org/fhir/StructureDefinition/patient-citizenship">
+					<extension url="code">
+						<valueCodeableConcept>
+							<coding>
+								<system value="urn:iso:std:iso:3166"/>
+								<code value="FR"/>
+								<display value="France"/>
+							</coding>
+						</valueCodeableConcept>
+					</extension>
+				</extension>
+				<identifier>
+					<system value="http://trilliumbridge.eu/fhir/demos/eumfh/inject"/>
+					<value value="70-275"/>
+				</identifier>
+				<identifier>
+					<system value="http://trilliumbridge.eu/fhir/demos/eumfh/patient_id"/>
+					<value value="EUR01P0002"/>
+				</identifier>
+				<active value="true"/>
+				<name>
+					<family value="Black"/>
+					<given value="Annelise"/>
+				</name>
+				<gender value="female"/>
+				<birthDate value="1988"/>
+			</Patient>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/AllergyIntolerance/eumfh-70-275-1'/>
+		<resource>
+			<AllergyIntolerance>
+				<id value="eumfh-70-275-1"/>
+				<clinicalStatus value="active"/>
+				<verificationStatus value="confirmed"/>
+				<code>
+					<coding>
+						<system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+						<code value="no-known-allergies"/>
+						<display value="No known allergies"/>
+					</coding>
+				</code>
+				<patient>
+					<reference value="Patient/eumfh-70-275"/>
+					<display value="Annelise Black (inject 70-275)"/>
+				</patient>
+			</AllergyIntolerance>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-70-275-1'/>
+		<resource>
+			<Condition>
+				<id value="eumfh-70-275-1"/>
+				<clinicalStatus value="active"/>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="161474000"/>
+						<display value="History of attempted suicide"/>
+					</coding>
+					<text value="Suicide attempt (twice)"/>
+				</code>
+				<subject>
+					<reference value="Patient/eumfh-70-275"/>
+					<display value="Annelise Black (inject 70-275)"/>
+				</subject>
+			</Condition>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-70-275-2'/>
+		<resource>
+			<Condition>
+				<id value="eumfh-70-275-2"/>
+				<clinicalStatus value="active"/>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="33449004"/>
+						<display value="Personality disorder"/>
+					</coding>
+					<text value="Previous diagnosis (at age of 12 years) of Personality disorders NOS"/>
+				</code>
+				<subject>
+					<reference value="Patient/eumfh-70-275"/>
+					<display value="Annelise Black (inject 70-275)"/>
+				</subject>
+				<onsetDateTime value="2000"/>
+			</Condition>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-70-275-3'/>
+		<resource>
+			<Condition>
+				<id value="eumfh-70-275-3"/>
+				<clinicalStatus value="active"/>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="440234007"/>
+						<display value="History of violent behavior toward others"/>
+					</coding>
+					<text value="Hypercholesterolemia"/>
+				</code>
+				<subject>
+					<reference value="Patient/eumfh-70-275"/>
+					<display value="Annelise Black (inject 70-275)"/>
+				</subject>
+			</Condition>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Device/eumfh-70-275-1'/>
+		<resource>
+			<Device>
+				<id value="eumfh-70-275-1"/>
+				<type>
+					<coding>
+						<system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+						<code value="no-known-devices"/>
+						<display value="No known devices in use"/>
+					</coding>
+				</type>
+				<patient>
+					<reference value="Patient/eumfh-70-275"/>
+					<display value="Annelise Black (inject 70-275)"/>
+				</patient>
+			</Device>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/DeviceUseStatement/eumfh-70-275-1'/>
+		<resource>
+			<DeviceUseStatement>
+				<id value="eumfh-70-275-1"/>
+				<status value="active"/>
+				<subject>
+					<reference value="Patient/eumfh-70-275"/>
+					<display value="Annelise Black (inject 70-275)"/>
+				</subject>
+				<device>
+					<reference value="Device/eumfh-70-275-1"/>
+				</device>
+			</DeviceUseStatement>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Immunization/eumfh-70-275-1'/>
+		<resource>
+			<Immunization>
+				<id value="eumfh-70-275-1"/>
+				<status value="completed"/>
+				<notGiven value="false"/>
+				<vaccineCode>
+					<text value="Diphtheria, tetanus, acellular pertussis, inactivated poliomyelitis, hepatitis B (recombinant) and Haemophilus influenzae type b conjugate vaccine"/>
+				</vaccineCode>
+				<patient>
+					<reference value="Patient/eumfh-70-275"/>
+					<display value="Annelise Black (inject 70-275)"/>
+				</patient>
+				<date value="2014-03-12"/>
+				<primarySource value="false"/>
+			</Immunization>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Medication/eumfh-70-275-2'/>
+		<resource>
+			<Medication>
+				<id value="eumfh-70-275-2"/>
+				<code>
+					<coding>
+						<system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+						<code value="1155465"/>
+						<display value="chlorproMAZINE Pill"/>
+					</coding>
+					<coding>
+						<system value="http://www.whocc.no/atc"/>
+						<code value="N05AA01"/>
+						<display value="chlorpromazine"/>
+					</coding>
+				</code>
+				<ingredient>
+					<itemCodeableConcept>
+						<coding>
+							<system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+							<code value="2403"/>
+							<display value="chlorproMAZINE"/>
+						</coding>
+					</itemCodeableConcept>
+				</ingredient>
+			</Medication>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Medication/eumfh-70-275-3'/>
+		<resource>
+			<Medication>
+				<id value="eumfh-70-275-3"/>
+				<code>
+					<coding>
+						<system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+						<code value="1155861"/>
+						<display value="Diazepam Oral Product"/>
+					</coding>
+					<coding>
+						<system value="http://www.whocc.no/atc"/>
+						<code value="N05BA01"/>
+						<display value="diazepam"/>
+					</coding>
+				</code>
+				<ingredient>
+					<itemCodeableConcept>
+						<coding>
+							<system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+							<code value="3322"/>
+							<display value="Diazepam"/>
+						</coding>
+					</itemCodeableConcept>
+				</ingredient>
+			</Medication>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/MedicationStatement/eumfh-70-275-2'/>
+		<resource>
+			<MedicationStatement>
+				<id value="eumfh-70-275-2"/>
+				<status value="active"/>
+				<medicationReference>
+					<reference value="Medication/eumfh-70-275-2"/>
+					<display value="Chlorpromazine"/>
+				</medicationReference>
+				<effectivePeriod>
+					<start value="2008"/>
+				</effectivePeriod>
+				<subject>
+					<reference value="Patient/eumfh-70-275"/>
+					<display value="Annelise Black (inject 70-275)"/>
+				</subject>
+				<taken value="na"/>
+				<dosage>
+					<text value="500 mg/day"/>
+					<doseQuantity>
+						<value value="500"/>
+						<unit value="mg"/>
+						<system value="http://unitsofmeasure.org"/>
+						<code value="mg"/>
+					</doseQuantity>
+				</dosage>
+			</MedicationStatement>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/MedicationStatement/eumfh-70-275-3'/>
+		<resource>
+			<MedicationStatement>
+				<id value="eumfh-70-275-3"/>
+				<status value="active"/>
+				<medicationReference>
+					<reference value="Medication/eumfh-70-275-3"/>
+					<display value="Diazepam"/>
+				</medicationReference>
+				<effectivePeriod>
+					<start value="2014"/>
+				</effectivePeriod>
+				<subject>
+					<reference value="Patient/eumfh-70-275"/>
+					<display value="Annelise Black (inject 70-275)"/>
+				</subject>
+				<taken value="na"/>
+				<dosage>
+					<text value="10 mg/day"/>
+				</dosage>
+			</MedicationStatement>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Observation/eumfh-70-275-1'/>
+		<resource>
+			<Observation>
+				<id value="eumfh-70-275-1"/>
+				<status value="final"/>
+				<code>
+					<coding>
+						<system value="http://loinc.org"/>
+						<code value="82810-3"/>
+						<display value="Pregnancy status"/>
+					</coding>
+				</code>
+				<subject>
+					<reference value="Patient/eumfh-70-275"/>
+					<display value="Annelise Black (inject 70-275)"/>
+				</subject>
+				<valueBoolean value="false"/>
+			</Observation>
+		</resource>
+	</entry>
+</Bundle>

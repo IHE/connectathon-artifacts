@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Bundle xmlns='http://hl7.org/fhir' xmlns:xhtml='http://www.w3.org/1999/xhtml' >
+<id value='eumfh-70-300-1'/>
+<identifier><system value='http://trilliumbridge.eu/fhir/demos/eumfh/ips_id'/><value value='EUR01P0020'></value></identifier>
+<type value='document'/>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Composition/eumfh-70-300-1'/>
+<resource>
+<Composition>
+	<id value="eumfh-70-300-1"/>
+	<status value="final"/>
+	<type>
+		<coding>
+			<system value="http://loinc.org"/>
+			<code value="60591-5"/>
+			<display value="Patient summary Document"/>
+		</coding>
+	</type>
+	<subject>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-300-1"/>
+		<display value="Mary Gines (inject 70-300-1)"/>
+	</subject>
+	<date value="2018-10-10T16:41:04+02:00"/>
+	<author>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-70-300-1-1"/>
+		<display value="Simone Kraft (inject 70-300-1)"/>
+	</author>
+	<title value="Patient Summary of Mary Gines (inject 70-300-1)"/>
+	<confidentiality value="N"/>
+	<section>
+		<title value="Allergies and Intolerances"/>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="48765-2"/>
+				<display value="Allergies and adverse reactions Document"/>
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<xhtml:div>
+				<xhtml:ul>
+					<xhtml:li>allergy to NSAIDs painkillers</xhtml:li>
+				</xhtml:ul>
+			</xhtml:div>
+		</text>
+		<entry>
+			<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/AllergyIntolerance/eumfh-70-300-1-1"/>
+			<display value="allergy to NSAIDs painkillers"/>
+		</entry>
+	</section>
+	<section>
+		<title value="Active Problems"/>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="11450-4"/>
+				<display value="Problem list Reported"/>
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<xhtml:div>
+				<xhtml:ul>
+					<xhtml:li>[2018-10-08] - No known problems</xhtml:li>
+				</xhtml:ul>
+			</xhtml:div>
+		</text>
+		<entry>
+			<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Condition/eumfh-70-300-1-1"/>
+			<display value="[2018-10-08] - No known problems"/>
+		</entry>
+	</section>
+	<section>
+		<title value="Medication"/>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="10160-0"/>
+				<display value="Hx of Medication use"/>
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<xhtml:div>
+				<xhtml:ul>
+					<xhtml:li>[2018] - No information about medications</xhtml:li>
+				</xhtml:ul>
+			</xhtml:div>
+		</text>
+		<entry>
+			<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/MedicationStatement/eumfh-70-300-1"/>
+			<display value="[2018] - No information about medications"/>
+		</entry>
+	</section>
+	<section>
+		<title value="Immunizations"/>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="11369-6"/>
+				<display value="History of Immunization Narrative"/>
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<xhtml:div>
+				<xhtml:ul>
+					<xhtml:li>[2016-11-25] - Tetanus</xhtml:li>
+				</xhtml:ul>
+			</xhtml:div>
+		</text>
+		<entry>
+			<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Immunization/eumfh-70-300-1-1"/>
+			<display value="Tetanus vaccine"/>
+		</entry>
+	</section>
+</Composition>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/AllergyIntolerance/eumfh-70-300-1-1'/>
+<resource>
+<AllergyIntolerance>
+    <id value="eumfh-70-300-1-1"/>
+    <clinicalStatus value="active"/>
+    <verificationStatus value="confirmed"/>
+    <type value="allergy"/>
+    <code>
+            <text value="NSAIDs painkillers"/>
+    </code>
+    <patient>
+        <reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-300-1"/>
+        <display value="Mary Gines (inject 70-300-1)"/>
+    </patient>
+</AllergyIntolerance>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Immunization/eumfh-70-300-1-1'/>
+<resource>
+<Immunization>
+	<id value="eumfh-70-300-1-1"/>
+	<status value="completed"/>
+	<notGiven value="false"/>
+	<vaccineCode>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="333621002"/>
+			<display value="Tetanus vaccine"/>
+		</coding>
+		<text value="Tetanus vaccine"/>
+	</vaccineCode>
+	<patient>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-300-1"/>
+		<display value="Mary Gines (inject 70-300-1)"/>
+	</patient>
+	<date value="2016-11-25"/>
+	<primarySource value="false"/>
+</Immunization>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/MedicationStatement/eumfh-70-300-1'/>
+<resource>
+<MedicationStatement>
+
+
+	<id value="eumfh-70-300-1"/>
+	<status value="active"/>
+	<medicationCodeableConcept>
+		<coding>
+			<system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+			<code value="no-medication-info"/>
+			<display value="No information about medications"/>
+		</coding>
+	</medicationCodeableConcept>
+	<dateAsserted value="2018-10-01"/>
+	<informationSource>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-300-1"/>
+		<display value="Mary Gines (inject 70-300-1)"/>
+	</informationSource>
+	<subject>
+		<reference value="http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-300-1"/>
+		<display value="Mary Gines (inject 70-300-1)"/>
+	</subject>
+	<taken value="na"/>
+</MedicationStatement>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Patient/eumfh-70-300-1'/>
+<resource>
+<Patient>
+<!--Sample XML file generated by XMLSpy v2013 sp1 (http://www.altova.com)-->
+	<id value="eumfh-70-300-1"/>
+  <meta><lastUpdated value="2018-10-10T13:51:24+02:00"/></meta>
+	<extension url="http://hl7.org/fhir/StructureDefinition/patient-citizenship">
+		<extension url="code">
+		<valueCodeableConcept>
+			<coding>
+				<system value="urn:iso:std:iso:3166"/>
+				<code value="DE"/>
+				<display value="Germany"/>
+			</coding></valueCodeableConcept>
+		</extension>
+	</extension>
+      	<identifier>
+  		<system value="http://trilliumbridge.eu/fhir/demos/eumfh/inject"/>
+		<value value="70-300-1"/>
+	</identifier>
+	<identifier>
+		<system value="http://trilliumbridge.eu/fhir/demos/eumfh/patient_id"/>
+		<value value="EUR01P0020"/>
+	</identifier>
+	<active value="true"/>
+	<name>
+		<family value="Gines"/>
+		<given value="Mary"/>
+	</name>
+	<gender value="female"/>
+	<birthDate value="1963-09-09"/>
+</Patient>
+</resource>
+</entry>
+<entry>
+<fullUrl value='http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-70-300-1-1'/>
+<resource>
+<Practitioner>
+    <id value="eumfh-70-300-1-1"/>
+    <meta><lastUpdated value="2018-10-10T13:52:19+02:00"/></meta>
+    <name>
+        <family value="Kraft"/>
+        <given value="Simone"/>
+        <prefix value="Dr."/>
+    </name>
+</Practitioner>
+</resource>
+</entry>
+</Bundle>
