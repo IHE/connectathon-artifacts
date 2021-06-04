@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="IHE-CAT-PurposeOfUse"/> 
+  <meta> 
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/> 
+  </meta> 
+  <url value="http://connectathon.ihe/ValueSet/PurposeOfUse"/> 
+  <identifier> 
+    <system value="http://connectathon.ihe"/> 
+    <value value="urn:oid:1.3.6.1.4.1.21367.101.301"/> 
+  </identifier>   
+  <version value="IHE-CAT-2021.1"/> 
+  <name value="connectathon.PurposeOfUse"/> 
+  <title value="PurposeOfUse"/> 
+  <status value="active"/> 
+  <experimental value="true"/> 
+  <date value="2021-01-01"/> 
+  <publisher value="IHE International Connectathon Technical Management"/> 
+  <description value="Connectathon - purpose of use at a general level."/> 
+  <purpose value="This value set is published by IHE for Connectathon testing purposes only.  This value set is not intended for use for document sharing in a clincial setting."/> 	
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+      <concept>
+        <code value="TREAT"/>
+        <display value="treatment"/>
+	  </concept>
+	  <concept>
+        <code value="CLINTRCH"/>
+        <display value="clinical trial research"/>
+      </concept>
+      <concept>
+        <code value="BTG"/>
+        <display value="break the glass"/>
+      </concept>
+      <concept>
+        <code value="PUBHLTH"/>
+        <display value="public health"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet> 
