@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="IHE-CAT-confidentialityCode"/> 
+  <meta> 
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/> 
+  </meta> 
+  <url value="http://connectathon.ihe/ValueSet/confidentialityCode"/> 
+  <identifier> 
+    <system value="http://connectathon.ihe"/>    
+    <value value="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f"/> 
+  </identifier>  
+  <version value="IHE-CAT-2021.1"/>  
+  <name value="ebRIM classificationScheme for confidentialityCode"/> 
+  <title value="confidentialityCode"/>  
+  <status value="active"/> 
+  <experimental value="true"/> 
+  <date value="2021-01-01"/> 
+  <publisher value="IHE International Connectathon Technical Management"/> 
+  <description value="This value set contains codes for confidentialityCode used in IHE Connectathon testing of Document Sharing profiles (XD*, XC*, MHD).  For XDS Metadata, see ITI TF-3:4.2.3.  For mapping to FHIR see MHD, Vol 3, Sec 4.5.1"/> 
+  <purpose value="This value set is published by IHE for Connectathon testing purposes only.  This value set is not intended for use for document sharing in a clincial setting."/> 	
+  <compose>	
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"/> 
+      <concept> 
+        <code value="L"/> 
+        <display value="low"/> 
+      </concept>		
+      <concept> 
+        <code value="M"/> 
+        <display value="moderate"/> 
+	    </concept>
+      <concept> 
+        <code value="N"/> 
+        <display value="normal"/> 
+      </concept>					
+      <concept> 
+        <code value="R"/> 
+		    <display value="restricted"/> 
+	    </concept>				
+      <concept> 
+        <code value="U"/> 
+        <display value="unrestricted"/> 
+	    </concept>			
+      <concept> 
+        <code value="V"/> 
+        <display value="very restricted"/> 
+  	  </concept>						
+	  </include>
+  </compose>
+</ValueSet> 

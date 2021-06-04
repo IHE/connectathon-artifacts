@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="IHE-CAT-eventCodeList"/> 
+  <meta> 
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/> 
+  </meta> 
+  <url value="http://connectathon.ihe/ValueSet/eventCodeList"/> 
+  <identifier> 
+    <system value="http://connectathon.ihe"/>    
+    <value value="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4"/> 
+  </identifier>   
+  <version value="IHE-CAT-2021.1"/> 
+  <name value="ebRIM classificationScheme for eventCodeList"/> 
+  <title value="eventCodeList"/> 
+  <status value="active"/> 
+  <experimental value="true"/> 
+  <date value="2021-01-01"/> 
+  <publisher value="IHE International Connectathon Technical Management"/> 
+  <description value="This value set contains codes for eventCodeList used in IHE Connectathon testing of Document Sharing profiles (XD*, XC*, MHD).  For XDS Metadata, see ITI TF-3:4.2.3.  For mapping to FHIR see MHD, Vol 3, Sec 4.5.1."/> 
+  <purpose value="This value set is published by IHE for Connectathon testing purposes only.  This value set is not intended for use for document sharing in a clincial setting."/> 	
+  <compose>	
+    <include>
+      <system value="http://connectathon.ihe"/> 
+      <concept> 
+        <code value="urn:connectathon:bppc:foundational:policy"/> 
+        <display value="Foundational Connectathon Read-Access Policy"/> 
+      </concept>				
+      <concept> 
+        <code value="urn:connectathon:policy:full-access"/> 
+        <display value="FULL ACCESS TO ALL POLICY"/> 
+      </concept>
+      <concept> 
+        <code value="urn:connectathon:policy:deny-access"/> 
+        <display value="DENY ACCESS TO ALL POLICY"/> 
+      </concept>
+      <concept> 
+        <code value="urn:connectathon:policy:deny-access-except-to-provider"/> 
+        <display value="DENY ACCESS EXCEPT TO PROVIDER POLICY"/> 
+      </concept>
+      <concept> 
+        <code value="urn:connectathon:policy:deny-access-to-provider"/> 
+        <display value="DENY ACCESS TO PROVIDER POLICY"/> 
+      </concept>
+      <concept> 
+        <code value="urn:connectathon:policy:deny-access-except-to-facility"/> 
+        <display value="DENY ACCESS EXCEPT TO FACILITY POLICY"/> 
+      </concept>
+      <concept> 
+        <code value="urn:connectathon:policy:deny-access-to-role"/> 
+        <display value="DENY ACCESS TO ROLE POLICY"/> 
+      </concept>
+      <concept> 
+        <code value="urn:connectathon:policy:full-access-to-role"/> 
+        <display value="FULL ACCESS TO ROLE POLICY"/> 
+      </concept>
+      <concept> 
+        <code value="1.3.6.1.4.1.21367.2017.7.104"/> 
+        <display value="Limit-document-visibility Policy"/> 
+      </concept>
+      <concept> 
+        <code value="1.3.6.1.4.1.21367.2017.7.106"/> 
+        <display value="OPT-OUT"/> 
+      </concept>
+      <concept> 
+        <code value="1.3.6.1.4.1.21367.2017.7.108"/> 
+        <display value="OPT-IN"/> 
+      </concept>
+      <concept> 
+        <code value="MPQ-eventcode-1"/> 
+        <display value="MPQ-eventcode-1"/> 
+      </concept>    
+      <concept> 
+        <code value="MPQ-eventcode-2"/> 
+        <display value="MPQ-eventcode-2"/> 
+      </concept> 
+    </include>
+    <include>
+      <system value="urn:oid:1.3.6.1.4.1.19376.1.2.3"/> 
+      <concept> 
+        <code value="urn:ihe:iti:xdw:2011:eventCode:open"/> 
+        <display value="Open Workflow"/> 
+      </concept>				
+      <concept> 
+        <code value="urn:ihe:iti:xdw:2011:eventCode:closed"/> 
+        <display value="Closed Workflow"/> 
+      </concept>	
+    </include>
+    <include>
+      <!-- for Digital Signature (DSG). Subset of ITI TF-3: Table 5.4.6.1-1-->	
+      <system value="urn:oid:1.2.840.10065.12"/> 
+      <concept> 
+        <code value="1.2.840.10065.1.12.1.1"/> 
+        <display value="Author's Signature"/> 
+      </concept>				
+      <concept> 
+        <code value="1.2.840.10065.1.12.1.4"/> 
+        <display value="Transcriptionist/Recorder Signature"/> 
+      </concept>	
+      <concept> 
+        <code value="1.2.840.10065.1.12.1.5"/> 
+        <display value="Verification Signature"/> 
+      </concept>	
+      <concept> 
+        <code value="1.2.840.10065.1.12.1.7"/> 
+        <display value="Consent Signature"/> 
+      </concept>	
+      <concept> 
+        <code value="1.2.840.10065.1.12.1.8"/> 
+        <display value="Signature Witness Signature"/> 
+      </concept>	
+      <concept> 
+        <code value="1.2.840.10065.1.12.1.12"/> 
+        <display value="Interpreter Signature"/> 
+      </concept>	
+      <concept> 
+        <code value="1.2.840.10065.1.12.1.16"/> 
+        <display value="Modification Signature"/> 
+      </concept>	
+      <concept> 
+        <code value="1.2.840.10065.1.12.1.17"/> 
+        <display value="Administrative (Error/Edit) Signature"/> 
+      </concept>	
+      <concept> 
+        <code value="1.2.840.10065.1.12.1.18"/> 
+        <display value="Timestamp Signature"/> 
+      </concept>
+    </include>
+    <include>
+        <!-- from DICOM CID 29 Acquisition Modality -->	
+        <system value="http://dicom.nema.org/resources/ontology/DCM"/>
+            <concept>
+                <code value="BMD"/>
+                <display value="Bone Mineral Densitometry"/>
+            </concept>
+            <concept>
+                <code value="EOG"/>
+                <display value="Electrooculography"/>
+            </concept>
+            <concept>
+                <code value="SM"/>
+                <display value="Slide Microscopy"/>
+            </concept>
+            <concept>
+                <code value="OP"/>
+                <display value="Ophthalmic Photography"/>
+            </concept>
+            <concept>
+                <code value="ECG"/>
+                <display value="Electrocardiography"/>
+            </concept>
+            <concept>
+                <code value="GM"/>
+                <display value="General Microscopy"/>
+            </concept>
+            <concept>
+                <code value="XA"/>
+                <display value="X-Ray Angiography"/>
+            </concept>
+            <concept>
+                <code value="XC"/>
+                <display value="External-camera Photography"/>
+            </concept>
+            <concept>
+                <code value="DMS"/>
+                <display value="Dermoscopy"/>
+            </concept>
+            <concept>
+                <code value="IVUS"/>
+                <display value="Intravascular Ultrasound"/>
+            </concept>
+            <concept>
+                <code value="CR"/>
+                <display value="Computed Radiography"/>
+            </concept>
+            <concept>
+                <code value="CT"/>
+                <display value="Computed Tomography"/>
+            </concept>
+            <concept>
+                <code value="OSS"/>
+                <display value="Optical Surface Scanner"/>
+            </concept>
+            <concept>
+                <code value="TG"/>
+                <display value="Thermography"/>
+            </concept>
+            <concept>
+                <code value="LEN"/>
+                <display value="Lensometry"/>
+            </concept>
+            <concept>
+                <code value="OPTENF"/>
+                <display value="Ophthalmic Tomography En Face"/>
+            </concept>
+            <concept>
+                <code value="HD"/>
+                <display value="Hemodynamic Waveform"/>
+            </concept>
+            <concept>
+                <code value="OCT"/>
+                <display value="Optical Coherence Tomography"/>
+            </concept>
+            <concept>
+                <code value="BDUS"/>
+                <display value="Ultrasound Bone Densitometry"/>
+            </concept>
+            <concept>
+                <code value="DG"/>
+                <display value="Diaphanography"/>
+            </concept>
+            <concept>
+                <code value="PT"/>
+                <display value="Positron emission tomography"/>
+            </concept>
+            <concept>
+                <code value="EPS"/>
+                <display value="Cardiac Electrophysiology"/>
+            </concept>
+            <concept>
+                <code value="LS"/>
+                <display value="Laser Scan"/>
+            </concept>
+            <concept>
+                <code value="PX"/>
+                <display value="Panoramic X-Ray"/>
+            </concept>
+            <concept>
+                <code value="OPM"/>
+                <display value="Ophthalmic Mapping"/>
+            </concept>
+            <concept>
+                <code value="OPTBSV"/>
+                <display value="Ophthalmic Tomography B-scan Volume Analysis"/>
+            </concept>
+            <concept>
+                <code value="OPV"/>
+                <display value="Ophthalmic Visual Field"/>
+            </concept>
+            <concept>
+                <code value="DX"/>
+                <display value="Digital Radiography"/>
+            </concept>
+            <concept>
+                <code value="OPT"/>
+                <display value="Ophthalmic Tomography"/>
+            </concept>
+            <concept>
+                <code value="MG"/>
+                <display value="Mammography"/>
+            </concept>
+            <concept>
+                <code value="US"/>
+                <display value="Ultrasound"/>
+            </concept>
+            <concept>
+                <code value="EMG"/>
+                <display value="Electromyography"/>
+            </concept>
+            <concept>
+                <code value="IVOCT"/>
+                <display value="Intravascular Optical Coherence Tomography"/>
+            </concept>
+            <concept>
+                <code value="MR"/>
+                <display value="Magnetic Resonance"/>
+            </concept>
+            <concept>
+                <code value="IO"/>
+                <display value="Intra-oral Radiography"/>
+            </concept>
+            <concept>
+                <code value="EEG"/>
+                <display value="Electroencephalography"/>
+            </concept>
+            <concept>
+                <code value="RTIMAGE"/>
+                <display value="RT Image"/>
+            </concept>
+            <concept>
+                <code value="VA"/>
+                <display value="Visual Acuity"/>
+            </concept>
+            <concept>
+                <code value="RESP"/>
+                <display value="Respiratory Waveform"/>
+            </concept>
+            <concept>
+                <code value="ES"/>
+                <display value="Endoscopy"/>
+            </concept>
+            <concept>
+                <code value="AR"/>
+                <display value="Autorefraction"/>
+            </concept>
+            <concept>
+                <code value="POS"/>
+                <display value="Position Sensor"/>
+            </concept>
+            <concept>
+                <code value="RG"/>
+                <display value="Radiographic imaging"/>
+            </concept>
+            <concept>
+                <code value="RF"/>
+                <display value="Radiofluoroscopy"/>
+            </concept>
+            <concept>
+                <code value="KER"/>
+                <display value="Keratometry"/>
+            </concept>
+            <concept>
+                <code value="OAM"/>
+                <display value="Ophthalmic Axial Measurements"/>
+            </concept>
+            <concept>
+                <code value="NM"/>
+                <display value="Nuclear Medicine"/>
+            </concept>
+            <concept>
+                <code value="BI"/>
+                <display value="Biomagnetic Imaging"/>
+            </concept>
+            <concept>
+                <code value="SRF"/>
+                <display value="Subjective Refraction"/>
+            </concept>
+            <concept>
+                <code value="113681"/>
+                <display value="Phantom"/>
+            </concept>
+        </include>
+        <include>
+      <!-- from DICOM CID 4 Anatomic Region -->	
+          <system value="http://snomed.info/sct"/>
+            <concept>
+                <code value="T-D4000"/>
+                <display value="Abdomen"/>
+            </concept> 
+            <concept>
+                <code value="T-A0100"/>
+                <display value="Brain"/>
+            </concept>      
+            <concept>
+                <code value="T-04000"/>
+                <display value="Breast"/>
+            </concept>  
+                <concept>
+                <code value="T-D3000"/>
+                <display value="Chest"/>
+            </concept>  
+                <concept>
+                <code value="R-FAB55"/>
+                <display value="Chest and Abdomen"/>
+            </concept>  
+            <concept>
+                <code value="T-59300"/>
+                <display value="Colon"/>
+             </concept> 
+             <concept>
+                <code value="T-43000"/>
+                <display value="Coronary artery"/>
+             </concept> 
+             <concept>
+                <code value="T-D0010"/>
+                <display value="Entire body"/>
+             </concept> 
+             <concept>
+                <code value="T-AA000"/>
+                <display value="Eye"/>
+             </concept> 
+             <concept>
+                <code value="T-11196"/>
+                <display value="Facial bones"/>
+             </concept> 
+             <concept>
+                <code value="T-D8800"/>
+                <display value="Finger"/>
+             </concept> 
+             <concept>
+                <code value="T-D9700"/>
+                <display value="Foot"/>
+             </concept> 
+             <concept>
+                <code value="T-D8700"/>
+                <display value="Hand"/>
+             </concept> 
+             <concept>
+                <code value="T-D1100"/>
+                <display value="Head"/>
+             </concept> 
+             <concept>
+                <code value="T-D1000"/>
+                <display value="Head and Neck"/>
+             </concept> 
+             <concept>
+                <code value="T-32000"/>
+                <display value="Heart"/>
+             </concept> 
+             <concept>
+                <code value="T-15001"/>
+                <display value="Joint"/>
+             </concept> 
+             <concept>
+                <code value="T-71000"/>
+                <display value="Kidney"/>
+             </concept> 
+             <concept>
+                <code value="T-62000"/>
+                <display value="Liver"/>
+             </concept> 
+             <concept>
+                <code value="T-D9000"/>
+                <display value="Lower limb"/>
+             </concept> 
+             <concept>
+                <code value="T-D1600"/>
+                <display value="Neck"/>
+             </concept> 
+             <concept>
+                <code value="R-FAB54"/>
+                <display value="Neck, Chest, Abdomen and Pelvis"/>
+             </concept> 
+             <concept>
+                <code value="T-D6000"/>
+                <display value="Pelvis"/>
+             </concept> 
+             <concept>
+                <code value="R-FAB58"/>
+                <display value="Pelvis and lower extremities"/>
+             </concept> 
+             <concept>
+                <code value="T-11100"/>
+                <display value="Skull"/>
+             </concept> 
+             <concept>
+                <code value="T-58000"/>
+                <display value="Small intestine"/>
+             </concept> 
+             <concept>
+                <code value="T-D04FF"/>
+                <display value="Spine"/>
+             </concept> 
+             <concept>
+                <code value="T-D9800"/>
+                <display value="Toe"/>
+             </concept> 
+             <concept>
+                <code value="T-25000"/>
+                <display value="Trachea"/>
+             </concept> 
+             <concept>
+                <code value="T-D8000"/>
+                <display value="Upper limb"/>
+             </concept> 
+             <concept>
+                <code value="T-83000"/>
+                <display value="Uterus"/>
+             </concept> 
+          </include>
+  </compose>
+</ValueSet> 

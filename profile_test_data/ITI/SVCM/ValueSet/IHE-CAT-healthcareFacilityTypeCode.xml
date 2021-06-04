@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="IHE-CAT-healthcareFacilityTypeCode"/> 
+  <meta> 
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/> 
+  </meta> 
+  <url value="http://connectathon.ihe/ValueSet/healthcareFacilityTypeCode"/> 
+  <identifier> 
+    <system value="http://connectathon.ihe"/>    
+    <value value="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1"/> 
+  </identifier>  
+  <version value="IHE-CAT-2021.1"/>   
+  <name value="ebRIM classificationScheme for healthcareFacilityTypeCode"/> 
+  <title value="healthcareFacilityTypeCode"/> 
+  <status value="active"/> 
+  <experimental value="true"/> 
+  <date value="2021-01-01"/> 
+  <publisher value="IHE International Connectathon Technical Management"/>  
+  <description value="This value set contains codes for healthcareFacilityTypeCode used in IHE Connectathon testing of Document Sharing profiles (XD*, XC*, MHD).  For XDS Metadata, see ITI TF-3:4.2.3.  For mapping to FHIR see MHD, Vol 3, Sec 4.5.1"/> 
+  <purpose value="This value set is published by IHE for Connectathon testing purposes only.  This value set is not intended for use for document sharing in a clincial setting."/> 	
+  <compose>	
+    <include>
+      <system value="http://snomed.info/sct"/> 
+      <concept> 
+        <code value="225728007"/> 
+        <display value="Accident and Emergency department"/> 
+      </concept>		
+      <concept> 
+        <code value="394747008"/> 
+        <display value="Health Authority"/> 
+	  </concept>
+      <concept> 
+        <code value="66280005"/> 
+        <display value="Private home-based care"/> 
+      </concept>					
+      <concept> 
+        <code value="22232009"/> 
+		    <display value="Hospital"/> 
+	  </concept>				
+      <concept> 
+        <code value="42665001"/> 
+        <display value="Nursing home"/> 
+	  </concept>			
+      <concept> 
+        <code value="264372000"/> 
+        <display value="Pharmacy"/> 
+  	  </concept>						
+      <concept> 
+        <code value="35971002"/> 
+        <display value="Ambulatory care site"/> 
+	  </concept>			
+      <concept> 
+        <code value="44860005"/> 
+        <display value="Free-standing rehabilitation clinic"/> 
+ 	  </concept>
+      <concept> 
+        <code value="419955002"/> 
+        <display value="Residential institution"/> 
+	  </concept>
+	</include>
+    <include>		
+      <system value="http://connectathon.ihe"/> 
+      <concept> 
+        <code value="MPQ-hcftcode-1"/> 
+        <display value="MPQ Healthcare Facility Code 1"/> 
+	  </concept>		
+      <concept> 
+        <code value="MPQ-hcftcode-2"/> 
+        <display value="MPQ Healthcare Facility Code 2"/> 
+	  </concept>			
+	</include>		
+   </compose>
+</ValueSet> 

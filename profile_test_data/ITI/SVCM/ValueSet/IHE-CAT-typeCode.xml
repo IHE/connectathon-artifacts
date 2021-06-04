@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="IHE-CAT-typeCode"/> 
+  <meta> 
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/> 
+  </meta> 
+  <url value="http://connectathon.ihe/ValueSet/typeCode"/> 
+  <identifier> 
+    <system value="http://connectathon.ihe"/>    
+    <value value="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983"/> 
+  </identifier>  
+  <version value="IHE-NACAT-2021.1"/> 
+  <name value="ebRIM classificationScheme for typeCode"/> 
+  <title value="typeCode"/> 
+  <status value="active"/> 
+  <experimental value="true"/> 
+  <date value="2021-01-01"/> 
+  <publisher value="IHE International Connectathon Technical Management"/>  
+  <description value="This value set contains codes for typeCode used in IHE Connectathon testing of Document Sharing profiles.  For XDS Metadata, see ITI TF-3:4.2.3.  For mapping to FHIR see MHD, Vol 3, Sec 4.5.1."/> 
+  <purpose value="This value set is published by IHE for Connectathon testing purposes only.  This value set is not intended for use for document sharing in a clincial setting."/> 	
+  <compose>	
+	<include>
+      <system value="http://loinc.org"/> 
+      <concept> 
+        <code value="57055-6"/> 
+        <display value="Antepartum summary"/> 
+      </concept>			
+      <concept> 
+        <code value="72134-0"/> 
+        <display value="Cancer Event Report"/> 
+	    </concept>
+      <concept> 
+        <code value="11488-4"/> 
+        <display value="Consultation Note"/> 
+      </concept>
+      <concept> 
+        <code value="34755-9"/> 
+        <display value="Critical care medicine Transfer summary note"/> 
+      </concept>
+      <concept> 
+        <code value="42274-1"/> 
+        <display value="CT Abd+Pelvis WO+W contr IV"/> 
+      </concept>
+      <concept> 
+        <code value="72554-6"/> 
+        <display value="CT Chest+Abd+Pelvis W contr IV"/> 
+      </concept>
+      <concept> 
+        <code value="18748-4"/> 
+        <display value="Diagnostic imaging study"/> 
+      </concept>
+      <concept> 
+        <code value="18842-5"/> 
+        <display value="Discharge summary"/> 
+      </concept>
+      <concept> 
+        <code value="34895-3"/> 
+        <display value="Education Note"/> 
+      </concept>
+      <concept> 
+        <code value="54094-8"/> 
+        <display value="Emergency department Triage note"/> 
+      </concept>
+      <concept> 
+        <code value="34117-2"/> 
+        <display value="History and physical note"/> 
+      </concept>
+      <concept> 
+        <code value="11369-6"/> 
+        <display value="Immunization"/> 
+      </concept>
+      <concept> 
+        <code value="57056-4"/> 
+        <display value="Labor and Delivery admission history and physical"/> 
+      </concept>
+      <concept> 
+        <code value="57057-2"/> 
+        <display value="Labor and delivery summary note"/> 
+      </concept>
+      <concept> 
+        <code value="11502-2"/> 
+        <display value="Laboratory report.total"/> 
+      </concept>
+      <concept> 
+        <code value="26436-6"/> 
+        <display value="Laboratory Studies"/> 
+      </concept>
+      <concept> 
+        <code value="57058-0"/> 
+        <display value="Maternal Discharge Summary"/>
+      </concept>
+      <concept> 
+        <code value="60593-1"/> 
+        <display value="Medication dispensed.extended Document"/>
+      </concept>
+      <concept> 
+        <code value="61356-2"/> 
+        <display value="Medication pharmaceutical advice.extended Document"/>
+      </concept>
+      <concept> 
+        <code value="57053-1"/> 
+        <display value="Nurse Emergency department Note"/>
+      </concept>
+      <concept> 
+        <code value="57054-9"/> 
+        <display value="Nurse Emergency department Triage+care note"/>
+      </concept>
+      <concept> 
+        <code value="28651-8"/> 
+        <display value="Nurse Transfer note"/>
+      </concept>
+      <concept>
+        <code value="52521-2"/> 
+        <display value="Overall Plan of Care/Advance Care Directives"/>
+      </concept>
+      <concept> 
+        <code value="60568-3"/> 
+        <display value="Pathology Synoptic Report"/>
+      </concept>
+      <concept> 
+        <code value="28568-4"/> 
+        <display value="Physician Emergency department Note"/>
+      </concept>
+      <concept> 
+        <code value="56447-6"/> 
+        <display value="Plan of Care Note"/>
+      </concept>
+      <concept> 
+        <code value="57059-8"/> 
+        <display value="Pregnancy visit summary note Narrative"/>
+      </concept>
+      <concept> 
+        <code value="57833-6"/> 
+        <display value="Prescription for medication Document"/>
+      </concept>
+      <concept> 
+        <code value="57016-8"/> 
+        <display value="Privacy Policy Acknowledgement Document"/>
+      </concept>
+      <concept> 
+        <code value="57017-6"/> 
+        <display value="Privacy policy Organization Document"/>
+      </concept>
+      <concept> 
+        <code value="11506-3"/> 
+        <display value="Progress note"/>
+      </concept>
+      <concept> 
+        <code value="28570-0"/> 
+        <display value="Provider-unspecified Procedure note"/>
+      </concept>
+      <concept> 
+        <code value="18761-7"/> 
+        <display value="Provider-unspecified Transfer summary"/>
+      </concept>
+      <concept> 
+        <code value="11528-7"/> 
+        <display value="Radiology Report"/>
+      </concept>
+      <concept> 
+        <code value="57133-1"/> 
+        <display value="Referral note"/>
+      </concept>
+      <concept> 
+        <code value="34133-9"/> 
+        <display value="Summary of episode note"/>
+      </concept>
+      <concept> 
+        <code value="11504-8"/> 
+        <display value="Surgical Operation Note"/>
+      </concept>
+      <concept> 
+        <code value="68998-4"/> 
+        <display value="U.S. standard certificate of live birth - 2003 revision"/>
+      </concept>
+      <concept> 
+        <code value="69045-3"/> 
+        <display value="U.S. standard report of fetal death - 2003 revision"/>
+      </concept>
+      <concept> 
+        <code value="36643-5"/> 
+        <display value="XR Chest 2V"/>
+      </concept>
+    </include> 
+	 <include>
+    <system value="urn:oid:1.2.840.10065"/> 
+      <concept> 
+        <code value="E1762"/> 
+        <display value="Full Document"/>
+      </concept>
+   </include> 
+	 <include>
+      <system value="http://connectathon.ihe"/> 
+      <concept> 
+        <code value="XX-Document"/> 
+        <display value="Unspecified Document Type. Use If Nothing Else Fits"/>
+      </concept>
+      <concept> 
+        <code value="XBeR-WD"/> 
+        <display value="XBeR-WD Type Code"/>
+      </concept>
+    </include>	
+  </compose>
+</ValueSet> 

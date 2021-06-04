@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="IHE-CAT-associationDocumentation"/> 
+  <meta> 
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/> 
+  </meta> 
+  <url value="http://connectathon.ihe/ValueSet/associationDocumentation"/> 
+  <identifier> 
+    <system value="http://connectathon.ihe"/>    
+    <value value="urn:uuid:abd807a3-4432-4053-87b4-fd82c643d1f3"/> 
+  </identifier>  
+  <version value="IHE-CAT-2021.1"/>   
+  <name value="ebRIM classificationScheme for associationDocumentation"/> 
+  <title value="associationDocumentation"/>  
+  <status value="active"/> 
+  <experimental value="true"/> 
+  <date value="2021-01-01"/> 
+  <publisher value="IHE International Connectathon Technical Management"/> 
+  <description value="This value set contains codes for associationDocumentation used in IHE Connectathon testing of Document Sharing profiles (XD*, XC*, MHD).  For XDS Metadata, see ITI TF-3:4.2.3.  For mapping to FHIR see MHD, Vol 3, Sec 4.5.1."/> 
+  <purpose value="This value set is published by IHE for Connectathon testing purposes only.  This value set is not intended for use for document sharing in a clincial setting."/> 	
+  <compose>	
+    <include>
+      <system value="http://connectathon.ihe"/> 
+      <concept> 
+        <code value="Additional_Information"/> 
+        <display value="Additional Information"/> 
+      </concept>		
+      <concept> 
+        <code value="Corrected_Information"/> 
+        <display value="Corrected Information"/> 
+      </concept>					
+	  </include>
+  </compose>
+</ValueSet> 

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="IHE-CAT-mimeType"/> 
+  <meta> 
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/> 
+  </meta> 
+  <url value="http://connectathon.ihe/ValueSet/mimeType"/> 
+  <identifier> 
+    <system value="http://connectathon.ihe"/>    
+    <value value="urn:uuid:1.3.6.1.4.1.21367.101.901"/> 
+  </identifier>  
+  <version value="IHE-CAT-2021.1"/> 
+  <name value="IHE Connectathon Document Sharing mimeType value set"/>  
+  <title value="mimeType"/>  
+  <status value="active"/> 
+  <experimental value="true"/> 
+  <date value="2021-01-01"/> 
+  <publisher value="IHE International Connectathon Technical Management"/>  
+  <description value="This value set contains codes for mimeType used in IHE Connectathon testing of Document Sharing profiles.  For XDS Metadata, see ITI TF-3:4.2.3.  For mapping to FHIR see MHD, Vol 3, Sec 4.5.1"/> 
+  <purpose value="This value set is published by IHE for Connectathon testing purposes only.  This value set is not intended for use for document sharing in a clincial setting."/> 	
+  <compose>	
+    <include>
+      <system value="urn:ietf:bcp:13"/> 
+      <concept> 
+        <code value="application/pdf"/> 
+        <display value="pdf"/> 
+      </concept>		
+      <concept> 
+        <code value="text/xml"/> 
+        <display value="xml"/> 
+	    </concept>
+      <concept> 
+        <code value="application/x-hl7"/> 
+        <display value="hl7"/> 
+      </concept>					
+      <concept> 
+        <code value="application/dicom"/> 
+		    <display value="dicom"/> 
+	    </concept>				
+      <concept> 
+        <code value="text/plain"/> 
+        <display value="txt"/> 
+	    </concept>			
+      <concept> 
+        <code value="multipart/related"/> 
+        <display value="mpr"/> 
+  	  </concept>						
+      <concept> 
+        <code value="image/tiff"/> 
+        <display value="tiff"/> 
+      </concept>		
+      <concept> 
+        <code value="image/jpeg"/> 
+        <display value="jpeg"/> 
+      </concept>		
+      <concept> 
+        <code value="image/gif"/> 
+        <display value="gif"/> 
+      </concept>		
+    </include>
+    <include>
+      <system value="http://connectathon.ihe"/> 
+      <concept> 
+        <code value="text/goofy"/> 
+        <display value="gfy"/> 
+        </concept>
+      </include>
+  </compose>
+</ValueSet> 

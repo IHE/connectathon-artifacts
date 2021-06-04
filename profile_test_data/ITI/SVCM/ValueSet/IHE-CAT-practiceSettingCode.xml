@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="IHE-CAT-practiceSettingCode"/> 
+  <meta> 
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/> 
+  </meta> 
+  <url value="http://connectathon.ihe/ValueSet/practiceSettingCode"/> 
+  <identifier> 
+    <system value="http://connectathon.ihe"/>    
+    <value value="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead"/> 
+  </identifier>  
+  <version value="IHE-CAT-2021.1"/>   
+  <name value="ebRIM classificationScheme for practiceSettingCode"/> 
+  <title value="practiceSettingCode"/>    
+  <status value="active"/> 
+  <experimental value="true"/> 
+  <date value="2021-01-01"/> 
+  <publisher value="IHE International Connectathon Technical Management"/> 
+  <description value="This value set contains codes for practiceSettingCode used in IHE Connectathon testing of Document Sharing profiles (XD*, XC*, MHD).  For XDS Metadata, see ITI TF-3:4.2.3.  For mapping to FHIR see MHD, Vol 3, Sec 4.5.1."/> 
+  <purpose value="This value set is published by IHE for Connectathon testing purposes only.  This value set is not intended for use for document sharing in a clincial setting."/> 	
+  <compose>	
+    <include>
+      <system value="http://snomed.info/sct"/> 
+      <concept> 
+        <code value="R-300E3"/> 
+        <display value="Accident and Emergency"/> 
+      </concept>		
+      <concept> 
+        <code value="R-20348"/> 
+        <display value="Cardiology"/> 
+      </concept>
+      <concept> 
+        <code value="R-30254"/> 
+        <display value="General Medicine"/> 
+		  </concept>					
+      <concept> 
+        <code value="R-30263"/> 
+        <display value="Obstetrics and Gynecology"/> 
+      </concept>				
+      <concept> 
+        <code value="R-3025C"/> 
+        <display value="Ophthalmology"/> 
+	    </concept>					
+      <concept> 
+        <code value="R-3026B"/> 
+        <display value="Pathology"/> 
+		  </concept>			
+      <concept> 
+        <code value="R-3027B"/> 
+        <display value="Radiology"/> 
+      </concept>	
+    </include>
+    <include>		
+      <system value="http://connectathon.ihe"/> 
+      <concept> 
+        <code value="Practice-C"/> 
+        <display value="Laboratory"/> 
+		  </concept>
+      <concept> 
+        <code value="Practice-F"/> 
+        <display value="Family Practice"/> 
+	  	</concept>						
+      <concept> 
+        <code value="Practice-J"/> 
+        <display value="Home"/> 
+	  	</concept>			
+      <concept> 
+        <code value="Practice-K"/> 
+        <display value="Pharmacy"/> 
+	  	</concept>			
+      <concept> 
+        <code value="Practice-L"/> 
+        <display value="Other"/> 
+	  	</concept>
+		  <concept> 
+        <code value="Practice-A"/> 
+        <display value="Cardiology-Old"/> 
+      </concept>		
+      <concept> 
+        <code value="Practice-B"/> 
+        <display value="Radiology-Old"/> 
+	  	</concept>			
+      <concept> 
+        <code value="Practice-D"/> 
+        <display value="Pathology-Old"/> 
+		  </concept>
+      <concept> 
+        <code value="Practice-E"/> 
+        <display value="Ophthalmology-Old"/> 
+		  </concept>		
+      <concept> 
+        <code value="Practice-G"/> 
+        <display value="General Medicine-Old"/> 
+	  	</concept>
+	  </include>			
+  </compose>
+</ValueSet> 
