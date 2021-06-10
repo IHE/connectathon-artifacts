@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="cm-IHE-CAT-administrative-gender-v2"/> 
+  <url value="http://connectathon.ihe/ConceptMap/IHE-CAT-cm-administrative-gender-v2"/> 
+  <version value="IHE-CAT-2021.1"/> 
+  <name value="IHE-CAT-v2.AdministrativeGender"/> 
+  <title value="IHE-CAT-v2 map for AdministrativeGender"/> 
+  <status value="draft"/> 
+  <date value="2021-01-01"/> 
+  <publisher value="IHE International Connectathon Technical Management"/> 
+  <description value="Mapping from ValueSet http://hl7.org/fhir/ValueSet/administrative-gender to ValueSet http://connectathon.ihe/ValueSet/v2-AdministrativeGender"/> 
+  <purpose value="This Concept Map is published by IHE for Connectathon testing purposes only.  This value set is not intended for use for document sharing in a clincial setting."/>  
+  <sourceCanonical value="http://hl7.org/fhir/ValueSet/administrative-gender"/> 
+  <targetCanonical value="http://connectathon.ihe/ValueSet/v2-AdministrativeGender"/> 
+  <group> 
+    <source value="http://hl7.org/fhir/administrative-gender"/> 
+    <target value="http://connectathon.ihe/ValueSet/v2-AdministrativeGender"/> 
+    <element> 
+      <code value="male"/> 
+      <target> 
+        <code value="M"/> 
+        <equivalence value="equal"/> 
+      </target> 
+    </element> 
+    <element> 
+      <code value="female"/> 
+      <target> 
+        <code value="F"/> 
+        <equivalence value="equal"/> 
+      </target> 
+    </element> 
+    <element> 
+      <code value="other"/> 
+      <target> 
+        <code value="A"/> 
+        <equivalence value="wider"/> 
+      </target> 
+      <target> 
+        <code value="O"/> 
+        <equivalence value="wider"/> 
+      </target> 
+    </element> 
+    <element> 
+      <code value="unknown"/> 
+      <target> 
+        <code value="U"/> 
+        <equivalence value="equal"/> 
+      </target> 
+    </element> 
+  </group> 
+</ConceptMap> 
