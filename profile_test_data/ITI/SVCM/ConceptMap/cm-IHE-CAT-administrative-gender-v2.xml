@@ -12,10 +12,10 @@
   <description value="Mapping from ValueSet http://hl7.org/fhir/ValueSet/administrative-gender to ValueSet http://connectathon.ihe/ValueSet/v2-AdministrativeGender"/> 
   <purpose value="This Concept Map is published by IHE for Connectathon testing purposes only.  This value set is not intended for use for document sharing in a clincial setting."/>  
   <sourceCanonical value="http://hl7.org/fhir/ValueSet/administrative-gender"/> 
-  <targetCanonical value="http://connectathon.ihe/ValueSet/v2-AdministrativeGender"/> 
+  <targetCanonical value="http://connectathon.ihe/ValueSet/IHE-CAT-v2-AdministrativeGender"/> 
   <group> 
     <source value="http://hl7.org/fhir/administrative-gender"/> 
-    <target value="http://connectathon.ihe/ValueSet/v2-AdministrativeGender"/> 
+    <target value="http://terminology.hl7.org/CodeSystem/v2-0001"/> 
     <element> 
       <code value="male"/> 
       <target> 
