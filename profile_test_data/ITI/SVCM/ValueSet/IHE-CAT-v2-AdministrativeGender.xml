@@ -5,12 +5,12 @@
   <meta> 
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/> 
   </meta> 
+  <language value="en"/>
   <url value="http://connectathon.ihe/ValueSet/IHE-CAT-v2-AdministrativeGender"/> 
   <identifier> 
     <system value="http://connectathon.ihe"/>    
     <value value="urn:oid:1.3.6.1.4.1.21367.101.901"/> 
-  </identifier>  
-  <language value="en"/>   
+  </identifier>     
   <version value="IHE-CAT-2021.1"/>   
   <name value="connectathon.v2-AdministrativeGender"/> 
   <title value="Connectathon v2-AdministrativeGender"/>    
