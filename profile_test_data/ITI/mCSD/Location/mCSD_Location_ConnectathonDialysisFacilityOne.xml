@@ -4,6 +4,7 @@
   <meta>
     <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_Location"/>
     <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_FacilityLocation"/>
+    <profile value="http://ihe.net/fhir/StructureDefinition/IHE_mCSD_LocationDistance"/>
   </meta>
   <identifier> 
     <use value="official"/> 
