@@ -1,9 +1,9 @@
 # connectathon-artifacts
-(1) Some files and folders in this repository contain test data that is referenced in IHE Connectathon tests.   Some test data are FHIR Resources that are preloaded on servers to enable peer-to-peer testing during IHE Connectathons
+(1) Some files and folders in this repository contain test data that is referenced in IHE Connectathon tests.   Some test data are FHIR Resources that are preloaded on servers to enable peer-to-peer testing during IHE Connectathons.   In general, the test data is organized into sub-directory according to IHE domain and profile.
 
 (2) Other files and folders in this repository are the source material for artifacts including value sets used in IHE Connectathons. In general, tab delimited files are maintained as the source of truth.  A master configuration file and a set of perl scripts convert the tab delimited files into output formats used during the a Connectathon. Reasons for choosing this scheme are found at the bottom of this file.
 
-## Generating Output (valuesets)
+## Generating Output (value sets)
 From this top level folder, execute:
 
 `perl scripts/master.pl [path]`
