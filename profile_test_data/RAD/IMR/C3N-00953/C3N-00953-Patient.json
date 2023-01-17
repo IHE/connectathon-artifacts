@@ -1,0 +1,21 @@
+{
+    "Patient": {
+        "xmlns": "http://hl7.org/fhir",
+        "id":  "C3N-00953-Patient",
+        "meta": {
+            "profile": "http://ihe.net/fhir/StructureDefinition/IHE.PDQm.PatientResource"
+        },
+        "identifier": [
+            {
+                "system": "http://connectathon.ihe",
+                "value": "C3N-00953"
+            }           
+          ],
+        "active": {"value": true},
+        "name": {
+            "use": "official",
+            "family":  "C3N-00953"
+        },
+        "gender":  "male"
+    }
+}
