@@ -1,5 +1,5 @@
 {
-    "Patient": {
+        "resourceType": "Patient",
         "xmlns": "http://hl7.org/fhir",
         "id":  "C3N-00953-Patient",
         "meta": {
@@ -17,5 +17,4 @@
             "family":  "C3N-00953"
         },
         "gender":  "male"
-    }
 }
