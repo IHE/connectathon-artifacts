@@ -1,5 +1,5 @@
 {
-    "Organization": {
+        "resourceType": "Organization",
         "xmlns": "http://hl7.org/fhir",
         "id": {"value": "Connectathon-IDN-One"},
         "meta": {
@@ -72,4 +72,3 @@
             }
         }
     }
-}
