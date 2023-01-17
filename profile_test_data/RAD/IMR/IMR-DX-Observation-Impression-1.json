@@ -1,0 +1,51 @@
+{
+  "resourceType": "Observation",
+  "id": "IMR-DX-Observation-Impression-1",
+  "meta": {
+    "profile": [
+      "https://profiles.ihe.net/RAD/IMR/StructureDefinition/imr-observation"
+    ],
+    "security": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+        "code": "HTEST"
+      }
+    ]
+  },
+  "basedOn": [
+    {
+      "reference": "ServiceRequest/IMR-DX-ServiceRequest"
+    }
+  ],
+  "partOf": [
+    {
+      "reference": "ImagingStudy/IMR-DX-ImagingStudy"
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "imaging",
+          "display": "Imaging"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "19005-8",
+        "display": "Radiology Imaging study [Impression] (narrative)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/C3L-00277-Patient"
+  },
+  "effectiveDateTime": "1999-12-31T23:50:50-05:00",
+  "valueString": "Clear lungs without evidence of pneumonia."
+}
