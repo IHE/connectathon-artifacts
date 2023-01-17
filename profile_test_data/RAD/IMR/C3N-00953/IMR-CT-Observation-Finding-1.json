@@ -1,0 +1,54 @@
+{
+  "resourceType": "Observation",
+  "id": "IMR-CT-Observation-Finding-1",
+  "meta": {
+    "profile": [
+      "https://profiles.ihe.net/RAD/IMR/StructureDefinition/imr-observation"
+    ],
+    "security": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+        "code": "HTEST"
+      }
+    ]
+  },
+  "basedOn": [
+    {
+      "reference": "ServiceRequest/IMR-CT-ServiceRequest"
+    }
+  ],
+  "partOf": [
+    {
+      "reference": "ImagingStudy/IMR-CT-ImagingStudy"
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "imaging",
+          "display": "Imaging"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "59776-5",
+        "display": "Procedure findings Narrative"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/C3N-00395-Patient"
+  },
+  "effectiveDateTime": "2010-02-13T23:50:50-05:00",
+  "valueString": "CT scan of the abdomen and pelvis was performed without and with intravenous contrast. Total of 100 mL of Isovue was administered intravenously. Oral contrast was also administered.",
+  "method": {
+    "text": "CT scan of the abdomen and pelvis without and with intravenous contrast."
+}
+}

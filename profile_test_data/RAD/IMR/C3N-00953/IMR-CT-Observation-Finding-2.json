@@ -1,0 +1,54 @@
+{
+  "resourceType": "Observation",
+  "id": "IMR-CT-Observation-Finding-2",
+  "meta": {
+    "profile": [
+      "https://profiles.ihe.net/RAD/IMR/StructureDefinition/imr-observation"
+    ],
+    "security": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+        "code": "HTEST"
+      }
+    ]
+  },
+  "basedOn": [
+    {
+      "reference": "ServiceRequest/IMR-CT-ServiceRequest"
+    }
+  ],
+  "partOf": [
+    {
+      "reference": "ImagingStudy/IMR-CT-ImagingStudy"
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "imaging",
+          "display": "Imaging"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "59776-5",
+        "display": "Procedure findings Narrative"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/C3N-00395-Patient"
+  },
+  "effectiveDateTime": "2010-02-13T23:50:50-05:00",
+  "valueString": "The lung bases are clear. The liver is enlarged and decreased in attenuation. There are no focal liver masses. \r\n  The adrenal glands, pancreas, spleen, and left kidney are normal.  \r\n  A 12-mm simple cyst is present in the inferior pole of the right kidney. There is no hydronephrosis or hydroureter.   \r\n There are multiple diverticula in the rectosigmoid. There is evidence of focal wall thickening in the sigmoid colon (image #69) with adjacent fat stranding in association with a diverticulum. These findings are consistent with diverticulitis. No pneumoperitoneum is identified. There is no ascites or focal fluid collection. \r\n  The aorta is normal in contour and caliber. ",
+  "method": {
+    "text": "CT scan of the abdomen and pelvis without and with intravenous contrast."
+}
+}

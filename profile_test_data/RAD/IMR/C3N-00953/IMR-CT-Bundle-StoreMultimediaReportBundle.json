@@ -1,0 +1,252 @@
+{
+  "resourceType": "Bundle",
+  "id": "IMR-CT-Bundle-StoreMultimediaReportBundle",
+  "meta": {
+    "profile": [
+      "https://profiles.ihe.net/RAD/IMR/StructureDefinition/imr-store-multimedia-report-bundle"
+    ],
+    "security": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+        "code": "HTEST"
+      }
+    ]
+  },
+  "type": "transaction",
+  "timestamp": "2021-01-13T23:50:50-05:00",
+  "entry": [
+    {
+      "fullUrl": "http://connectathon.ihe/DiagnosticReport/IMR-CT-DiagnosticReport-Using-Observation",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "IMR-CT-DiagnosticReport-Using-Observation",
+        "meta": {
+          "profile": [
+            "https://profiles.ihe.net/RAD/IMR/StructureDefinition/imr-diagnosticreport"
+          ]
+        },
+        "extension": [
+          {
+            "url": "https://profiles.ihe.net/RAD/IMR/StructureDefinition/associatedStudy",
+            "valueReference": {
+              "reference": "ImagingStudy/IMR-CT-ImagingStudy"
+            }
+          }
+        ],
+        "basedOn": [
+          {
+            "reference": "ServiceRequest/IMR-CT-ServiceRequest"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "RAD",
+                "display": "Radiology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+               "system": "http://loinc.org",
+               "code": "42274-1",
+               "display": "CT Abd+Pelvis WO+W contr IV"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/C3N-00953-Patient"
+        },
+        "effectiveDateTime": "2010-02-13T15:38:09-05:00",
+        "issued": "2010-02-13T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "Organization/Connectathon-IDN-One"
+          }
+        ],
+        "resultsInterpreter": [
+          {
+            "reference": "Practitioner/Robertson-Robert"
+          }
+        ],
+        "result": [
+         {
+           "reference": "Observation/IMR-CT-Observation-Finding-1"
+         },
+         {
+           "reference": "Observation/IMR-CT-Observation-Finding-2"
+         },
+         {
+           "reference": "Observation/IMR-CT-Observation-Impression-1"
+         }
+        ],
+       "imagingStudy": [
+          {
+            "reference": "ImagingStudy/IMR-CT-ImagingStudy"
+          }
+        ],
+        "presentedForm": [
+          {
+            "contentType": "text/html",
+            "data": "PGh0bWw+Cjxib2R5Pgo8ZGl2IHhtbG5zPVwiaHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbFwiPgoKPHRhYmxlIGNsYXNzPVwiZ3JpZFwiPgo8dHI+PHRkPlBhdGllbnQgTmFtZTo8L3RkPjx0ZD48Yj5Kb2huIFNtaXRoPC9iPjwvdGQ+PC90cj4KPHRyPjx0ZD5NUk46PC90ZD48dGQ+MTIzNDU2NzwvdGQ+PC90cj4KPHRyPjx0ZD5BY2Nlc3Npb24gTnVtYmVyOjwvdGQ+PHRkPjEyMzQ1PC90ZD48L3RyPgo8dHI+PHRkPlN0dWR5IERhdGU6PC90ZD48dGQ+MjAyMC0xMi0zMSAxMTo1MDo1MC0wNTAwPC90ZD48L3RyPgo8dHI+PHRkPlN0dWR5IFR5cGU6PC90ZD48dGQ+Q1QgQ2hlc3QgV08gQ29udHJhc3Q8L3RkPjwvdHI+CjwvdGFibGU+Cgo8aHI+PC9ocj4KCjxkaXY+SU5ESUNBVElPTjogSGlzdG9yeTogMjRNIHdpdGggc3RlbnQgcGxhY2VtZW50IGluIHRoZSBsZWZ0IG1haW4gYnJvbmNodXMgcHJlc2VudHMgd2l0aCByaWdodCBzaWRlZCBjaGVzdCBwYWluIHNpbmNlIDlhbTwvZGl2Pgo8cD48L3A+CjxkaXY+VEVDSE5JUVVFOiBWb2x1bWV0cmljLCBtdWx0aWRldGVjdG9yIENUIG9mIHRoZSBjaGVzdCB3YXMgcGVyZm9ybWVkIHdpdGhvdXQgaW50cmF2ZW5vdXMgb3Igb3JhbCBjb250cmFzdCBhZG1pbmlzdHJhdGlvbi4gSW1hZ2VzIGFyZSBwcmVzZW50ZWQgZm9yIGRpc3BsYXkgaW4gdGhlIGF4aWFsIHBsYW5lIGF0IDUgbW0gYW5kIDEuMjUgbW0gY29sbGltYXRpb24uIEEgc2VyaWVzIG9mIG11bHRpcGxhbmFyIHJlZm9ybWF0aW9uIGltYWdlcyBhcmUgYWxzbyBzdWJtaXR0ZWQgZm9yIHJldmlldy48L2Rpdj4KPHA+PC9wPgo8ZGl2PkRMUDogMzczIG1HeS1jbS48L2Rpdj4KPHA+PC9wPgo8aDI+RklORElOR1M6PC9oMj4KPGRpdj5UaGUgaW1hZ2VkIHBvcnRpb24gb2YgYSB0aHlyb2lkIGdsYW5kIGlzIHVucmVtYXJrYWJsZS4gUHJvbWluZW50IG9yIG1pbGRseSBlbmxhcmdlZCBtZWRpYXN0aW5hbCBhbmQgYmlsYXRlcmFsIGhpbGFyIGx5bXBoIG5vZGVzIG1lYXN1cmUgdXAgdG8gMS4yIHggMC44IGNtIGluIHRoZSByaWdodCBwYXJhdHJhY2hlYWwgc3RhdGlvbiAoMjoxMiksIDIuMyB4IDEuNCBjbSBpbiB0aGUgc3ViY2FyaW5hbCBzdGF0aW9uICgyOjE4KSwgYW5kIDEuNCB4IDAuOSBjbSBpbiB0aGUgcmlnaHQgaGlsYXIgc3RhdGlvbnMgKDI6MTYpLiBObyBzaWduaWZpY2FudCBheGlsbGFyeSBseW1waGFkZW5vcGF0aHkgaXMgZGV0ZWN0ZWQuIFRoZSBlc29waGFndXMgaXMgdW5yZW1hcmthYmxlLiBUaGUgdGhvcmFjaWMgYW9ydGEgaXMgbm9ybWFsIGluIGNhbGliZXIgd2l0aCBhIHR5cGljYWwgMyB2ZXNzZWwgdGFrZW9mZiBmcm9tIHRoZSBhcmNoLiBUaGUgcHVsbW9uYXJ5IGFydGVyaWFsIHRydW5rIGlzIG5vcm1hbCBpbiBjYWxpYmVyLiBUaGUgaGVhcnQgaXMgbm9ybWFsIGluIHNpemUgd2l0aG91dCBwZXJpY2FyZGlhbCBlZmZ1c2lvbi48L2Rpdj4KPHA+PC9wPgo8ZGl2PlRoZXJlIGlzIGZvY2FsIG5hcnJvd2luZyBvZiB0aGUgcHJveGltYWwgcG9ydGlvbiBvZiB0aGUgYnJvbmNoaWFsIHN0ZW50IGluIHRoZSBsZWZ0IG1haW5zdGVtIGJyb25jaHVzICg2MDFiOjU2KSwgd2hpY2ggaXMgbmVhcmx5IGNvbGxhcHNlZCBhbmQgYXBwZWFycyBuZXcgZnJvbSB0aGUgcHJpb3IgY2hlc3QgcmFkaW9ncmFwaC4gVHJhY2UgZmx1aWQgb3IgZGVicmlzIGlzIHNlZW4gaW4gdGhlIGRpc3RhbCBsdW1lbiBvZiB0aGUgc3RlbnQgKDQ6NzEpLiBBIHRyYWNoZW9zdG9teSB0dWJlIGlzIHVuY2hhbmdlZCBpbiBwb3NpdGlvbiB3aXRob3V0IGV2aWRlbmNlIG9mIGNvbXBsaWNhdGlvbnMuIFRoZXJlIGlzIGNpcmN1bWZlcmVudGlhbCB0aGlja2VuaW5nIG9mIHRoZSB0cmFjaGVhbCBhbmQgYnJvbmNoaWFsIHdhbGxzLCB3aGljaCBpcyB1bmNoYW5nZWQsIGluIGtlZXBpbmcgd2l0aCB0aGUgcGF0aWVudCdzIGtub3duIGRpYWdub3NpcyBvZiBwb2x5Y2hvbmRyaXRpcy4gVGhlIHJlbWFpbmRlciBvZiB0aGUgdHJhY2hlb2Jyb25jaGlhbCB0cmVlIGlzIHBhdGVudCB0byB0aGUgc3Vic2VnbWVudGFsIGxldmVscy4gVGhlIGFpcndheXMgYXJlIG5vcm1hbCBpbiBjYWxpYmVyLjwvZGl2Pgo8cD48L3A+CjxkaXY+V2l0aGluIHRoZSBwdWxtb25hcnkgcGFyZW5jaHltYSwgdGhlcmUgaXMgZGlmZnVzZSBwZXJpYnJvbmNob3Zhc2N1bGFyIG5vZHVsYXIgYW5kIGdyb3VuZC1nbGFzcyBvcGFjaXRpZXMgYmVjb21pbmcgY29uZmx1ZW50IGluIHRoZSByaWdodCBtaWRkbGUgKDYwMTo1MikgYW5kIGxlZnQgdXBwZXIgKDYwMTo2NSkgYW5kIGxvd2VyIGxvYmVzICg2MDE6NzIpIGNvbnNpc3RlbnQgd2l0aCBtdWx0aWZvY2FsIHBuZXVtb25pYS4gVGhlcmUgaXMgYSBzbWFsbCBsZWZ0IGFuZCB0cmFjZSByaWdodCBwbGV1cmFsIGVmZnVzaW9uLiBObyBwbmV1bW90aG9yYXggaXMgcHJlc2VudC4gVGhlcmUgYXJlIG5vIHN1c3BpY2lvdXMgbWFzc2VzIG9yIHBsZXVyYWwgYWJub3JtYWxpdGllcy48L2Rpdj4KPHA+PC9wPgo8ZGl2PlRoZSBwYXRpZW50IGlzIHN0YXR1cyBwb3N0IG1lZGlhbiBzdGVybm90b215IHdpdGggaW50YWN0IHN0ZXJuYWwgd2lyZXMuIE5vIGJsYXN0aWMgb3IgbHl0aWMgbGVzaW9uIHN1c3BpY2lvdXMgZm9yIG1hbGlnbmFuY3kgaXMgcHJlc2VudC48L2Rpdj4KPHA+PC9wPgo8ZGl2PkFsdGhvdWdoIHRoaXMgc3R1ZHkgaXMgbm90IHRhaWxvcmVkIGZvciB0aGUgZXZhbHVhdGlvbiBvZiBzdWJkaWFwaHJhZ21hdGljIGNvbnRlbnRzLCB0aGUgaW1hZ2VkIHVwcGVyIGFiZG9tZW4gZGVtb25zdHJhdGVzIGRpZmZ1c2UgaHlwb2F0dGVudWF0aW9uIG9mIHRoZSBsaXZlciBjb25zaXN0ZW50IHdpdGggaGVwYXRpYyBzdGVhdG9zaXMuPC9kaXY+CjxwPjwvcD4KCjxoMj5JTVBSRVNTSU9OOjwvaDI+CjxvbD4KPGxpPk11bHRpZm9jYWwgcG5ldW1vbmlhIGludm9sdmluZyB0aGUgcmlnaHQgbWlkZGxlLCBsZWZ0IHVwcGVyIGFuZCBsZWZ0IGxvd2VyIGxvYmVzIHdpdGggc21hbGwgbGVmdCBhbmQgdHJhY2UgcmlnaHQgcGxldXJhbCBlZmZ1c2lvbnMuPC9saT4KCjxsaT5DZW50cmFsIG1lZGlhbnN0aW5hbCBseW1waGFkZW5vcGF0aHkgaXMgbGlrZWx5IHJlYWN0aXZlLjwvbGk+CiAKPGxpPkZvY2FsIHN0ZW5vc2lzIG9mIHRoZSBwcm94aW1hbCBwb3J0aW9uIG9mIHRoZSBsZWZ0IG1haW4gc3RlbSBicm9uY2hpYWwgc3RlbnQsIHdoaWNoIGFwcGVhcnMgbmV3IGZyb20gdGhlIHByaW9yIGNoZXN0IHJhZGlvZ3JhcGguIFRoZXJlIGlzIHRyYWNlIGZsdWlkIG9yIGRlYnJpcyB3aXRoaW4gdGhlIGRpc3RhbCBsdW1lbiBvZiB0aGUgc3RlbnQuPC9saT4KIAo8bGk+VW5jaGFuZ2VkIGNpcmN1bWZlcmVudGlhbCB0aGlja2VuaW5nIG9mIHRoZSB0cmFjaGVhbCBhbmQgYnJvbmNoaWFsIHdhbGxzLCBpbiBrZWVwaW5nIHdpdGggdGhlIHBhdGllbnQncyBrbm93biBkaWFnbm9zaXMgb2YgcG9seWNob25kcml0aXMuPC9saT4KIAo8bGk+SGVwYXRpYyBzdGVhdG9zaXMuPC9saT4KPC9vbD4KPC9kaXY+CjwvYm9keT4KPC9odG1sPg==",
+            "size": 3514,
+            "hash": "4ED94777DD88C61F3A4D2C50DE6D92E8E53EE5CA"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "IMRDiagnosticReport"
+      }
+    },
+    {
+      "fullUrl": "http://connectathon.ihe/ServiceRequest/IMR-CT-ServiceRequest",
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "IMR-CT-ServiceRequest",
+        "meta": {
+          "profile": [
+            "https://profiles.ihe.net/RAD/IMR/StructureDefinition/imr-servicerequest"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "ACSN",
+                  "display": "Accession ID"
+                }
+              ]
+            },
+                "system": "http://connectathon.ihe/identifiers/accession",
+                "value": "794663908550664"
+          }
+        ],
+        "status": "completed",
+        "intent": "order",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "363679005",
+                "display": "Imaging"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/C3N-00953-Patient"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "IMRServiceRequest"
+      }
+    },
+    {
+      "fullUrl": "http://connectathon.ihe/ImagingStudy/IMR-CT-ImagingStudy",
+      "resource": {
+        "resourceType": "ImagingStudy",
+        "id": "IMR-CT-ImagingStudy",
+        "meta": {
+          "profile": [
+            "https://profiles.ihe.net/RAD/IMR/StructureDefinition/imr-imagingstudy"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:dicom:uid",
+            "value": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7085.2626.1929975402920738779"
+          }
+        ],
+        "status": "available",
+        "modality": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "CT",
+            "display": "Computed Tomography"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/C3N-00953-Patient"
+        },
+        "started": "2010-02-13T15:38:09-05:00",
+        "endpoint": [
+          {
+            "reference": "Endpoint/IMR-CT-ImagingStudyEndpoint-Study"
+          }
+        ],
+        "procedureCode": [
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "42274-1",
+                "display": "CT Abd+Pelvis WO+W contr IV"
+              }
+            ]
+          }
+        ],
+        "series": [
+           {
+            "system": "urn:dicom:uid",
+            "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7085.2626.831285735928731782652048570955",
+            "number": "1",
+            "endpoint": [
+               {
+                 "reference": "Endpoint/IMR-CT-ImagingStudyEndpoint-Series1"
+               }
+             ],
+            "modality": {
+              "system": "http://dicom.nema.org/resources/ontology/DCM",
+              "code": "CT",
+              "display": "Computed Tomography"
+            }
+          },
+          {
+            "system": "urn:dicom:uid",
+            "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7085.2626.187580115709014280730997641712",
+            "number": "2",
+            "endpoint": [
+               {
+                 "reference": "Endpoint/IMR-CT-ImagingStudyEndpoint-Series2"
+               }
+             ],
+             "modality": {
+                "system": "http://dicom.nema.org/resources/ontology/DCM",
+                "code": "CT",
+                "display": "Computed Tomography"
+            }
+          },
+          {
+            "system": "urn:dicom:uid",
+            "uid": "1.3.6.1.4.1.14519.5.2.1.7085.2626.328191285537072639441393834220",
+            "number": "4",
+             "endpoint": [
+               {
+                 "reference": "Endpoint/IMR-CT-ImagingStudyEndpoint-Series4"
+               }
+             ],
+             "modality": {
+                  "system": "http://dicom.nema.org/resources/ontology/DCM",
+                  "code": "CT",
+                  "display": "Computed Tomography"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "IMRImagingStudy"
+      }
+    }
+  ]
+}
