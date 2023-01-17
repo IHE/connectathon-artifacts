@@ -1,5 +1,5 @@
 {
-    "Practitioner": {
+        "resourceType": "Practitioner",
         "xmlns": "http://hl7.org/fhir",
         "id": {"value": "Robertson-Robert"},
         "meta": {
@@ -68,4 +68,3 @@
             }
         }
     }
-}
