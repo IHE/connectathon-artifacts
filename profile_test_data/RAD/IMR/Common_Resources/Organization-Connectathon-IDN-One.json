@@ -1,0 +1,75 @@
+{
+    "Organization": {
+        "xmlns": "http://hl7.org/fhir",
+        "id": {"value": "Connectathon-IDN-One"},
+        "meta": {
+            "profile": {"value": "http://ihe.net/fhir/StructureDefinition/IHE_mCSD_Organization"}
+        },
+        "identifier": {
+            "use": {"value": "official"},
+            "system": {"value": "http://connectathon.ihe"},
+            "value": {"value": "urn:uuid:08c3286e-2163-462c-b77f-1f431d7351ab"}
+        },
+        "active": {"value": true},
+        "type": {
+            "coding": {
+                "system": {"value": "urn:oid:1.3.6.1.4.1.21367.100.1"},
+                "code": {"value": "101-002"},
+                "display": {"value": "Integrated Delivery Network"}
+            }
+        },
+        "name": {"value": "Connectathon CSD IDN One"},
+        "telecom": [
+            {
+                "system": {"value": "phone"},
+                "value": {"value": "800-555-1001"},
+                "use": {"value": "work"}
+            },
+            {
+                "system": {"value": "fax"},
+                "value": {"value": "800-555-1011"},
+                "use": {"value": "work"}
+            }
+        ],
+        "address": [
+            {
+                "use": {"value": "work"},
+                "line": {"value": "7890 Forest Road"},
+                "city": {"value": "Santa Fe"},
+                "state": {"value": "NM"},
+                "postalCode": {"value": 87505},
+                "country": {"value": "USA"}
+            },
+            {
+                "use": {"value": "old"},
+                "line": {"value": "1234 Cactus Way"},
+                "city": {"value": "Santa Fe"},
+                "state": {"value": "NM"},
+                "postalCode": {"value": 87501},
+                "country": {"value": "USA"}
+            }
+        ],
+        "contact": {
+            "purpose": {
+                "coding": {
+                    "system": {"value": "http://terminology.hl7.org/CodeSystem/contactentity-type"},
+                    "code": {"value": "ADMIN"}
+                }
+            },
+            "name": {
+                "use": {"value": "official"},
+                "text": {"value": "Connie Contact"},
+                "family": {"value": "Contact"},
+                "given": {"value": "Connie"}
+            },
+            "address": {
+                "use": {"value": "work"},
+                "line": {"value": "7890 Forest Road"},
+                "city": {"value": "Santa Fe"},
+                "state": {"value": "NM"},
+                "postalCode": {"value": 87505},
+                "country": {"value": "USA"}
+            }
+        }
+    }
+}

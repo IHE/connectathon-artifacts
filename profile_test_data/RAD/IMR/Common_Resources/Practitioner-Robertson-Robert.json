@@ -1,0 +1,71 @@
+{
+    "Practitioner": {
+        "xmlns": "http://hl7.org/fhir",
+        "id": {"value": "Robertson-Robert"},
+        "meta": {
+            "profile": {"value": "http://ihe.net/fhir/StructureDefinition/IHE_mCSD_Practitioner"}
+        },
+        "identifier": {
+            "use": {"value": "official"},
+            "system": {"value": "http://connectathon.ihe"},
+            "value": {"value": "urn:uuid:b6553152-7a90-4940-8d6a-b1017310a159"}
+        },
+        "name": {
+            "use": {"value": "official"},
+            "text": {"value": "Robert Robertson"},
+            "family": {"value": "Robertson"},
+            "given": {"value": "Robert"}
+        },
+        "telecom": [
+            {
+                "system": {"value": "phone"},
+                "value": {"value": "555-777-4445"},
+                "use": {"value": "work"}
+            },
+            {
+                "system": {"value": "fax"},
+                "value": {"value": "555-888-4445"},
+                "use": {"value": "work"}
+            },
+            {
+                "system": {"value": "email"},
+                "value": {"value": "robertrobertson@example.com"},
+                "use": {"value": "work"}
+            }
+        ],
+        "address": {
+            "use": {"value": "work"},
+            "line": {"value": "2887 Commerce Blvd"},
+            "city": {"value": "Orlando"},
+            "state": {"value": "FL"},
+            "postalCode": {"value": 32789},
+            "country": {"value": "USA"}
+        },
+        "gender": {"value": "male"},
+        "birthDate": {"value": "1974-12-12"},
+        "qualification": {
+            "identifier": {
+                "use": {"value": "official"},
+                "system": {"value": "http://example.org/UniversityIdentifier"},
+                "value": {"value": "A_Degree@Connectathon_domain_name"}
+            },
+            "code": {
+                "coding": {
+                    "system": {"value": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7"},
+                    "code": {"value": "PHS"},
+                    "display": {"value": "Doctor of Science"}
+                }
+            },
+            "period": {
+                "start": {"value": "2013-12-03"}
+            }
+        },
+        "communication": {
+            "coding": {
+                "system": {"value": "urn:ietf:bcp:47"},
+                "code": {"value": "en"},
+                "display": {"value": "English"}
+            }
+        }
+    }
+}
