@@ -1,7 +1,9 @@
 The AIR DICOM SR samples in this directory are provided by the IHE Radiology Technical Committee.  
 
-They were constructed based on the examples documented Appendix A of the AI Result 
+They were constructed (by hand) based on the examples documented Appendix A of the AI Result 
 Trial Implementation Supplement (https://www.ihe.net/uploadedFiles/Documents/Radiology/IHE_RAD_Suppl_AIR.pdf).
 
 The naming conventions for the .dcm files in this directory align with section numbers in Appendix A.
 For example file 'ex311.dcm' aligns with the example in Section A.3.1.1 in AIR Appendix A.
+
+If you find a problem with one of the samples, you can submit an issue in this github repo.
