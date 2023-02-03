@@ -1,0 +1,13 @@
+There are some public DICOM SR samples that are ***NOT COMPLIANT*** with the Imaging Analysis Result Content definition in Vol 3 Sec 6.5 of the 
+IHE AI Results (AIR) Profile (https://www.ihe.net/uploadedFiles/Documents/Radiology/IHE_RAD_Suppl_AIR.pdf); 
+however, the sa,ples may help as a reference for use of DICOM TID1500, which is one part of the content definition in AIR.
+
+This is part of Khalid Younis' (Philips Healthcare) work with DICOM WG20/HL& Imaging Integration WG in the project for mapping of DICOM SR To FHIR
+https://confluence.hl7.org/display/IMIN/Mapping+of+DICOM+SR+to+FHIR
+HL7/dicom-sr: DICOM Structured Reports on FHIR implementation guide (github.com)
+HL7.FHIR.UV.DICOM-SR\Home - FHIR v5.0.0-ballot
+
+Refer to https://docs.google.com/presentation/d/1i3_nNaPeCok3SLk1SQaHThcnbc-573wr/edit?usp=sharing&ouid=105005564211348147894&rtpof=true&sd=true
+
+The sample DICOM SRs are not stored here in Github but may be found in this folder: 
+https://siim1.sharepoint.com/sites/MLToolsResearch/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMLToolsResearch%2FShared%20Documents%2FDICOM%20SR%20to%20FHIR%20Mapping%20Project%2FSample%20DICOM%20SR%20with%20TID%201500&p=true&ga=1
