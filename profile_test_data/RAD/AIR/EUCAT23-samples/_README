@@ -15,3 +15,7 @@ To download a sample .dcm from one of the sub-directories in this repository:
 -- navigate into the sub-directory containing the .dcm file of interest
 -- select the file name
 -- once the file is selected, find and click the 'Download' button on the right side of the github UI
+
+NOTE:  For some samples, the ZIP file containing images associated with the sample was too
+large to upload into Github.  In that case, those images were stored in IHE's google drive 
+here: https://drive.google.com/drive/u/0/folders/1khcyKbxnjhQMWalTNsdkp8F-zvmIN7kt
