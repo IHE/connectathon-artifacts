@@ -1,10 +1,12 @@
 2023-10-30:
-The subdirectories contain AI Result samples shared by participants in the IHE European Connectathon in September 2023 
+The subdirectories contain AI Result samples shared by vendor participants in the IHE European Connectathon in September 2023 
 who tested the Evidence Creator actor in the IHE RAD AI Results (AIR) Trial Implementation profile 
 (https://www.ihe.net/uploadedFiles/Documents/Radiology/IHE_RAD_Suppl_AIR.pdf).
 
 These DICOM samples may be compliant with the constraints specified in Volume 3 of AIR, but are not guaranteed 
 to be so.
+
+Each directory contains sample files submitted by one Evidence Creator vendor participant.
 
 To download a sample .dcm from one of the sub-directories in this repository:
 (note, these steps apply to using Github in a browser)
