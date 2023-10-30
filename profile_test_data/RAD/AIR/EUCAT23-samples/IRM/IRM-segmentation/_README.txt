@@ -1,0 +1,11 @@
+Total 865 DICOM files including CT, SEG and SR.
+
+    Primitive - Image Refs
+    Primitive - Qualitative Findings
+    Primitive - Locations
+    Primitive - Tracking IDs
+    Primitive - Measurements
+    Segmentation IOD
+    Comprehensive 3D SR IOD
+    Primitive - Regions
+
