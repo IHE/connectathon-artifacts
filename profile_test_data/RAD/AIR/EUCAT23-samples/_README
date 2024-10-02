@@ -1,5 +1,5 @@
 2023-10-30:
-The subdirectories contain AI Result samples shared by vendor participants in the IHE European Connectathon in September 2023 
+The sub-directories here contain AI Result samples shared by vendor participants in the IHE European Connectathon in September 2023 
 who tested the Evidence Creator actor in the IHE RAD AI Results (AIR) Trial Implementation profile 
 (https://www.ihe.net/uploadedFiles/Documents/Radiology/IHE_RAD_Suppl_AIR.pdf).
 
@@ -10,9 +10,9 @@ Each directory contains sample files submitted by one Evidence Creator vendor pa
 vendor's directory is an "Evidence_Creator_Capabilities" file which contains a narrative summary of the AI algorithms 
 and outputs supported by the Evidence Creator actor.
 
-To download a sample .dcm from one of the sub-directories in this repository:
+To download a sample feil from one of the sub-directories in this repository:
 (note, these steps apply to using Github in a browser)
--- navigate into the sub-directory containing the .dcm file of interest
+-- navigate into the sub-directory containing the file of interest
 -- select the file name
 -- once the file is selected, find and click the 'Download' button on the right side of the github UI
 
